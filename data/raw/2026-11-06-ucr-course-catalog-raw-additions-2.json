@@ -1,0 +1,594 @@
+[
+ {
+  "code": "EE 215",
+  "title": "Stochastic Processes",
+  "units": "4",
+  "xl": "",
+  "enr": "14/50 14/50",
+  "desc": "A study of probability and stochastic processes. Topics include discrete and continuous random variables; probability densities; characteristic functions; convergence of random sequences; central limit theorem; autocorrelation functions and spectral densities; wide-sense and strict-sense stationarity; Markov chains and processes; and response of linear time-invariant systems to random signals."
+ },
+ {
+  "code": "EE 230",
+  "title": "Mathematical Methods For Electrical Engineers",
+  "units": "4",
+  "xl": "",
+  "enr": "14/40 14/40",
+  "desc": "Covers fundamental theoretical concepts and computational tools for Electrical Engineering graduate students. Presents material relevant to electrical engineering applications. Topics include vector spaces; partitioned, unitary, and positive definite matrices; differential calculus with matrices; matrix decompositions; linear system solution; convex optimization; the Lagrangian method; KKT conditions; and nonlinear optimization methods."
+ },
+ {
+  "code": "EE 224",
+  "title": "Digital Communication Theory and Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "3/25 3/25",
+  "desc": "Provides overview of basic communication techniques and introduction to optimum signal detection and correction. Topics include sampling and bandwidth; pulse code modulation; line coding and pulse shaping; delta modulation; stochastic approach to bandwidth and noise corruption; white Gaussian noise; matched filter; optimum signal detection; Shannon theorems; and error correction."
+ },
+ {
+  "code": "EE 226",
+  "title": "Wireless Communications",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Presents fundamental cellular concepts and new techniques in wireless communications. Topics include cellular systems and standards, frequency reuse, system capacity, channel allocation, cellular radio propagation, fading channel modeling and equalization, spread spectrum communications and other multiple access techniques, and wireless networking."
+ },
+ {
+  "code": "EE 232",
+  "title": "Introduction to Smart Grid",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "EE 232 online section; enrollment in the Online Master-in-Science in Engineering program. An introduction to smart power grid. Covers the basics of power systems; definition and applications of smart grid; demand response and demand side management; renewable power generation and integration; smart grid communications; wide area measurement; smart grid cyber security and privacy; and economics and market issues."
+ },
+ {
+  "code": "EE 234",
+  "title": "Smart Grid Sensors and Data Driven Applications",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "For EE 234 online section; enrollment in the Online Master-of-Science in Engineering program; graduate standing. Covers state-of-the-art and emerging sensor technologies; data-driven and intelligent methods for using sensor data in innovative smart grid applications; instrumentation; time-synchronization; phasor measurements; waveform measurements; smart meters; building sensors; probing; imaging; off-domain data; metadata; and data-driven techniques for applications such as asset monitoring, situational awareness, disaggregation, and power quality assessment."
+ },
+ {
+  "code": "EE 249",
+  "title": "Power System Dynamics",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduces dynamic phenomena in power systems following disturbances. Topics include synchronous machines, voltage stability, power system reliability criteria, synchronous machine modeling, power system stability criterion under classical models, and time domain simulation."
+ },
+ {
+  "code": "EE 253",
+  "title": "Electric Power Distribution Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers fundamentals of the operation and planning of electric power distribution systems. Topics include electric load modeling, overhead and underground lines, three-phase transformers, voltage regulation, three-phase unbalanced power flow, three-phase optimal power flow, and system protection."
+ },
+ {
+  "code": "EE 281A",
+  "title": "Digital Communications",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Topics include modulation, probability and random variables, correlation and power spectra, information theory, errors of transmission, equalization and coding methods, shift and phase keying, and a comparison of digital communication systems."
+ },
+ {
+  "code": "EE 281B",
+  "title": "Image Processing",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers digital image acquisition, image enhancement and restoration, image compression, and computer implementation and testing of image processing techniques. Provides hands-on experience of complete image processing systems, including image acquisition, processing, and display."
+ },
+ {
+  "code": "EE 283A",
+  "title": "Foundations of Robotics",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Provides foundational knowledge on analysis, control, and programming of robots. Considers configuration space, rigid body motion, forward, inverse and velocity kinematics, dynamics, trajectory planning, robot motion control, localization and mapping, and robot ethics. Integrates hands-on labs to program robots in simulation and experimentally by reading and interpreting sensor data."
+ },
+ {
+  "code": "EE 283B",
+  "title": "Introduction to Digital Control",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Reviews continuous-time control systems, Z-transform and properties, sampled-data systems, stability analysis and criteria, and frequency domain analysis and design. Addresses transient and steady- state response, state-space techniques, controllability and observability, pole placement, observer design, and Lyapunov stability analysis. Laboratory experiments complementary to these topics include simulations and hardware design."
+ },
+ {
+  "code": "EE 284A",
+  "title": "Intro to Engineering Optimization Techniques",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduction to formulating and solving optimization problems in engineering. Includes single-variable and multi-variable optimization; linear programming-simplex method; nonlinear unconstrained optimization-gradient, steepest descent, and Newton methods; and nonlinear constrained optimization-gradient projection methods. Addresses applications of optimization in engineering design problems. Solves various engineering optimization examples using MATLAB."
+ },
+ {
+  "code": "EE 284B",
+  "title": "Computer Vision",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers imaging formation, early vision processing, boundary detection, region growing, two- dimensional and three-dimensional object representation, and recognition techniques."
+ },
+ {
+  "code": "EE 286A",
+  "title": "Power System Analysis",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers long-distance transmission of electric power. Emphasizes admittance and impedance modeling of components and systems; optimal power flow calculations and applications; symmetrical and asymmetrical fault calculations; economic operation of large- scale generation and transmission systems; and analysis of transmission and distribution networks."
+ },
+ {
+  "code": "EE 286B",
+  "title": "Electric Drives",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Topics include the study of electro-mechanical energy conversion, magnetic circuits, and magnetic components. Also explores linear motors, direct-current motors, induction motors, reluctance motors, and synchronous motor drives. Addresses space vectors in alternating current machines and the analysis and design of feedback controllers."
+ },
+ {
+  "code": "EE 286C",
+  "title": "Power Electronics",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers the study of power semiconductor devices. Includes magnetic circuits and components; switch mode converters and power supplies; and single, three-phase, pulse width modulation, and resonant pulse inverters. Addresses voltage controllers; direct current and induction motor drives; and design of motion control drive circuits for robotic and industrial automation systems."
+ },
+ {
+  "code": "EE 201",
+  "title": "Applied Quantum Mechanics",
+  "units": "4",
+  "xl": "",
+  "enr": "6/30 6/30",
+  "desc": "Covers topics in quantum mechanics including Schroedinger equation; operator formalism; harmonic oscillator; quantum wells; spin, bosons, and fermions; solids; perturbation theory; Wentzel-Kramers-Brillouin approximation; tunneling; tight-binding model; quantum measurements; quantum cryptography; and quantum computing. Cross-listing: Cross- listed with MSE 207."
+ },
+ {
+  "code": "EE 202",
+  "title": "Fundamentals of Semiconductors and Nanostructures",
+  "units": "4",
+  "xl": "MSE 217",
+  "enr": "7/30 7/30",
+  "desc": "Examines principles of semiconductor materials and nanostructures. Topics include periodic structures, electron and phonon transport, defects, optical properties, and radiative recombination. Also covers absorption and emission of radiation in nanostructures and nonlinear optics effects. Emphasizes properties of semiconductor superlattices, quantum wells, wires, and dots. Cross-listing: Cross-listed with MSE 217."
+ },
+ {
+  "code": "EE 203",
+  "title": "Solid-State Devices",
+  "units": "4",
+  "xl": "MSE 237C",
+  "enr": "9/30 9/30",
+  "desc": "Covers electronic devices including p-n junctions, field-effect transistors, heterojunction bipolar transistors, and nanostructure devices. Explores electrical and optical properties of semiconductor heterostructures, superlattices, quantum wires, and dots, as well as devices based on these structures. Cross-listing: Cross-listed with MSE 237C."
+ },
+ {
+  "code": "EE 214",
+  "title": "Quantum Computing",
+  "units": "4",
+  "xl": "PHYS 220",
+  "enr": "",
+  "desc": "An introduction to quantum computing. Topics include qubits, entanglement, quantum gates, quantum circuit diagrams, simple quantum algorithms, quantum teleportation, quantum cryptography, Shor\u2019s factorization algorithm, Grover\u2019s search algorithm, and quantum error correction. Cross-listing: Cross-listed with PHYS 220."
+ },
+ {
+  "code": "EE 221",
+  "title": "Radio-Frequency Integrated Circuit Design",
+  "units": "4",
+  "xl": "",
+  "enr": "4/30 4/30",
+  "desc": "Covers the essentials of contemporary radio frequency (RF) complimentary metal oxide semiconductor (CMOS) integrated circuit (IC) analysis and design. Addresses typical RF building blocks in CMOS and bipolar/CMOS (BiCMOS) technologies, including passive IC components, transistors, distributed networks, voltage reference and biasing circuits, power amplifiers, and feedback networks. Also covers RF device modeling, bandwidth estimation, and stability analysis techniques."
+ },
+ {
+  "code": "EE 282A",
+  "title": "Introduction to Very Large Scale Integration Design",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Studies integrated circuit fabrication, device characterization, and circuit simulation. Introduces basic device physics and physical design rules, MOS logic design, and timing and clock schemes. Covers layout generation, subsystem designs, and circuits for alternative logic styles. Also covers design and simulation using hardware description language and CAD tools."
+ },
+ {
+  "code": "EE 282B",
+  "title": "Radio Frequency Circuit Design",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Studies design and analysis of radio frequency (RF) circuits. Topics include multiport networks; scattering matrix and S-parameters; transmission lines; matching networks; Smith Chart; RF electromagnetic analysis of waveguides, antennas, filters, and couplers; RF transistor equivalent modeling; low-noise amplifier design; noise figure; oscillators and mixers; and phase lock loop."
+ },
+ {
+  "code": "EE 282C",
+  "title": "Analog Integrated Circuit Layout and Design",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers analog circuit design, layout, and verification of complementary metal oxide semiconductors (CMOSs) with use of computer-aided design tools. Topics covered include analog metal oxide semiconductor field effect transistor (MOSFET) models, current sources, references, amplified design, nonlinear analog circuits, dynamic analog circuits, analog-to-digital converters (ADCs), and digital-to-analog converters (DACs)."
+ },
+ {
+  "code": "EE 282D",
+  "title": "Design For Reliability of Integrated Circuits and Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers essentials of electrical transient induced failures to integrated circuits (IC) and systems. Addresses basics for different failure and testing models including electrostatic discharge (ESD). Discusses design-for- reliability (DFR) techniques such as ESD protection designs at IC, module, and system levels. Enhances learning with computer aided design (CAD) laboratories."
+ },
+ {
+  "code": "EE 115",
+  "title": "Introduction to Communication Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "33/50 23/25 56/ 75",
+  "desc": "Covers spectral density and correlation, modulation theory, amplitude, frequency, phase and analog pulse modulation and demodulation techniques, signal-to-noise ratios, and system performance calculations. Laboratory experiments involve techniques of modulation and demodulation."
+ },
+ {
+  "code": "EE 141",
+  "title": "Digital Signal Processing",
+  "units": "4",
+  "xl": "",
+  "enr": "22/25 22/ 25",
+  "desc": "Transform analysis of Linear Time-Invariant (LTI) systems; discrete Fourier Transform (DFT) and its computation; Fourier analysis of signals using the DFT; filter design techniques; and structures for discrete-time systems. Laboratory experiments on DFT, fast Fourier transforms (FFT), infinite impulse response (IIR), finite impulse response (FIR) filter design, and quantization effects."
+ },
+ {
+  "code": "EE 100B",
+  "title": "Electronic Circuits 2",
+  "units": "4",
+  "xl": "",
+  "enr": "39/40 39/ 40",
+  "desc": "Covers analysis and design of advanced electronic circuits. Includes active filters; output stages and power amplifiers; comparator and timer circuits; signal and function generators; complementary metal- oxide system logic circuit implementation; signal conditioning circuits; logic interfacing; optoelectronics devices; digital-to-analog and analog-to-digital converters; non-linear circuits; and modeling of electronic circuits with Spice."
+ },
+ {
+  "code": "EE 117",
+  "title": "Electromagnetics 2",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers applications of Maxwell\u2019s equations. Includes skin effect, boundary- value problems, plane waves in lossy media, transverse EM waves, hollow metal waveguides, cavity resonators, microstrips, propagation in dielectrics and optical fibers, optical fibers applications, radiation, and antennas. Covers theoretical and computer modeling exercises in basic electromagnetic technology."
+ },
+ {
+  "code": "EE 118",
+  "title": "Radio Frequency Circuit Design",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Studies design and analysis of radio frequency (RF) circuits. Topics include multiport networks; scattering matrix and S-parameters; transmission lines; matching networks; Smith Chart; RF electromagnetic analysis of waveguides, antennas, filters, and couplers; RF transistor equivalent modeling; low-noise amplifier design; noise figure; oscillators and mixers; and phase lock loop."
+ },
+ {
+  "code": "EE 150",
+  "title": "Digital Communications",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Topics include modulation, probability and random variables, correlation and power spectra, information theory, errors of transmission, equalization and coding methods, shift and phase keying, and a comparison of digital communication systems."
+ },
+ {
+  "code": "EE 152",
+  "title": "Image Processing",
+  "units": "4",
+  "xl": "",
+  "enr": "16/35 16/35",
+  "desc": "Covers digital image acquisition, image enhancement and restoration, image compression, and computer implementation and testing of image processing techniques. Provides hands- on experience of complete image processing systems, including image acquisition, processing, and display."
+ },
+ {
+  "code": "ENGR 160",
+  "title": "Introduction to Engineering Optimization Techniques",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduction to formulating and solving optimization problems in engineering. Includes single-variable and multi- variable optimization; linear programming - simplex method; nonlinear unconstrained optimization-gradient, steepest descent, and Newton methods; and nonlinear constrained optimization - gradient projection methods. Addresses applications of optimization in engineering design problems. Solves various engineering optimization examples using MATLAB."
+ },
+ {
+  "code": "EE 105",
+  "title": "Modeling and Simulation of Dynamic Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "38/ 50 38/ 50",
+  "desc": "Introduces the mathematical modeling of dynamical systems and their methods of solution. Explores advanced techniques and concepts for analytical modeling and study of various electrical, electronic, and electromechanical systems based upon physical laws. Emphasizes formulation of problems via differential equations. Addresses numerical methods for integration and matrix analysis problems."
+ },
+ {
+  "code": "EE 106",
+  "title": "Programming Practical Robots",
+  "units": "4",
+  "xl": "",
+  "enr": "46/48 46/48",
+  "desc": "Covers principles for simulating, programming, and deploying robots using modern robotics middleware. Includes reading/writing of robot programs; simulating robotic systems; interfacing robot sensors and actuators; and implementing introductory motion control algorithms. Teaches contemporary robotics open-source software (ROS, Gazebo), 3D environment creation, and sensor data processing libraries (OpenCV, OpenNI, PCL)."
+ },
+ {
+  "code": "EE 168",
+  "title": "Introduction to Very Large Scale Integration Design",
+  "units": "4",
+  "xl": "CS 168",
+  "enr": "121/160 121/160",
+  "desc": "Studies integrated circuit fabrication, device characterization, and circuit simulation. Introduces basic device physics and physical design rules, MOS logic design, and timing and clock schemes. Covers layout generation, subsystem designs, and circuits for alternative logic styles. Also covers design and simulation using hardware description language and CAD tools. Cross-listing: Cross-listed with CS 168."
+ },
+ {
+  "code": "EE 135",
+  "title": "Analog Integrated Circuit Layout and Design",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers analog circuit design, layout, and verification of complementary metal oxide semiconductors (CMOSs) with use of computer-aided design tools. Topics covered include analog metal oxide semiconductor field effect transistor (MOSFET) models, current sources, references, amplified design, nonlinear analog circuits, dynamic analog circuits, analog-to-digital converters (ADCs), and digital-to-analog converters (DACs)."
+ },
+ {
+  "code": "EE 147",
+  "title": "Graphics Processing Unit Computing and Programming",
+  "units": "4",
+  "xl": "CS 147",
+  "enr": "48/75 48/75",
+  "desc": "Introduces principles and practices of programming graphics processing units (GPUs) using the parallel programming environment. Covers memory/threading models, common data-parallel programming patterns and libraries needed to develop high- performance parallel computing applications. Examines computational thinking; a broader range of parallel execution models; and parallel programming principles. Cross-listing: Cross-listed with CS 147."
+ },
+ {
+  "code": "EE 165",
+  "title": "Design For Reliability of Integrated Circuits and Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "5/36 5/36",
+  "desc": "Covers essentials of electrical transient induced failures to integrated circuits (IC) and systems. Addresses basics for different failure and testing models including electrostatic discharge (ESD). Discusses design-for- reliability (DFR) techniques such as ESD protection designs at IC, module, and system levels. Enhances learning with computer aided design (CAD) laboratories."
+ },
+ {
+  "code": "CS 161",
+  "title": "Design and Architecture of Computer Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "72/100 107/115 83/120 51/50 313/385",
+  "desc": "A study of the fundamentals of computer design. Topics include the performance evaluation of microprocessors; instruction set design and measurements of use; microprocessor implementation techniques including multicycle and pipelined implementations; computer arithmetic; memory hierarchy; and input/output (I/O) systems."
+ },
+ {
+  "code": "CS 162",
+  "title": "Computer Architecture",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "The study of advanced processor design. Topics include CPU pipelining, data and control hazards, instruction-level parallelism, branch prediction, and dynamic scheduling of instructions. Also covers Very Long Instruction Word (VLIW) processing, multimedia support, design of network and embedded processors, basic multiprocessor design, shared memory and message passing, and network topologies."
+ },
+ {
+  "code": "CS 105",
+  "title": "Data Analysis Methods",
+  "units": "4",
+  "xl": "",
+  "enr": "61/110 96/103 65/ 80 23/40 245/333",
+  "desc": "An introduction to fundamental concepts and methods in data analysis and visualization essential to a variety of data science tasks. Designed to provide preparation for the data science major and for advanced courses in data analysis and applications of data science."
+ },
+ {
+  "code": "CS 108",
+  "title": "Data Science Ethics",
+  "units": "4",
+  "xl": "STAT 108",
+  "enr": "127/165 77/111 204/276",
+  "desc": "Covers ethics specifically related to data science. Topics include data privacy; data curation and storage; discrimination and bias arising in the machine learning process; statistical topics such as generalization, causality, curse of dimensionality, and sampling bias; data communication; and strategies for conceptualizing, measuring, and mitigating problems in data-driven decision- making. Cross-listing: Cross-listed with STAT 108."
+ },
+ {
+  "code": "CS 110",
+  "title": "Principles of Web Development",
+  "units": "4",
+  "xl": "",
+  "enr": "109/110 37/40 146/150",
+  "desc": "Provides an introduction to distributed systems, with a focus on web development techniques and the considerations to application scalability, security, reliability, and redundancy. Provides an in-depth study of technologies used for both back-end and front-end development, and how to design robust applications in the webs constantly evolving landscape."
+ },
+ {
+  "code": "CS 120B",
+  "title": "Introduction to Embedded Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "117/200 140/150 32/40 289/390",
+  "desc": "Introduction to hardware and software design of digital computing systems embedded in electronic devices (e.g., digital cameras or portable video games). Includes embedded processor programming, standard peripherals, interfacing, and hardware/software tradeoffs. Involves use of microcontrollers and developing working embedded systems. Cross-listing: Cross- listed with EE 120B."
+ },
+ {
+  "code": "CS 122A",
+  "title": "Intermediate Embedded and Real-Time Systems",
+  "units": "5",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers software and hardware design of embedded computing systems. Includes hardware and software codesign, advanced programming paradigms (including state machines and concurrent processes), real-time programming, operating systems, basic control systems, modern chip, and design technologies. Laboratories involve use of microcontrollers, embedded microprocessors, programmable logic, advanced simulation, and debug environments."
+ },
+ {
+  "code": "CS 122B",
+  "title": "Advanced Embedded and Real- Time Systems",
+  "units": "5",
+  "xl": "",
+  "enr": "",
+  "desc": "Explores state-of-the-art aspects of building embedded computer systems. Topics include real-time programming, synthesis of coprocessor cores, application-specific processors, hardware and software cosimulation and codesign, low-power design, reconfigurable computing, core-based design, and platform-based methodology."
+ },
+ {
+  "code": "CS 130",
+  "title": "Computer Graphics",
+  "units": "4",
+  "xl": "",
+  "enr": "40/45 95/100 5/36 140/181",
+  "desc": "A study of the fundamentals of computer graphics necessary to design and build graphics applications. Examines raster graphics algorithms including scan-converting graphics primitives, anti-aliasing, and clipping. Also covers geometric transformations, viewing, solid modeling techniques, hidden- surface removal algorithms, color models, illumination, and shading."
+ },
+ {
+  "code": "CS 133",
+  "title": "Computational Geometry",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "An introduction to the design of geometry algorithms. Covers the basic computational geometry concepts and techniques used in graphics, robotics, and engineering design. Topics include polygons and polytopes, convex hulls, and voronoi diagrams."
+ },
+ {
+  "code": "CS 142",
+  "title": "Algorithm Engineering",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers the design and implementation of sequential, parallel, cache-efficient, external-memory, and write-efficient algorithms for fundamental computational problems including sorting, searching, as well as a selection of problems in algebra, geometry, combinatorial optimization, and string processing. Emphasizes practical aspects of algorithm design, efficient implementation, and experimental methodology for performance evaluation."
+ },
+ {
+  "code": "CS 144",
+  "title": "Algorithms For Bioinformatics",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduces fundamental algorithms and data structures for solving analytical problems in molecular biology and genomics. Includes exact and approximate string matching; sequence alignment; genome assembly; and gene and regulatory motifs recognition."
+ },
+ {
+  "code": "CS 145",
+  "title": "Combinatorial Optimization Algorithms",
+  "units": "4",
+  "xl": "",
+  "enr": "34/60 34/60",
+  "desc": "The study of efficient algorithm design techniques for combinatorial optimization problems. Topics include shortest paths, minimum spanning trees, network flows, maximum matchings, stable matchings, linear programming, duality, two-person games, algorithmic techniques for integer programming problems, NP-completeness, and approximation algorithms."
+ },
+ {
+  "code": "CS 147",
+  "title": "Graphics Processing Unit Computing and Programming",
+  "units": "4",
+  "xl": "EE 147",
+  "enr": "48/75 48/75",
+  "desc": "Introduces principles and practices of programming graphics processing units (GPUs) using the parallel programming environment. Covers memory/threading models, common data-parallel programming patterns and libraries needed to develop high- performance parallel computing applications. Examines computational thinking; a broader range of parallel execution models; and parallel programming principles. Cross-listing: Cross-listed with EE 147."
+ },
+ {
+  "code": "CS 160",
+  "title": "Concurrent Programming and Parallel Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "57/80 57/ 80",
+  "desc": "A study of concurrent and parallel systems. Topics include modular structure and design, interprocess communication, synchronization, failures, persistence, and concurrency control. Also covers atomic transactions, recovery, language support, distributed interprocess communication, and implementation mechanisms. Provides preparation for the study of operating systems, databases, and computer networking."
+ },
+ {
+  "code": "CS 164",
+  "title": "Computer Networks",
+  "units": "4",
+  "xl": "",
+  "enr": "51/80 51/ 80",
+  "desc": "Covers the fundamentals of computer networks. Topics include layered network architecture, communication protocols, local area networks, UNIX network programming, verification, network security, and performance studies."
+ },
+ {
+  "code": "CS 165",
+  "title": "Computer Security",
+  "units": "4",
+  "xl": "",
+  "enr": "28/60 25/ 53 53/113",
+  "desc": "Examines the ways in which information systems are vulnerable to security breaches. Topics include attacks; security labels, lattices, and policies; safeguards and countermeasures; intrusion detection; authorization and encryption techniques; networks; digital signatures, certificates, and passwords; privacy issues, firewalls, and spoofing; Trojan horses and computer viruses; CERT Coordination Center; and electronic commerce."
+ },
+ {
+  "code": "CS 166",
+  "title": "Database Management Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "98/100 113/150 66/100 15/40 292/390",
+  "desc": "Covers basic concepts of databases and database management systems. Topics include entity-relationship modeling for design, relational data model, relational algebra, Structured Query Language (SQL), secondary storage, indexing and hashing, query evaluation and optimization, and overview of transactions."
+ },
+ {
+  "code": "CS 167",
+  "title": "Introduction to Big-Data Management",
+  "units": "4",
+  "xl": "",
+  "enr": "60/60 60/ 60",
+  "desc": "Introduces the architecture of big-data systems and their applications in data management and processing. Describes the common functionality in big-data processing such as distributed storage, resource management, query processing, fault-tolerance, and programming APIs. Covers the popular big- data technologies such as distributed shared- nothing systems, NoSQL processing model, and semi-structured data management."
+ },
+ {
+  "code": "CS 168",
+  "title": "Introduction to Very Large Scale Integration Design",
+  "units": "4",
+  "xl": "EE 168",
+  "enr": "121/160 121/160",
+  "desc": "Studies integrated circuit fabrication, device characterization, and circuit simulation. Introduces basic device physics and physical design rules, MOS logic design, and timing and clock schemes. Covers layout generation, subsystem designs, and circuits for alternative logic styles. Also covers design and simulation using hardware description language and CAD tools. Cross-listing: Cross-listed with EE 168."
+ },
+ {
+  "code": "CS 169",
+  "title": "Mobile Wireless Networks",
+  "units": "4",
+  "xl": "",
+  "enr": "23/50 23/50",
+  "desc": "Introduces the fundamentals of wireless and mobile networks. Covers wireless channel models, MAC protocols, and wireless network architectures. Also covers cellular, WLAN and ad hoc networks, and routing in multi-hop wireless networks. Includes wireless security and the impact of wireless links on TCP and other transport layer solutions."
+ },
+ {
+  "code": "CS 175",
+  "title": "Entrepreneurship in Computing",
+  "units": "4",
+  "xl": "",
+  "enr": "55/55 55/55",
+  "desc": "Introduces business and technological concepts to create companies based on computer technology. Covers technical aspects of real-world IT projects. Includes developing software and services; understanding user requirements; designating usable systems; and assessing technology. Addresses market analysis and strategy; legal and intellectual property; ethics and communication issues; and financial analysis."
+ },
+ {
+  "code": "CS 177",
+  "title": "Modeling and Simulation",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers validation of random number sequences; concepts in modeling and systems analysis; and conceptual models and their mathematical and computer realizations. Examines simulation modeling techniques including object-oriented modeling and discrete-event modeling. Emphasizes the use of simulation libraries used with programming languages such as C++."
+ },
+ {
+  "code": "CS 178B",
+  "title": "Project Sequence in Computer Science and Engineering",
+  "units": "4",
+  "xl": "",
+  "enr": "30/60 30/60",
+  "desc": "Incorporates the proposal, design, building, testing, and documenting of software and hardware devices or systems under the direction of a faculty member. Emphasizes professional and ethical responsibilities and the need to stay current on technology and its global impact on economics, society, and the environment."
+ },
+ {
+  "code": "CS 180",
+  "title": "Introduction to Software Engineering",
+  "units": "4",
+  "xl": "",
+  "enr": "79/80 89/146 20/40 188/266",
+  "desc": "A study of software engineering techniques for the development, maintenance, and evolution of large software systems. Topics include requirements and specification; system design and implementation; debugging, testing, and quality assurance; reengineering; project management; software process; tools; and environments."
+ },
+ {
+  "code": "CS 181",
+  "title": "Principles of Programming Languages",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers the principles of programming language design. Includes the study and comparison of several programming languages, their features, and their implementations."
+ },
+ {
+  "code": "CS 182",
+  "title": "Software Testing and Verification",
+  "units": "4",
+  "xl": "",
+  "enr": "74/80 74/80",
+  "desc": "A study of modern techniques to assess the quality of software artifacts through functional, performance, and reliability testing. Introduces black box and white box testing techniques. Covers the application of modern testing tools to software units, components, subsystems, and entire systems. Also covers verification as a complementary technique to testing."
+ },
+ {
+  "code": "CS 183",
+  "title": "Unix System Administration",
+  "units": "4",
+  "xl": "",
+  "enr": "59/ 60 59/ 60",
+  "desc": "Explores the technical aspects of system administration on a Unix system including advanced Unix. Includes managing system devices, operating system installation, communications, and networking."
+ },
+ {
+  "code": "CS 193",
+  "title": "Design Project",
+  "units": "1 to 4",
+  "xl": "",
+  "enr": "2/20 1/7 4/ 7 7/34",
+  "desc": "Individual hardware or software design project to include establishment of objectives and criteria, synthesis, analysis, implementation, testing, and documentation."
+ },
+ {
+  "code": "MATH 120",
+  "title": "Optimization",
+  "units": "4",
+  "xl": "",
+  "enr": "49/50 126/156 13/25 188/231",
+  "desc": "Introduction to classical optimization including unconstrained and constrained problems in several variables, Addresses Jacobian and Lagrangian methods and the Kuhn-Tucker conditions. Covers the basic concepts of linear programming including the simplex method and duality with applications to other subjects."
+ },
+ {
+  "code": "MATH 126",
+  "title": "Combinatorics",
+  "units": "4",
+  "xl": "",
+  "enr": "65/65 65/65",
+  "desc": "A study of elements of combinatorics theory. Topics include chromatic polynomials, enumerating partitions of sets and integers, asymptotic enumeration, Polya theory, and Ramsey theory."
+ },
+ {
+  "code": "MATH 135A",
+  "title": "Introduction to Numerical Analysis 1",
+  "units": "4",
+  "xl": "",
+  "enr": "105/120 105/120",
+  "desc": "Introduces basic numerical techniques for computing solutions of problems in science and engineering as well as computational implementation of such techniques using MATLAB and Python. Topics include floating point computation, error analysis, numerical methods for solutions of linear and nonlinear scalar and systems of equations, and numerical interpolation."
+ },
+ {
+  "code": "MATH 135B",
+  "title": "Introduction to Numerical Analysis 2",
+  "units": "4",
+  "xl": "",
+  "enr": "45/60 45/60",
+  "desc": "Introduces basic numerical techniques for computing solutions of problems in science and engineering as well as computational implementation of such techniques using MATLAB and Python. Topics include numerical integration, Runge-Kutta methods for initial value problems, matrix factorizations, eigenvalues, and eigenvectors."
+ },
+ {
+  "code": "PHIL 124",
+  "title": "Formal Logic",
+  "units": "4",
+  "xl": "",
+  "enr": "130/108 24/25 154/133",
+  "desc": "An introduction to first-order logic, the core of the logic often used in contemporary philosophy, mathematics, computer science, and linguistics."
+ }
+]

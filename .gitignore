@@ -1,0 +1,21 @@
+# secrets: never commit API keys
+.env
+*.env
+secrets*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# raw posting dumps (large; the daily collector will manage compressed snapshots)
+data/raw/*.jsonl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

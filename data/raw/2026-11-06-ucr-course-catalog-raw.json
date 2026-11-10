@@ -1,0 +1,858 @@
+[
+ {
+  "code": "CS 170",
+  "title": "Introduction to Artificial Intelligence",
+  "units": "4",
+  "xl": "",
+  "enr": "128/163 118/126 59/ 62 24/40 329/391",
+  "desc": "An introduction to the field of artificial intelligence. Focuses on discrete-valued problems. Covers heuristic search, problem representation, and classical planning. Also covers constraint satisfaction and logical inference."
+ },
+ {
+  "code": "CS 131",
+  "title": "Edge Computing",
+  "units": "4",
+  "xl": "EE 131",
+  "enr": "60/60 75/80 135/140",
+  "desc": "Covers industry standards for quality of service and security while leveraging performance constraints. Develops skill in deploying real- world applications using embedded artificial intelligence. Cross-listing:"
+ },
+ {
+  "code": "CS 135",
+  "title": "Virtual Reality",
+  "units": "4",
+  "xl": "",
+  "enr": "52/80 52/ 80",
+  "desc": "Covers the development of virtual reality (VR) worlds, including motion and physics of VR worlds. Includes design practices for immersive experiences, human visual perception, environmental and social interactions. Also includes positional tracking with sensors, augmented and mixed reality, and storage and transmission of virtual reality worlds."
+ },
+ {
+  "code": "CS 201",
+  "title": "Compiler Construction",
+  "units": "4",
+  "xl": "",
+  "enr": "21/80 33/ 63 54/143",
+  "desc": "Covers theory of parsing and translation. Also addresses compiler construction including lexical analysis, syntax analysis, code generation, and optimization."
+ },
+ {
+  "code": "CS 202",
+  "title": "Advanced Operating Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "41/ 60 36/100 7/70 84/230",
+  "desc": "Examines recent developments in operating systems. Also covers multiprogramming, parallel programming, time sharing, scheduling and resource allocation, and selected topics."
+ },
+ {
+  "code": "CS 203",
+  "title": "Advanced Computer Architecture",
+  "units": "4",
+  "xl": "",
+  "enr": "42/ 60 42/80 84/140",
+  "desc": "Covers contemporary computer systems architecture including pipelined CPU design, instruction level parallelism, memory hierarchy, thread level parallelism, introduction to multiprocessing, and evaluation of computer performance."
+ },
+ {
+  "code": "CS 204",
+  "title": "Advanced Computer Networks",
+  "units": "4",
+  "xl": "",
+  "enr": "26/80 26/80",
+  "desc": "Covers advanced topics in computer networks, layering, Integrated Services Digital Networks (ISDN), and high-speed networks. Also covers performance models and analysis, distributed systems and databases, and case studies."
+ },
+ {
+  "code": "CS 205",
+  "title": "Artificial Intelligence",
+  "units": "4",
+  "xl": "",
+  "enr": "52/119 12/45 26/120 90/284",
+  "desc": "Examines knowledge representation and automated reasoning and their use in capturing common sense and expert knowledge. Also addresses predicate and nonmonotonic logics; resolution and term rewriting; reasoning under uncertainty; theorem provers; planning systems; and belief networks. Includes topics in natural language processing, perception, logic programming, expert systems, and deductive databases."
+ },
+ {
+  "code": "CS 206",
+  "title": "Advanced Software Testing and Analysis",
+  "units": "4",
+  "xl": "",
+  "enr": "48/80 48/80",
+  "desc": "Introduces techniques to verify that software runtime behavior meets its specifications. Topics include model checking (safety, liveness, temporal logics, and abstraction); static and dynamic analysis (data flow analysis, concept analysis, program slicing, and invariant detection); testing (test generation, prioritization, suite reduction, and regression); and automated debugging (fault location and visualization)."
+ },
+ {
+  "code": "CS 207",
+  "title": "Advanced Programming Languages",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduces the techniques for analyzing program semantics and correctness. Covers simply-typed lambda calculus as well as basic and advanced type systems. Presents axiomatic, operational, and denotational semantics. Explores programming-language constructs and tools for specifying, reasoning, and verifying correctness properties. Includes safe memory accesses and safe concurrent programming or security."
+ },
+ {
+  "code": "CS 208",
+  "title": "Cloud Computing and Cloud Networking",
+  "units": "4",
+  "xl": "",
+  "enr": "16/80 16/80",
+  "desc": "Covers cloud computing concepts. Introduces operating system virtualization techniques enabling multi-tenant cloud computing. Study of operating system scheduling concepts, virtualization, cloud resource management, VM migration and security. Overview of data center networking, networking cloud data centers, virtual private clouds, replication, disaster recovery and green computing. Examination of commercial cloud platforms."
+ },
+ {
+  "code": "CS 210",
+  "title": "Scientific Computing",
+  "units": "4",
+  "xl": "",
+  "enr": "46/ 80 46/ 80",
+  "desc": "Utilizes scientific computing in a specific computer science research area. Provides a foundation for pursuit of further studies of special topics in scientific computing."
+ },
+ {
+  "code": "CS 211",
+  "title": "High Performance Computing",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduces performance optimization for sequential computer programs. Covers high performance computing on multicore shared memory computers and on distributed memory computing clusters. Also covers high performance scientific libraries and computing application development using pthreads, OpenMP, and Message Passing Interface (MPI) parallel file systems."
+ },
+ {
+  "code": "CS 212",
+  "title": "Data Science Ethics",
+  "units": "4",
+  "xl": "STAT 212",
+  "enr": "38/135 38/135",
+  "desc": "Covers ethics specifically related to data science. Includes data privacy; data curation and storage; discrimination and bias arising in the machine learning process; statistical topics such as generalization, causality, curse of dimensionality, and sampling bias; data communication; and strategies for conceptualizing, measuring, and mitigating problems in data-driven decision-making. Cross-listing:"
+ },
+ {
+  "code": "CS 213",
+  "title": "Multiprocessor Architecture and Programming",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduces multi-processing, multicore architectures, and CC-NuMA multiprocessors. Also covers heterogeneous multiprocessors and interconnection networks."
+ },
+ {
+  "code": "CS 214",
+  "title": "Parallel Algorithms",
+  "units": "4",
+  "xl": "",
+  "enr": "20/36 20/36",
+  "desc": "Covers basic concepts of parallel shared-memory algorithms such as theoretical models, scheduling, and concurrency. Addresses techniques for designing efficient parallel algorithms for computational problems in a variety of areas including sorting, searching, algebra, graph theory, data structures, computational geometry, and scheduling. Emphasizes correctness proofs and rigorous performance analysis."
+ },
+ {
+  "code": "CS 215",
+  "title": "Theory of Computation",
+  "units": "4",
+  "xl": "",
+  "enr": "19/50 19/50",
+  "desc": "Covers phrase structure grammars and languages; turing machines; relation of languages to automata; solvable and unsolvable problems; and theoretical limitations of computers. Also examines algorithmic complexity theory; polynomial reducibility; the classes P and NP; and correctness proofs."
+ },
+ {
+  "code": "CS 216",
+  "title": "Advanced Cryptography",
+  "units": "4",
+  "xl": "",
+  "enr": "10/ 30 10/ 30",
+  "desc": "Introduction to advanced cryptography. Covers formal models of security and applications including public key encryption, digital signatures, and secure protocols."
+ },
+ {
+  "code": "CS 217",
+  "title": "Graphics Processing Unit Architecture and Parallel Programming",
+  "units": "4",
+  "xl": "EE 217",
+  "enr": "66/125 66/125",
+  "desc": "Introduces the popular CUDA based parallel programming environments based on Nvidia GPUs. Covers the basic CUDA memory/threading models. Also covers the common data-parallel programming patterns needed to develop a high-performance parallel computing applications. Examines computational thinking; a broader range of parallel execution models; and parallel programming principles. Cross-listing:"
+ },
+ {
+  "code": "CS 218",
+  "title": "Design and Analysis of Algorithms",
+  "units": "4",
+  "xl": "",
+  "enr": "62/63 14/63 23/100 99/226",
+  "desc": "Covers efficient algorithms and data structures for problems from a variety of areas such as sorting, searching, selection, linear algebra, graph theory, and combinatorial optimization. Focuses on techniques for algorithm design (greedy, divide-and-conquer, dynamic programming) and rigorous proofs of correctness and time- and space-complexity (amortized analysis, Master Theorem)."
+ },
+ {
+  "code": "CS 219",
+  "title": "Advanced Algorithms",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers advanced techniques for the design and analysis of algorithms and data structures. Topics include linear and integer programming, randomized algorithms, approximation algorithms, online algorithms, parallel algorithms, and distributed algorithms. Emphasizes formal proofs of correctness and rigorous performance analysis."
+ },
+ {
+  "code": "CS 220",
+  "title": "Synthesis of Digital Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "18/60 18/60",
+  "desc": "Covers the synthesis and simulation of digital systems. Topics include synthesis at the system, behavioral, register-transfer, and logic levels; application-specific processors; simulation; and emerging system-on-a- chip design methodologies."
+ },
+ {
+  "code": "CS 222",
+  "title": "Natural Language Processing",
+  "units": "4",
+  "xl": "",
+  "enr": "31/60 31/60",
+  "desc": "; graduate standing; or consent of instructor. Introduces Natural Language Processing (NLP), the study of computing systems that understand or communicate with human language. Covers both historical and contemporary NLP tasks and the fundamental methods of NLP \u201cparticularly deep learning- based approaches. \u201c Topics include basic classification techniques, feedforward neural networks, attention mechanisms, and pre-trained neural models."
+ },
+ {
+  "code": "CS 223",
+  "title": "Reconfigurable Computing",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers reconfigurable computing, a novel computational model that is fast becoming part of the mainstream in high-performance computing. Addresses architectures, software tools and compilers, programming models, and applications."
+ },
+ {
+  "code": "CS 224",
+  "title": "Foundations of Machine Learning",
+  "units": "4",
+  "xl": "EE 242A",
+  "enr": "39/100 54/100 93/200",
+  "desc": "; graduate standing; or consent of instructor. A study of generative and discriminative approaches to machine learning. Topics include probabilistic model fitting, gradient-based loss optimization, regularization, hyper-parameters, and generalization. Includes experience with data science programming environments, data from practice, and performance metrics. Cross-listing:"
+ },
+ {
+  "code": "CS 225",
+  "title": "Spatial Computing",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduction to the spatial computing technologies and techniques. Covers the fundamentals, the present, and the emerging use cases of spatial data analysis systems. Topics include spatial data modelling, spatial relationships, storage, indexing, query processing, and recent trends in the field. Includes a research-oriented project and hands-on experience on spatial technologies."
+ },
+ {
+  "code": "CS 226",
+  "title": "Big-Data Management",
+  "units": "4",
+  "xl": "",
+  "enr": "36/60 36/ 60",
+  "desc": "Introduction to the architecture and design of big data management systems. Covers the design of distributed file systems and high-throughput databases. Describes popular programming paradigms for big data including MapReduce and Resilient Distributed Datasets. Includes a course project with hands-on experience on open-source big data systems."
+ },
+ {
+  "code": "CS 227",
+  "title": "Probabilistic Models For Artificial Intelligence",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers methods for representing and reasoning about probability distributions in complex domains. Focuses on graphical models and their extensions such as Bayesian networks, Markov networks, hidden Markov models, and dynamic Bayesian networks. Topics include algorithms for probabilistic inference, learning models from data, and decision making."
+ },
+ {
+  "code": "CS 228",
+  "title": "Introduction to Deep Learning",
+  "units": "4",
+  "xl": "EE 228",
+  "enr": "52/60 16/50 68/110",
+  "desc": "Explores fundamentals of deep neural networks and their applications in various machine learning tasks. Includes the fundamentals of perception, approximation, neural network architectures, loss functions, and generalization. Addresses optimization methods including backpropagation, automatic differentiation, and regularization. Covers non-standard problems including auto- encoders and probabilistic models. Presents applications in machine learning/computer vision. Cross-listing:"
+ },
+ {
+  "code": "CS 229",
+  "title": "Machine Learning",
+  "units": "4",
+  "xl": "EE 242B",
+  "enr": "52/ 65 52/ 65",
+  "desc": "A study of supervised machine learning that emphasizes discriminative methods. Covers the areas of regression and classification. Topics include linear methods, instance-based learning, neural networks, kernel machines, and additive models. Cross-listing:"
+ },
+ {
+  "code": "CS 230",
+  "title": "Computer Graphics",
+  "units": "4",
+  "xl": "",
+  "enr": "18/28 18/28",
+  "desc": "Covers advanced topics related to graphics and necessary fundamentals. Includes geometry representations; affine and perspective transforms; rendering with global illumination and other light models; shading and texture mapping; rasterization and anti-aliasing techniques; and hierarchical and keyframe animation. Also includes projects and/or in-depth programming assignments."
+ },
+ {
+  "code": "CS 231",
+  "title": "Computer Animation",
+  "units": "4",
+  "xl": "",
+  "enr": "14/60 14/60",
+  "desc": "Covers topics in computer animation including motion capture, inverse kinematics, and dynamic simulation. Also examines deformable systems and other natural phenomena, facial animation, high- level behavior control, creature evolution, and procedural techniques."
+ },
+ {
+  "code": "CS 233",
+  "title": "Pen-Based Computing",
+  "units": "4",
+  "xl": "ME 231",
+  "enr": "",
+  "desc": "Covers fundamental issues such as ink segmentation, sketch parsing, and shape recognition. Explores the topic of sketch understanding, including reasoning about context and correcting errors. Also addresses issues related to building practical pen-based systems. Cross-listing:"
+ },
+ {
+  "code": "CS 234",
+  "title": "Computational Methods For Biomolecular Data",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "A study of computational and statistical methods aimed at automatically analyzing, clustering, and classifying biomolecular data. Includes combinatorial algorithms for pattern discovery; hidden Markov models for sequence analysis; analysis of expression data; and prediction of the three-dimensional structure of RNA and proteins."
+ },
+ {
+  "code": "CS 235",
+  "title": "Data Mining Techniques",
+  "units": "4",
+  "xl": "",
+  "enr": "65/145 40/140 105/285",
+  "desc": "CS 235 online section: enrollment in the online Master of Science in Engineering program; graduate standing. Provides a broad background in the design and use of data mining algorithms and tools. Includes clustering, classification, association rules mining, time series clustering, and Web mining."
+ },
+ {
+  "code": "CS 236",
+  "title": "Database Management Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "43/ 84 43/ 84",
+  "desc": "Covers principles of file systems; architecture of database management systems; data models; and relational databases. Also examines logical and physical design of databases; hardware and software implementation of database systems; and distributed databases (e.g., query processing, concurrences, and recovery)."
+ },
+ {
+  "code": "CS 237",
+  "title": "Advanced Topics in Modeling and Simulation",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers formal computer simulation models such as Discrete Event Specified Models and differential equation models. Examines current developments in simulation languages. Also addresses integrated model development and its applications to complex, large-scale problems."
+ },
+ {
+  "code": "CS 238",
+  "title": "Algorithmic Techniques in Computational Biology",
+  "units": "4",
+  "xl": "",
+  "enr": "15/50 15/50",
+  "desc": "A study of fundamental algorithms for solving combinatorial or computational problems in molecular biology and genomics. Includes sequence alignment and multiple alignment; bio-database search; gene and regulatory signal recognition; DNA sequence assembly; physical mapping; and reconstruction of evolutionary trees."
+ },
+ {
+  "code": "CS 239",
+  "title": "Performance Evaluation of Computer Networks",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Offers models and analytical techniques for evaluating the performance of computer networks. Covers basic and intermediate queuing theory and queuing networks and their application to practical systems."
+ },
+ {
+  "code": "CS 240",
+  "title": "Network Routing",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "An in- depth study of routing in computer networks. Examines general principles and specific routing protocols and technologies. Topics include Internet, Asynchronous Transfer Mode (ATM), optical, wireless, and ad hoc networks."
+ },
+ {
+  "code": "CS 241",
+  "title": "Advanced Topics in Network Measurements and Security",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduces measuring and building real network systems. Includes hands-on measurement studies and tools. Covers fundamental mathematical and statistical tools; exposure to implementation studies and techniques; principles of network architectures; and challenges in building testbeds and conducting measurements. Explores measurements and modeling of wireline, ad hoc, sensor, and cellular networks. May be taken Satisfactory (S) or No Credit (NC) with consent of instructor and graduate advisor."
+ },
+ {
+  "code": "CS 242",
+  "title": "Information Retrieval and Web Search",
+  "units": "4",
+  "xl": "",
+  "enr": "41/ 53 41/ 53",
+  "desc": "CS 242 online section: enrollment in the online Master of Science in Engineering program. Introduces Information Retrieval (IR) principles and techniques for indexing and searching document collections with special emphasis on Web search. Includes text processing, ranking algorithms, search in social networks, search evaluation, and search engines scalability."
+ },
+ {
+  "code": "CS 246",
+  "title": "Software Verification",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "A study of advanced techniques to specify and examine the correctness of complex systems and software. Focuses on concurrent and distributed behavior, formal description languages, temporal logics, model checking and symbolic model checking, partial order reduction, and the use of verification tools."
+ },
+ {
+  "code": "CS 248",
+  "title": "Optimization For Machine Learning",
+  "units": "4",
+  "xl": "EE 248",
+  "enr": "",
+  "desc": "Explores efficient optimization algorithms for machine learning. Emphasizes fundamental principles, provable guarantees, and contemporary results. Includes fundamentals of optimization (first-order methods, stochastic algorithms, accelerated schemes, non-convex optimization, regularization, and black-box optimization). Also covers connections to statistical learning (empirical risk minimization, finite-sample guarantees, and high-dimensional problems). Cross-listing:"
+ },
+ {
+  "code": "CS 249",
+  "title": "Advanced Program Analysis",
+  "units": "4",
+  "xl": "",
+  "enr": "12/56 12/56",
+  "desc": "Introduces the key concepts behind modern program analysis techniques focusing on static analysis. Topics include type inference, dataflow analysis, interprocedural analysis, control-flow analysis, and pointer analysis. Provides a foundation for applying program analysis in other domains or researching new analysis techniques."
+ },
+ {
+  "code": "CS 250",
+  "title": "Software Security",
+  "units": "4",
+  "xl": "",
+  "enr": "10/60 10/60",
+  "desc": "Discusses concepts, theories, and techniques in software security from both defensive and offensive perspectives. Topics include vulnerability and exploitation, malware, patching and hardening, reverse engineering, and forensics."
+ },
+ {
+  "code": "CS 251",
+  "title": "Real-Time Embedded Systems",
+  "units": "4",
+  "xl": "EE 255",
+  "enr": "24/60 24/60",
+  "desc": "Covers fundamentals and principles of real-time embedded systems. Topics include uniprocessor and multiprocessor real-time scheduling, real-time operating systems, synchronization, resource reservation, memory management, and power management. Introduces mathematical techniques for real-time system analysis. Offers hands-on experience with designing, implementing, and evaluating real-time systems on embedded platforms. Cross-listing:"
+ },
+ {
+  "code": "CS 252A",
+  "title": "Data Analytics and Exploration",
+  "units": "4",
+  "xl": "EE 251A",
+  "enr": "28/40 28/ 40",
+  "desc": "Covers important algorithms relevant to the lifetime of data from data collection and cleaning to integration, data mining, and analytics. Topics include: sketch algorithms for computing statistics on data streams; mining social graphs including community detection and graph partitioning; Data Science life cycle: techniques on data cleaning, data integration, Exploratory Data Analysis, and visualization. Cross-listing:"
+ },
+ {
+  "code": "CS 252B",
+  "title": "Fundamentals of Data Science",
+  "units": "4",
+  "xl": "EE 251B",
+  "enr": "",
+  "desc": "Explores theoretical tools in data science and their applications in data science. Introduces and motivates statistical and computational viewpoints on data analysis. Topics include the manipulation of data as vectors, drawing inferences from data as distributions, and quantifying data uncertainty for data analysis. Cross-listing:"
+ },
+ {
+  "code": "CS 253",
+  "title": "Distributed Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Integrates the theory and practice of distributed systems with a focus on recent developments in distributed systems. Includes middleware architectures; distributed process management and real-time scheduling; dependability; and group communication protocols. Also covers distributed process management; replication; large-scale peer-to-peer systems; Internet content delivery; and Web caching."
+ },
+ {
+  "code": "CS 254",
+  "title": "Network Security",
+  "units": "4",
+  "xl": "",
+  "enr": "6/50 6/50",
+  "desc": "Introduces the security problems in the networking domain, attacks and defenses, vulnerabilities in various network protocols. Topics include protocol security of DNS, TCP/ IP, SSL/TLS, applied cryptography, network side channel attacks, firewalls, censorship technology, internet measurement. Guides students to conduct small-scale research projects. May be taken Satisfactory (S) or No Credit (NC) with consent of instructor and graduate advisor."
+ },
+ {
+  "code": "CS 255",
+  "title": "Computer Security",
+  "units": "4",
+  "xl": "",
+  "enr": "62/100 62/100",
+  "desc": "Discusses the theoretical and practical issues arising in the context of computer systems security and the principles underlying the design of secure computing environments. Topics include cryptography, security models, authentication protocols, network security, intrusion detection, attacks and their countermeasures, and secure systems design."
+ },
+ {
+  "code": "CS 256",
+  "title": "Distributed Computing in Cyber- Physical Systems",
+  "units": "4",
+  "xl": "EE 258",
+  "enr": "",
+  "desc": "Covers theoretical foundations of distributed computing including logical clocks, message delivery, and mutual exclusion, with applications to cyber-physical systems such as autonomous vehicles and robotics. Topics include distributed coordination, resilience, and emerging techniques like LLM-driven communication in CPS, bridging theory, and practical applications. Cross-listing:"
+ },
+ {
+  "code": "CS 257",
+  "title": "Wireless Networks and Mobile Computing",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduces basic and advanced concepts of wireless networks and mobile computing. Covers both wireless cellular and ad hoc networks. Includes protocols for medium access control, resource allocation, and routing, as well as transport layer optimizations for the wireless environment. Also covers standards, Bluetooth, and the IEEE 802.11 for wireless local area networks."
+ },
+ {
+  "code": "CS 258",
+  "title": "Introduction to Reinforcement Learning",
+  "units": "4",
+  "xl": "EE 227",
+  "enr": "53/ 60 53/ 60",
+  "desc": "This course introduces key ideas and algorithms of reinforcement learning (RL). Key topics covered include finite Markov Decision Process (MDP), dynamic programming, Monte Carlo methods, temporal-difference learning, policy gradient methods, safety-constrained RL, batch-constrained RL, multi-agent RL, multi-armed bandits, and imitation learning. Cross-listing:"
+ },
+ {
+  "code": "CS 265A",
+  "title": "",
+  "units": "4",
+  "xl": "EE 265A",
+  "enr": "",
+  "desc": "Provides a theoretical and practical introduction to fundamental concepts used for the development of robotic systems. Covers robot kinematics; motion planning algorithms; robot motion control; and state estimation. Uses mobile robots to teach contemporary robotics software (ROS, Gazebo) that integrates the taught concepts to develop autonomous robot applications. Cross-listing:"
+ },
+ {
+  "code": "CS 265B",
+  "title": "",
+  "units": "4",
+  "xl": "EE 265B",
+  "enr": "",
+  "desc": "Covers fundamental topics for robot perception. Provides a theoretical and practical introduction to SLAM. Discusses related advanced topics on robot sensing and navigation. Teaches the mechanisms that allow autonomous robots to move through a real-world environment to perform their tasks. Cross-listing:"
+ },
+ {
+  "code": "CS 277",
+  "title": "Data Centric Computer Architecture",
+  "units": "4",
+  "xl": "EE 277",
+  "enr": "13/45 13/45",
+  "desc": "Addresses the rapid growth of dataset size and the introduction of hardware accelerators, resulting in the data movement overhead becoming the major performance bottleneck. Includes system interconnects, I/O stacks, emerging nonvolatile memory technologies, near-data processing, and data flow architectures. Cross-listing:"
+ },
+ {
+  "code": "CS 279",
+  "title": "Capstone Project in Data Science",
+  "units": "4",
+  "xl": "EE 279",
+  "enr": "",
+  "desc": "Covers technical, analytic, and interpretive skills to design and execute a large-scale data science capstone project focusing on real- world applications. Provides an opportunity to integrate all of the core skills and concepts learned throughout the program. Prepares for long-term professional success in the field. Cross-listing:"
+ },
+ {
+  "code": "EE 128",
+  "title": "Sensing and Actuation For Embedded Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "51/51 38/90 89/141",
+  "desc": "Covers embedded system design for sensor data acquisition, signal processing, control, and actuation. Explores sensor and motor interface principles (analog-to-digital and digital-to- analog conversion, Nyquist sampling rate, power constraints, and communication with peripherals). Also addresses design principles for instrumentation, embedded software programming, and real-time systems for sensing and control tasks."
+ },
+ {
+  "code": "EE 132",
+  "title": "Automatic Control",
+  "units": "4",
+  "xl": "",
+  "enr": "99/100 99/100",
+  "desc": "Covers mathematical modeling of linear systems for time and frequency domain analysis. Topics include transfer function and state variable representations for analyzing stability, controllability, and observability; and closed-loop control design techniques by Bode, Nyquist, and root-locus methods. Laboratories involve both simulation and hardware exercises."
+ },
+ {
+  "code": "EE 144",
+  "title": "Foundations of Robotics",
+  "units": "4",
+  "xl": "",
+  "enr": "78/90 78/ 90",
+  "desc": "Provides foundational knowledge on analysis, control, and programming of robots. Considers configuration space; rigid body motion; forward, inverse, and velocity kinematics; dynamics; trajectory planning; robot motion control; localization and mapping; and robot ethics. Integrates hands-on labs to program robots in simulation and experimentally by reading and interpreting sensor data. Cross-listing: Cross- listed with ME 144."
+ },
+ {
+  "code": "EE 151",
+  "title": "Introduction to Digital Control",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Reviews continuous-time control systems, Z-transform and properties, sampled-data systems, stability analysis and criteria, and frequency domain analysis and design. Addresses transient and steady-state response, state-space techniques, controllability and observability, pole placement, observer design, and Lyapunov stability analysis. Laboratory experiments complementary to these topics include simulations and hardware design."
+ },
+ {
+  "code": "EE 213",
+  "title": "Computer-Aided Electronic Circuit Simulation",
+  "units": "4",
+  "xl": "",
+  "enr": "7/45 7/45",
+  "desc": "Introduction to numerical algorithms and computer-aided techniques for the simulation of electronic circuits. Covers theoretical and practical aspects of important analyses; circuit formulation methods; large- signal nonlinear direct current, small-signal alternating current, and moment-matching transient; sensitivity; and noise. Discusses recent advances in timing analysis, symbolic analysis, and radio frequency circuit analysis."
+ },
+ {
+  "code": "EE 217",
+  "title": "Graphics Processing Unit Architecture and Parallel Programming",
+  "units": "4",
+  "xl": "CS 217",
+  "enr": "66/125 66/125",
+  "desc": "Introduces the popular CUDA based parallel programming environments based on Nvidia GPUs. Covers the basic CUDA memory/threading models. Also covers the common data-parallel programming patterns needed to develop a high-performance parallel computing applications. Examines computational thinking; a broader range of parallel execution models; and parallel programming principles. Cross-listing:"
+ },
+ {
+  "code": "EE 227",
+  "title": "Introduction to Reinforcement Learning",
+  "units": "4",
+  "xl": "CS 258",
+  "enr": "53/ 60 53/ 60",
+  "desc": "This course introduces key ideas and algorithms of reinforcement learning (RL). Key topics covered include finite Markov Decision Process (MDP), dynamic programming, Monte Carlo methods, temporal-difference learning, policy gradient methods, safety-constrained RL, batch-constrained RL, multi-agent RL, multi-armed bandits, and imitation learning. Cross-listing:"
+ },
+ {
+  "code": "EE 231",
+  "title": "Convex Optimization in Engineering Applications",
+  "units": "4",
+  "xl": "",
+  "enr": "18/30 18/30",
+  "desc": "Covers recognizing and solving convex optimization problems in engineering applications. Explores convex sets, functions, and optimization problems. Includes basics of convex analysis, least- squares, linear and quadratic programs, semidefinite programming, minimax, and other problems. Addresses optimality conditions, duality theory, theorems of alternative and applications, interior-point methods, and applications in engineering."
+ },
+ {
+  "code": "EE 235",
+  "title": "Linear System Theory",
+  "units": "4",
+  "xl": "ME 235",
+  "enr": "10/25 10/25",
+  "desc": "Provides a review of linear algebra. Topics include the mathematical description of linear systems; the solution of state-space equations; controllability and observability; canonical and minimal realization; and state feedback, pole placement, observer design, and compensator design. Cross-listing:"
+ },
+ {
+  "code": "EE 236",
+  "title": "State and Parameter Estimation Theory",
+  "units": "4",
+  "xl": "ME 236",
+  "enr": "8/45 8/45",
+  "desc": "Covers Fisher information, Cramer-Rao lower bound, efficiency, and sufficient statistics. Addresses minimum variance unbiased, best linear unbiased, maximum likelihood, least squares, maximum a posteriori, and mean-squared estimation. Also covers Weiner and Kalman filtering as well as applications in navigation, signal processing, machine learning, and dynamical systems. Cross-listing:"
+ },
+ {
+  "code": "EE 237",
+  "title": "Nonlinear Systems and Control",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Explores nonlinear systems and control. Topics include nonlinear differential equations, second order nonlinear systems, equilibrium and phase portrait, limit cycle, harmonic analysis and describing function, Lyapunov stability theory, absolute stability, Popov and circle criterion, input-output stability, small gain theorem, averaging methods, and feedback linearization. Cross-listing: Cross- listed with ME 237."
+ },
+ {
+  "code": "EE 238",
+  "title": "Linear Multivariable Control",
+  "units": "4",
+  "xl": "ME 238",
+  "enr": "",
+  "desc": "Investigates multivariable feedback systems, stability, performance, uncertainty, and robustness. Topics include analysis and synthesis via matrix factorization; Q-parameterization and all stabilizing controllers; frequency domain methods; and H(insert infinity) design and structured singular value analysis. Cross-listing:"
+ },
+ {
+  "code": "EE 239",
+  "title": "Optimal Control",
+  "units": "4",
+  "xl": "ME 239",
+  "enr": "",
+  "desc": "Presents the theory of stochastic optimal control systems and methods for their design and analysis. Covers principles of optimization; Lagrange\u2019s equation; linear-quadratic-Gaussian control; certainty-equivalence; the minimum principle; the Hamilton-Jacobi-Bellman equation; and the algebraic Ricatti equation. Cross-listing:"
+ },
+ {
+  "code": "EE 240",
+  "title": "Pattern Recognition",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "For the EE 240 online section; enrollment in the Online Master-in- Science in Engineering program; graduate standing. Covers basics of pattern recognition techniques. Topics include hypothesis testing, parametric classifiers, parameter estimation, nonparametric density estimation, nonparametric classifiers, feature selection, discriminant analysis, and clustering."
+ },
+ {
+  "code": "EE 241",
+  "title": "Advanced Digital Image Processing",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Covers advanced topics in digital image processing. Examines image sampling and quantization, image transforms, stochastic image models, image filtering and restoration, and image data compression."
+ },
+ {
+  "code": "EE 242A",
+  "title": "Foundations of Machine Learning",
+  "units": "4",
+  "xl": "CS 224",
+  "enr": "39/100 54/100 93/200",
+  "desc": "; graduate standing; or consent of instructor. A study of generative and discriminative approaches to machine learning. Topics include probabilistic model fitting, gradient-based loss optimization, regularization, hyper-parameters, and generalization. Includes experience with data science programming environments, data from practice, and performance metrics. Cross-listing:"
+ },
+ {
+  "code": "EE 242B",
+  "title": "Machine Learning",
+  "units": "4",
+  "xl": "CS 229",
+  "enr": "52/ 65 52/ 65",
+  "desc": "A study of supervised machine learning that emphasizes discriminative methods. Covers the areas of regression and classification. Topics include linear methods, instance-based learning, neural networks, kernel machines, and additive models. Cross-listing:"
+ },
+ {
+  "code": "EE 243",
+  "title": "Advanced Computer Vision",
+  "units": "4",
+  "xl": "",
+  "enr": "22/60 22/60",
+  "desc": "For the EE 243 online section: enrollment in the Online Master-of-Science in Engineering program; graduate standing; or consent of instructor. Study of advanced computer vision including classical- and learning-based approaches. Topics include feature extraction, segmentation, motion analysis and tracking, object and activity recognition, projective geometry, modeling and calibrating cameras, and three-dimensional reconstruction."
+ },
+ {
+  "code": "EE 244",
+  "title": "Computational Learning",
+  "units": "4",
+  "xl": "",
+  "enr": "7/50 7/50",
+  "desc": "Explores fundamental computational learning techniques. Topics include elements of learning systems, inductive learning, analytic learning, case-based learning, genetic learning, connectionist learning, reinforcement learning and integrated learning techniques, and comparison of learning paradigms and applications."
+ },
+ {
+  "code": "EE 246",
+  "title": "Intelligent Transportation Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "5/31 5/31",
+  "desc": "For the EE 246 online section: enrollment in the Online Master of Science in Engineering program; graduate standing. Focuses on the control, communications, and computer aspects of intelligent transportation systems. Topics include traffic flow theory fundamentals, intelligent transportation system user services, travel and traffic management, advanced vehicle safety systems, intelligent transportation system applications, architectures, standards, strategic needs assessment and deployment, and evaluation."
+ },
+ {
+  "code": "EE 247",
+  "title": "Current Topics in Computer Vision and Pattern Recognition",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Study of current topics in computer vision focused on machine learning in computer vision. Topics include machine learning approaches for image classification, segmentation, object detection, recognition, depth estimation, multi-modal analysis, and multi-sensor analysis."
+ },
+ {
+  "code": "EE 250",
+  "title": "Information Theory",
+  "units": "4",
+  "xl": "",
+  "enr": "4/50 4/50",
+  "desc": "An overview of fundamental limitations imposed on communication systems. Topics include Shannon\u2019s information measures, weak and strong typicality, lossless data compression, source and channel models and Shannon\u2019s coding theorems, channel capacity and the rate-distortion function, Gaussian sources and channels, and limits of communication between multiple terminals."
+ },
+ {
+  "code": "EE 251A",
+  "title": "Data Analytics and Exploration",
+  "units": "4",
+  "xl": "CS 252A",
+  "enr": "28/40 28/ 40",
+  "desc": "Covers important algorithms relevant to the lifetime of data from data collection and cleaning to integration, data mining, and analytics. Topics include: sketch algorithms for computing statistics on data streams; mining social graphs including community detection and graph partitioning; Data Science life cycle: techniques on data cleaning, data integration, Exploratory Data Analysis, and visualization. Cross-listing:"
+ },
+ {
+  "code": "EE 251B",
+  "title": "Fundamentals of Data Science",
+  "units": "4",
+  "xl": "CS 252B",
+  "enr": "",
+  "desc": "Explores theoretical tools in data science and their applications in data science. Introduces and motivates statistical and computational viewpoints on data analysis. Topics include the manipulation of data as vectors, drawing inferences from data as distributions, and quantifying data uncertainty for data analysis. Cross-listing:"
+ },
+ {
+  "code": "EE 252",
+  "title": "Data Center Architecture",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduces recent trends and challenges of warehouse-scale computing and data center systems. Topics include virtualization, resource management, data market, power management, sustainable computing, and demand response."
+ },
+ {
+  "code": "EE 255",
+  "title": "Real-Time Embedded Systems",
+  "units": "4",
+  "xl": "CS 251",
+  "enr": "24/60 24/60",
+  "desc": "Covers fundamentals and principles of real-time embedded systems. Topics include uniprocessor and multiprocessor real-time scheduling, real-time operating systems, synchronization, resource reservation, memory management, and power management. Introduces mathematical techniques for real-time system analysis. Offers hands-on experience with designing, implementing, and evaluating real-time systems on embedded platforms. Cross-listing:"
+ },
+ {
+  "code": "EE 258",
+  "title": "Distributed Computing in Cyber- Physical Systems",
+  "units": "4",
+  "xl": "CS 256",
+  "enr": "",
+  "desc": "Covers theoretical foundations of distributed computing including logical clocks, message delivery, and mutual exclusion, with applications to cyber-physical systems such as autonomous vehicles and robotics. Topics include distributed coordination, resilience, and emerging techniques like LLM-driven communication in CPS, bridging theory, and practical applications. Cross-listing:"
+ },
+ {
+  "code": "EE 267",
+  "title": "",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduces the state-of-the-art autonomous driving ecosystem from perception to prediction, localization, and planning and from onboard compute to offboard simulation. Includes mapping, remote operation, and v2x communication. Discusses foundational methods, common practices, and frontier research."
+ },
+ {
+  "code": "EE 268",
+  "title": "",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduces core principles and practices for developing safe, reliable AI in autonomous systems and robotics, covering foundational and advanced concepts in trustworthy AI and machine learning. Integrates cutting-edge research on building safe, robust, generalizable, and explainable systems, emphasizing the critical role of trust and ethics in AI deployment."
+ },
+ {
+  "code": "EE 269",
+  "title": "",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Explores key concepts in foundation models and recent advances in AI. Covers model architectures such as attention, transformers, and state space models; training pipelines including pretraining, fine-tuning, and reinforcement learning from human feedback; data acquisition strategies; tool augmentations; multimodal models; and techniques for efficient training and inference."
+ },
+ {
+  "code": "ME 121",
+  "title": "Feedback Control",
+  "units": "4",
+  "xl": "",
+  "enr": "57/60 57/60",
+  "desc": "Introduces the analysis and design of feedback control systems using classical control methods. Topics include control system terminology, block diagrams, analysis and design of control systems in the time and frequency domains, closed-loop stability, root locus, Bode plots, and an introduction to analysis in state-space."
+ },
+ {
+  "code": "ME 145",
+  "title": "Robotic Planning and Kinematics",
+  "units": "4",
+  "xl": "EE 145",
+  "enr": "22/30 22/30",
+  "desc": "Motion planning and kinematics topics with an emphasis in geometric reasoning, programming, and matrix computations. Motion planning includes configuration spaces, sensor-based planning, decomposition and sampling methods, and advanced planning algorithms. Kinematics includes reference frames, rotations and displacements, and kinematic motion models. Cross-listing:"
+ },
+ {
+  "code": "ME 174",
+  "title": "Machine Design",
+  "units": "4",
+  "xl": "",
+  "enr": "147/176 16/60 163/236",
+  "desc": "An introduction to the fundamentals of strength-based design. Topics include deflection and stiffness, static failure, and fatigue failure."
+ },
+ {
+  "code": "ME 175B",
+  "title": "Mechanical Engineering Design",
+  "units": "3",
+  "xl": "",
+  "enr": "82/100 57/60 139/160",
+  "desc": "ME 113, ME 116A, ME 170A, ME 174, ME 175A (may be taken concurrently). Outlines the defining of a design problem and the conception and detail of the design solution. Explores design theory, design for safety, reliability, manufacture, and assembly. Graded In Progress (IP) until ME 175B and ME 175C are completed, at which time a final, letter grade is assigned."
+ },
+ {
+  "code": "ME 175C",
+  "title": "Mechanical Engineering Design",
+  "units": "3",
+  "xl": "",
+  "enr": "82/80 56/64 138/144",
+  "desc": "Students create, test, and evaluate a prototype based on the project design generated in ME 175B. Lecture topics include prototyping techniques, design verification, and special topics in design."
+ },
+ {
+  "code": "ME 202",
+  "title": "Spectral Computational Methods",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Introduces data analysis, including discrete Fourier transforms, sampling theorem, and power spectra. Reviews Sturm-Liouville eigenfunction expansions, Gibbs phenomenon, convergence theorems, and Chebyschev transforms. Additional topics include Galerkin, tau, collocation, and pseudospectral methods, aliasing, time-advancement, and numerical stability. Explores applications to incompressible Navier-Stokes equations, compressible flows, reacting flows, and complex geometries. May be taken Satisfactory (S) or No Credit (NC) with consent of instructor and graduate advisor."
+ },
+ {
+  "code": "ME 210",
+  "title": "Sustainable Product Design",
+  "units": "4",
+  "xl": "",
+  "enr": "16/20 16/20",
+  "desc": "ME 210 online section; enrollment in the Online Master-in-Science in Engineering program. Introduces the principles of sustainable product design. Topics include life cycle design; design for reliability, maintainability, and recycling/ reuse/remanufacture; materials selection; and manufacturing processes. Includes project in which students analyze the environmental impact of a product and redesign it to reduce the impact."
+ },
+ {
+  "code": "ME 220",
+  "title": "Optimal Control and Estimation",
+  "units": "4",
+  "xl": "EE 233",
+  "enr": "",
+  "desc": "Introduces optimal control and estimation with specific focus on discrete time linear systems. Topics include analysis of discrete Riccati equations; asymptotic properties of optimal controllers; optimal tracking; an introduction to Receding Horizon control; derivation of the Kalman filter; Extended Kalman Filter; and Unscented Kalman filter. Cross-listing:"
+ },
+ {
+  "code": "ME 221",
+  "title": "Kinematics and Dynamics of Robots",
+  "units": "4",
+  "xl": "",
+  "enr": "5/10 5/10",
+  "desc": "Introduces methods to describe the position, orientation, and location of a rigid body. Explores position, velocity, and acceleration analysis of serial and parallel manipulators. Examines statics, dynamics, and stiffness analysis of robotic manipulators. Introduces Lagrangian dynamics and applications to wrist mechanisms and tendon-driven manipulators."
+ },
+ {
+  "code": "ME 223",
+  "title": "Secure and Reliable Control Systems",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "ME 223 online section; enrollment in the Online Master-in-Science in Engineering program. An introductory study of fault-tolerant and secure control systems. Topics include models of dynamical systems; linear system theory; detectability of attacks and failures; model- based fault detection; analytical redundancy; unknown-input observers; statistical methods for fault detection; graphical models and structured system theory; and fault-tolerant control. Letter Grade or S/NC; no petition required."
+ },
+ {
+  "code": "ME 224",
+  "title": "Computational Methods For Robotics",
+  "units": "4",
+  "xl": "",
+  "enr": "7/30 7/30",
+  "desc": "Provides the students with the mathematical and computational tools used in many diverse areas of robotics. Topics include numerical tools for inverse kinematics, representation and manipulation of model data, optimization methods for obstacle avoidance, and simulation of robot dynamics. Covers popular computational environments for robotics."
+ },
+ {
+  "code": "ME 225",
+  "title": "Design and Fabrication of Robots",
+  "units": "4",
+  "xl": "",
+  "enr": "14/15 14/15",
+  "desc": "Reviews traditional precision machine design, electromagnetic driving systems, and integration principles. Also presents state-of-the-art actuators, sensors, transmissions, and fabrication methods with their applications to modern robotic systems. Provides extensive training in the modeling, design, and fabrication of mechatronic components and complete robotic systems."
+ },
+ {
+  "code": "ME 230",
+  "title": "Computer-Aided Engineering Design",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "ME 230 online section; enrollment in the Online Master-in-Science in Engineering program. Introduces fundamentals of interactive computer graphics, three- dimensional representations of curves and surfaces, Bezier parameterizations, and optimization methods. Demonstrates applications of computer graphics and computational geometry to mechanical system simulations, computer-aided design, and engineering design."
+ },
+ {
+  "code": "ME 231",
+  "title": "Pen-Based Computing",
+  "units": "4",
+  "xl": "CS 233",
+  "enr": "",
+  "desc": "Covers fundamental issues such as ink segmentation, sketch parsing, and shape recognition. Explores the topic of sketch understanding, including reasoning about context and correcting errors. Also addresses issues related to building practical pen-based systems. Cross-listing:"
+ },
+ {
+  "code": "ME 232",
+  "title": "Computational Design Tools",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "An introduction to the theoretical foundations and practical application of computational techniques for engineering design. Topics include geometric modeling, numerical optimization, and artificial intelligence techniques. Includes programming projects in which both symbolic and numerical computational techniques are used to solve engineering problems."
+ },
+ {
+  "code": "ME 233",
+  "title": "Artificial Intelligence For Design",
+  "units": "4",
+  "xl": "",
+  "enr": "",
+  "desc": "Explores the application of artificial intelligence to engineering design. Topics include the use of search, knowledge- based systems, machine learning, and qualitative physical reasoning for design automation. Addresses the theory behind these techniques and issues related to their practical application. May be taken Satisfactory (S) or No Credit (NC) with consent of instructor and graduate advisor."
+ },
+ {
+  "code": "ME 236",
+  "title": "State and Parameter Estimation Theory",
+  "units": "4",
+  "xl": "EE 236",
+  "enr": "8/45 8/45",
+  "desc": "Covers Fisher information, Cramer-Rao lower bound, efficiency, and sufficient statistics. Addresses minimum variance unbiased, best linear unbiased, maximum likelihood, least squares, maximum a posteriori, and mean-squared estimation. Also covers Weiner and Kalman filtering as well as applications in navigation, signal processing, machine learning, and dynamical systems. Cross-listing:"
+ },
+ {
+  "code": "STAT 212",
+  "title": "Data Science Ethics",
+  "units": "4",
+  "xl": "CS 212",
+  "enr": "38/135 38/135",
+  "desc": "Covers ethics specifically related to data science. Includes data privacy; data curation and storage; discrimination and bias arising in the machine learning process; statistical topics such as generalization, causality, curse of dimensionality, and sampling bias; data communication; and strategies for conceptualizing, measuring, and mitigating problems in data-driven decision-making. Cross-listing:"
+ }
+]
