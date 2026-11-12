@@ -1,0 +1,152 @@
+"""Daily collection step: fetch postings, then update the posting history.
+
+Runs both collectors into temporary files, then updates data/history/:
+
+  new/<date>-<source>.jsonl.gz   postings first seen on <date> (full record, stored once)
+  seen.csv.gz                    one row per posting: id, source, role_family, company,
+                                 first_seen, last_seen
+  daily_counts.csv               one row per run and source: fetched, new, still_open
+
+A company-board posting whose last_seen is older than the latest run has closed.
+(Adzuna only returns the newest pages per search, so absence from Adzuna does NOT
+mean the job closed. Closure analysis uses company boards only.)
+
+Usage:
+  python scripts/2026-11-09-collect-daily.py                       # normal daily run
+  python scripts/2026-11-09-collect-daily.py --seed FILE --source boards --date 2026-11-07
+                                                                   # import an existing snapshot
+Adzuna is skipped when ADZUNA_APP_ID / ADZUNA_APP_KEY are not set.
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import gzip
+import io
+import json
+import os
+import subprocess
+import sys
+import tempfile
+from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+HIST = ROOT / "data/history"
+SEEN = HIST / "seen.csv.gz"
+COUNTS = HIST / "daily_counts.csv"
+SEEN_FIELDS = ["id", "source", "role_family", "company", "first_seen", "last_seen"]
+
+FETCHERS = {
+    "boards": ROOT / "scripts/2026-11-07-fetch-company-boards.py",
+    "adzuna": ROOT / "scripts/2026-11-07-fetch-adzuna.py",
+}
+
+
+def write_gz(path: Path, text: str) -> None:
+    """gzip with a fixed timestamp so identical content gives identical bytes (clean git diffs)."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "wb") as raw, gzip.GzipFile(fileobj=raw, mode="wb", mtime=0) as gz:
+        gz.write(text.encode("utf-8"))
+
+
+def load_seen() -> dict[str, dict]:
+    if not SEEN.exists():
+        return {}
+    with gzip.open(SEEN, "rt", encoding="utf-8", newline="") as f:
+        return {r["id"]: r for r in csv.DictReader(f)}
+
+
+def save_seen(seen: dict[str, dict]) -> None:
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=SEEN_FIELDS, lineterminator="\n")
+    w.writeheader()
+    for key in sorted(seen):
+        w.writerow({k: seen[key].get(k, "") for k in SEEN_FIELDS})
+    write_gz(SEEN, buf.getvalue())
+
+
+def read_records(path: Path) -> list[dict]:
+    out = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.strip():
+            r = json.loads(line)
+            if "id" in r:                     # skip resume markers
+                out.append(r)
+    return out
+
+
+def fetch(source: str, tmpdir: Path) -> list[dict] | None:
+    if source == "adzuna" and not (os.environ.get("ADZUNA_APP_ID") and os.environ.get("ADZUNA_APP_KEY")):
+        print("adzuna: keys not set, skipping")
+        return None
+    out = tmpdir / f"{source}.jsonl"
+    result = subprocess.run([sys.executable, str(FETCHERS[source]), "--out", str(out)])
+    if result.returncode != 0 or not out.exists():
+        print(f"{source}: fetch failed (exit {result.returncode}), skipping this source today")
+        return None
+    return read_records(out)
+
+
+def update(source: str, records: list[dict], date: str, seen: dict[str, dict]) -> dict:
+    prefix = "az-" if source == "adzuna" else ""     # Adzuna ids are bare numbers
+    new_rows, fetched_ids = [], set()
+    for r in records:
+        key = prefix + str(r["id"])
+        if key in fetched_ids:
+            continue
+        fetched_ids.add(key)
+        if key in seen:
+            seen[key]["last_seen"] = max(seen[key]["last_seen"], date)
+        else:
+            seen[key] = {"id": key, "source": source, "role_family": r.get("role_family", ""),
+                         "company": r.get("company", ""), "first_seen": date, "last_seen": date}
+            new_rows.append({**r, "history_id": key, "first_seen": date})
+    if new_rows:
+        write_gz(HIST / "new" / f"{date}-{source}.jsonl.gz",
+                 "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in new_rows))
+    still_open = sum(1 for s in seen.values() if s["source"] == source and s["last_seen"] == date)
+    return {"date": date, "source": source, "fetched": len(fetched_ids), "new": len(new_rows),
+            "still_open": still_open}
+
+
+def append_counts(rows: list[dict]) -> None:
+    exists = COUNTS.exists()
+    COUNTS.parent.mkdir(parents=True, exist_ok=True)
+    with COUNTS.open("a", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["date", "source", "fetched", "new", "still_open"], lineterminator="\n")
+        if not exists:
+            w.writeheader()
+        w.writerows(rows)
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--date", default=datetime.now(timezone.utc).date().isoformat())
+    ap.add_argument("--seed", type=Path, help="import an existing snapshot file instead of fetching")
+    ap.add_argument("--source", choices=sorted(FETCHERS), help="source of the --seed file")
+    args = ap.parse_args()
+
+    seen = load_seen()
+    counts = []
+    if args.seed:
+        if not args.source:
+            sys.exit("--seed needs --source")
+        counts.append(update(args.source, read_records(args.seed), args.date, seen))
+    else:
+        with tempfile.TemporaryDirectory() as td:
+            for source in FETCHERS:
+                records = fetch(source, Path(td))
+                if records:
+                    counts.append(update(source, records, args.date, seen))
+    if not counts:
+        sys.exit("No source produced data. Nothing written.")
+    save_seen(seen)
+    append_counts(counts)
+    for c in counts:
+        print(f"{c['date']} {c['source']:<7} fetched {c['fetched']:>5}  new {c['new']:>5}  open {c['still_open']:>5}")
+
+
+if __name__ == "__main__":
+    main()
