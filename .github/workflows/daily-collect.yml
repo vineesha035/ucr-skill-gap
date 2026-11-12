@@ -1,0 +1,44 @@
+name: daily-collect
+
+# Collects job postings every day and commits the updated posting history.
+on:
+  schedule:
+    - cron: "17 13 * * *"     # 13:17 UTC = 5:17 AM Pacific (6:17 AM during daylight time)
+  workflow_dispatch:           # "Run workflow" button for manual runs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect postings
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: python scripts/2026-11-09-collect-daily.py
+
+      - name: Commit updated history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "data: daily posting collection $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi
