@@ -6,6 +6,9 @@ Runs both collectors into temporary files, then updates data/history/:
   seen.csv.gz                    one row per posting: id, source, role_family, company,
                                  first_seen, last_seen
   daily_counts.csv               one row per run and source: fetched, new, still_open
+  latest_new_postings.csv        readable list of postings first seen on the latest run
+  open_board_postings.csv        readable list of company-board postings still open
+                                 (GitHub renders both CSVs as searchable tables)
 
 A company-board posting whose last_seen is older than the latest run has closed.
 (Adzuna only returns the newest pages per search, so absence from Adzuna does NOT
@@ -15,6 +18,7 @@ Usage:
   python scripts/2026-11-09-collect-daily.py                       # normal daily run
   python scripts/2026-11-09-collect-daily.py --seed FILE --source boards --date 2026-11-07
                                                                    # import an existing snapshot
+  python scripts/2026-11-09-collect-daily.py --views-only        # rebuild the two CSVs only
 Adzuna is skipped when ADZUNA_APP_ID / ADZUNA_APP_KEY are not set.
 """
 
@@ -111,6 +115,43 @@ def update(source: str, records: list[dict], date: str, seen: dict[str, dict]) -
             "still_open": still_open}
 
 
+VIEW_FIELDS = ["first_seen", "source", "role_family", "company", "title", "location", "url"]
+
+
+def _shard_rows(pattern: str) -> list[dict]:
+    rows = []
+    for shard in sorted((HIST / "new").glob(pattern)):
+        with gzip.open(shard, "rt", encoding="utf-8") as f:
+            rows += [json.loads(line) for line in f if line.strip()]
+    return rows
+
+
+def _write_csv(path: Path, rows: list[dict]) -> None:
+    with path.open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=VIEW_FIELDS, extrasaction="ignore", lineterminator="\n")
+        w.writeheader()
+        w.writerows(rows)
+
+
+def write_views(seen: dict[str, dict]) -> None:
+    """Human-readable CSVs for browsing on GitHub (no descriptions, to stay small)."""
+    if not seen:
+        return
+    latest = max(s["last_seen"] for s in seen.values())
+    for r in (rows := _shard_rows(f"{latest}-*.jsonl.gz")):
+        r["source"] = seen.get(r.get("history_id", ""), {}).get("source", "")
+    rows.sort(key=lambda r: (r["source"], r.get("role_family", ""), r.get("company", "")))
+    _write_csv(HIST / "latest_new_postings.csv", rows)
+
+    open_ids = {k for k, s in seen.items() if s["source"] == "boards" and s["last_seen"] == latest}
+    board = [r for r in _shard_rows("*-boards.jsonl.gz") if r.get("history_id") in open_ids]
+    for r in board:
+        r["source"] = "boards"
+    board.sort(key=lambda r: (r["first_seen"], r.get("company", "")), reverse=True)
+    _write_csv(HIST / "open_board_postings.csv", board)
+    print(f"views: {len(rows)} new on {latest}, {len(board)} open company-board postings")
+
+
 def append_counts(rows: list[dict]) -> None:
     exists = COUNTS.exists()
     COUNTS.parent.mkdir(parents=True, exist_ok=True)
@@ -126,9 +167,13 @@ def main() -> None:
     ap.add_argument("--date", default=datetime.now(timezone.utc).date().isoformat())
     ap.add_argument("--seed", type=Path, help="import an existing snapshot file instead of fetching")
     ap.add_argument("--source", choices=sorted(FETCHERS), help="source of the --seed file")
+    ap.add_argument("--views-only", action="store_true", help="only rebuild the readable CSVs")
     args = ap.parse_args()
 
     seen = load_seen()
+    if args.views_only:
+        write_views(seen)
+        return
     counts = []
     if args.seed:
         if not args.source:
@@ -144,6 +189,7 @@ def main() -> None:
         sys.exit("No source produced data. Nothing written.")
     save_seen(seen)
     append_counts(counts)
+    write_views(seen)
     for c in counts:
         print(f"{c['date']} {c['source']:<7} fetched {c['fetched']:>5}  new {c['new']:>5}  open {c['still_open']:>5}")
 
