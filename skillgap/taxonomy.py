@@ -71,7 +71,8 @@ _RAW: dict[str, dict[str, list[str]]] = {
                                       "integer programming", "operations research", "optimization algorithms",
                                       "mathematical optimization", "combinatorial optimization"],
         "Linear algebra": ["linear algebra", "matrix factorization", "eigen"],
-        "Classical ML methods": ["regression", "classification", "clustering", "decision trees",
+        "Classical ML methods": ["regression", "classification", "clustering", "supervised learning",
+                                 "unsupervised learning", "decision trees",
                                  "random forest", "gradient boosting", "support vector", "svm"],
         "Feature engineering": ["feature engineering", "feature stores", "feature store"],
         "Data mining": ["data mining", "pattern mining", "association rules"],
@@ -139,6 +140,8 @@ _RAW: dict[str, dict[str, list[str]]] = {
         "Elasticsearch": ["elasticsearch", "opensearch", "solr", "lucene"],
         "ClickHouse": ["clickhouse", "druid", "pinot"],
         "Relational databases": ["relational databases", "relational database", "rdbms", "query optimization",
+                                 "relational data model", "relational model", "relational algebra", "query evaluation",
+                                 "query processing", "indexing and hashing",
                                  "database internals", "transaction processing"],
         "Graph databases": ["graph database", "graph databases", "neo4j"],
     },
@@ -255,6 +258,39 @@ _RAW: dict[str, dict[str, list[str]]] = {
                                 "=ADAS", "autonomous systems", "drones", "=UAV", "=UAVs", "unmanned"],
     },
 }
+
+
+# Tools are products, libraries, and languages. Catalog course descriptions name concepts,
+# not tools, so a tool's absence from the catalog does NOT show it is untaught. Tools are
+# reported as market demand only. Everything else is a concept and gets a curriculum gap score.
+TOOL_CATEGORIES = {"Programming languages", "Databases", "Cloud and infrastructure"}
+TOOL_SKILLS = {
+    "PyTorch", "TensorFlow", "JAX", "scikit-learn", "Hugging Face", "Gradient boosting libraries",
+    "GPU programming (CUDA)", "Model serving", "MLOps", "LLM frameworks", "Spark", "Kafka and streaming",
+    "Workflow orchestration", "dbt", "Data warehousing", "Databricks and lakehouse", "Hadoop ecosystem",
+    "Distributed query engines", "Version control (Git)", "BI tools", "Excel / spreadsheets", "Pandas / NumPy",
+    "ROS", "FPGA and hardware design", "Hardware interfaces",
+}
+
+
+# Practices (built through project work, rarely listed as catalog topics) and industry domains
+# are also reported as demand only.
+DEMAND_ONLY = {"Debugging", "Code review", "Software testing", "Agile practices", "Autonomous vehicles"}
+
+CONCEPT_OVERRIDES = {"Relational databases", "Graph databases", "High-performance computing", "Cloud computing"}
+
+
+def kind(skill: "Skill") -> str:
+    """concept (gets a curriculum gap score), tool, or practice/domain (demand only)."""
+    if skill.name in DEMAND_ONLY:
+        return "practice"
+    return "tool" if is_tool(skill) else "concept"
+
+
+def is_tool(skill: "Skill") -> bool:
+    if skill.name in CONCEPT_OVERRIDES:
+        return False
+    return skill.category in TOOL_CATEGORIES or skill.name in TOOL_SKILLS
 
 
 def build() -> list[Skill]:
