@@ -1,0 +1,412 @@
+program,skill,exposure,courses,role_family,category,kind,demand,n_postings,gap,quadrant
+MS Computational Data Science,Python,0.0,,data_science,Programming languages,tool,0.667741935483871,310,0.667741935483871,tool (demand only)
+MS Computational Data Science,Debugging,0.0,,data_science,Software engineering,practice,0.267741935483871,310,0.267741935483871,practice (demand only)
+MS Computational Data Science,SQL,0.0,,data_science,Programming languages,tool,0.24193548387096775,310,0.24193548387096775,tool (demand only)
+MS Computational Data Science,Model evaluation,0.0,,data_science,Generative AI and LLMs,concept,0.20967741935483872,310,0.20967741935483872,critical gap
+MS Computational Data Science,APIs,0.0,,data_science,Software engineering,concept,0.2064516129032258,310,0.2064516129032258,critical gap
+MS Computational Data Science,ETL / data pipelines,0.0,,data_science,Data engineering,concept,0.2,310,0.2,critical gap
+MS Computational Data Science,C++,0.0,,data_science,Programming languages,tool,0.19032258064516128,310,0.19032258064516128,tool (demand only)
+MS Computational Data Science,Observability,0.0,,data_science,Cloud and infrastructure,tool,0.19032258064516128,310,0.19032258064516128,tool (demand only)
+MS Computational Data Science,Experimentation and A/B testing,0.0,,data_science,Machine learning and statistics,concept,0.1870967741935484,310,0.1870967741935484,critical gap
+MS Computational Data Science,Backend development,0.0,,data_science,Software engineering,concept,0.16129032258064516,310,0.16129032258064516,critical gap
+MS Computational Data Science,Kubernetes,0.0,,data_science,Cloud and infrastructure,tool,0.15806451612903225,310,0.15806451612903225,tool (demand only)
+MS Computational Data Science,Large language models,0.26086956521739135,EE 269,data_science,Generative AI and LLMs,concept,0.4161290322580645,310,0.15525946704067317,critical gap
+MS Computational Data Science,PyTorch,0.0,,data_science,ML frameworks and MLOps,tool,0.15483870967741936,310,0.15483870967741936,tool (demand only)
+MS Computational Data Science,Distributed systems,0.0,,data_science,Software engineering,concept,0.14516129032258066,310,0.14516129032258066,critical gap
+MS Computational Data Science,Safety-critical systems,0.0,,data_science,Robotics and autonomy,concept,0.13870967741935483,310,0.13870967741935483,critical gap
+MS Computational Data Science,MLOps,0.0,,data_science,ML frameworks and MLOps,tool,0.11935483870967742,310,0.11935483870967742,tool (demand only)
+MS Computational Data Science,Site reliability engineering,0.0,,data_science,Software engineering,concept,0.11612903225806452,310,0.11612903225806452,critical gap
+MS Computational Data Science,AWS,0.0,,data_science,Cloud and infrastructure,tool,0.10967741935483871,310,0.10967741935483871,tool (demand only)
+MS Computational Data Science,Frontend development,0.0,,data_science,Software engineering,concept,0.10967741935483871,310,0.10967741935483871,critical gap
+MS Computational Data Science,System design,0.0,,data_science,Software engineering,concept,0.1064516129032258,310,0.1064516129032258,critical gap
+MS Computational Data Science,Generative AI,0.0,,data_science,Generative AI and LLMs,concept,0.1032258064516129,310,0.1032258064516129,critical gap
+MS Computational Data Science,Docker and containers,0.0,,data_science,Cloud and infrastructure,tool,0.1032258064516129,310,0.1032258064516129,tool (demand only)
+MS Computational Data Science,Dashboards,0.0,,data_science,Data analysis and visualization,concept,0.1032258064516129,310,0.1032258064516129,critical gap
+MS Computational Data Science,TypeScript,0.0,,data_science,Programming languages,tool,0.0967741935483871,310,0.0967741935483871,tool (demand only)
+MS Computational Data Science,CI/CD,0.0,,data_science,Cloud and infrastructure,tool,0.0967741935483871,310,0.0967741935483871,tool (demand only)
+MS Computational Data Science,Version control (Git),0.0,,data_science,Software engineering,tool,0.0935483870967742,310,0.0935483870967742,tool (demand only)
+MS Computational Data Science,Go,0.0,,data_science,Programming languages,tool,0.09032258064516129,310,0.09032258064516129,tool (demand only)
+MS Computational Data Science,Spark,0.0,,data_science,Data engineering,tool,0.09032258064516129,310,0.09032258064516129,tool (demand only)
+MS Computational Data Science,Prompt engineering,0.0,,data_science,Generative AI and LLMs,concept,0.08709677419354839,310,0.08709677419354839,low priority
+MS Computational Data Science,Data warehousing,0.0,,data_science,Data engineering,tool,0.08709677419354839,310,0.08709677419354839,tool (demand only)
+MS Computational Data Science,GCP,0.0,,data_science,Cloud and infrastructure,tool,0.07741935483870968,310,0.07741935483870968,tool (demand only)
+MS Computational Data Science,Java,0.0,,data_science,Programming languages,tool,0.07419354838709677,310,0.07419354838709677,tool (demand only)
+MS Computational Data Science,Infrastructure as code,0.0,,data_science,Cloud and infrastructure,tool,0.07096774193548387,310,0.07096774193548387,tool (demand only)
+MS Computational Data Science,Linux,0.0,,data_science,Cloud and infrastructure,tool,0.07096774193548387,310,0.07096774193548387,tool (demand only)
+MS Computational Data Science,Retrieval-augmented generation,0.0,,data_science,Generative AI and LLMs,concept,0.06774193548387097,310,0.06774193548387097,low priority
+MS Computational Data Science,Cloud computing,0.0,,data_science,Cloud and infrastructure,concept,0.06774193548387097,310,0.06774193548387097,low priority
+MS Computational Data Science,TensorFlow,0.0,,data_science,ML frameworks and MLOps,tool,0.06451612903225806,310,0.06451612903225806,tool (demand only)
+MS Computational Data Science,Electrical engineering,0.0,,data_science,Robotics and autonomy,concept,0.06451612903225806,310,0.06451612903225806,low priority
+MS Computational Data Science,PostgreSQL,0.0,,data_science,Databases,tool,0.06129032258064516,310,0.06129032258064516,tool (demand only)
+MS Computational Data Science,JavaScript,0.0,,data_science,Programming languages,tool,0.05806451612903226,310,0.05806451612903226,tool (demand only)
+MS Computational Data Science,Security engineering,0.0,,data_science,Software engineering,concept,0.054838709677419356,310,0.054838709677419356,low priority
+MS Computational Data Science,AI agents,0.26086956521739135,CS 258,data_science,Generative AI and LLMs,concept,0.3096774193548387,310,0.04880785413744737,critical gap
+MS Computational Data Science,Kafka and streaming,0.0,,data_science,Data engineering,tool,0.04838709677419355,310,0.04838709677419355,tool (demand only)
+MS Computational Data Science,Workflow orchestration,0.0,,data_science,Data engineering,tool,0.04838709677419355,310,0.04838709677419355,tool (demand only)
+MS Computational Data Science,Code review,0.0,,data_science,Software engineering,practice,0.04838709677419355,310,0.04838709677419355,practice (demand only)
+MS Computational Data Science,Data science ethics and privacy,0.0,,data_science,Data analysis and visualization,concept,0.04838709677419355,310,0.04838709677419355,low priority
+MS Computational Data Science,Rust,0.0,,data_science,Programming languages,tool,0.04516129032258064,310,0.04516129032258064,tool (demand only)
+MS Computational Data Science,JAX,0.0,,data_science,ML frameworks and MLOps,tool,0.04516129032258064,310,0.04516129032258064,tool (demand only)
+MS Computational Data Science,Azure,0.0,,data_science,Cloud and infrastructure,tool,0.04516129032258064,310,0.04516129032258064,tool (demand only)
+MS Computational Data Science,Embedded systems,0.0,,data_science,Robotics and autonomy,concept,0.04516129032258064,310,0.04516129032258064,low priority
+MS Computational Data Science,Embeddings and vector search,0.0,,data_science,Generative AI and LLMs,concept,0.041935483870967745,310,0.041935483870967745,low priority
+MS Computational Data Science,Model serving,0.0,,data_science,ML frameworks and MLOps,tool,0.041935483870967745,310,0.041935483870967745,tool (demand only)
+MS Computational Data Science,dbt,0.0,,data_science,Data engineering,tool,0.041935483870967745,310,0.041935483870967745,tool (demand only)
+MS Computational Data Science,Networking,0.0,,data_science,Software engineering,concept,0.041935483870967745,310,0.041935483870967745,low priority
+MS Computational Data Science,BI tools,0.0,,data_science,Data analysis and visualization,tool,0.041935483870967745,310,0.041935483870967745,tool (demand only)
+MS Computational Data Science,Anomaly detection,0.0,,data_science,Machine learning and statistics,concept,0.03870967741935484,310,0.03870967741935484,low priority
+MS Computational Data Science,Scala,0.0,,data_science,Programming languages,tool,0.035483870967741936,310,0.035483870967741936,tool (demand only)
+MS Computational Data Science,Recommender systems,0.0,,data_science,Machine learning and statistics,concept,0.035483870967741936,310,0.035483870967741936,low priority
+MS Computational Data Science,Compilers and programming languages,0.0,,data_science,Software engineering,concept,0.035483870967741936,310,0.035483870967741936,low priority
+MS Computational Data Science,R,0.0,,data_science,Programming languages,tool,0.02903225806451613,310,0.02903225806451613,tool (demand only)
+MS Computational Data Science,Bash / shell,0.0,,data_science,Programming languages,tool,0.02903225806451613,310,0.02903225806451613,tool (demand only)
+MS Computational Data Science,Databricks and lakehouse,0.0,,data_science,Data engineering,tool,0.02903225806451613,310,0.02903225806451613,tool (demand only)
+MS Computational Data Science,Excel / spreadsheets,0.0,,data_science,Data analysis and visualization,tool,0.02903225806451613,310,0.02903225806451613,tool (demand only)
+MS Computational Data Science,Pandas / NumPy,0.0,,data_science,Data analysis and visualization,tool,0.02903225806451613,310,0.02903225806451613,tool (demand only)
+MS Computational Data Science,C,0.0,,data_science,Programming languages,tool,0.025806451612903226,310,0.025806451612903226,tool (demand only)
+MS Computational Data Science,Feature engineering,0.0,,data_science,Machine learning and statistics,concept,0.025806451612903226,310,0.025806451612903226,low priority
+MS Computational Data Science,scikit-learn,0.0,,data_science,ML frameworks and MLOps,tool,0.025806451612903226,310,0.025806451612903226,tool (demand only)
+MS Computational Data Science,Concurrency,0.0,,data_science,Software engineering,concept,0.02258064516129032,310,0.02258064516129032,low priority
+MS Computational Data Science,Control systems,0.0,,data_science,Robotics and autonomy,concept,0.02258064516129032,310,0.02258064516129032,low priority
+MS Computational Data Science,MATLAB,0.0,,data_science,Programming languages,tool,0.01935483870967742,310,0.01935483870967742,tool (demand only)
+MS Computational Data Science,Ruby,0.0,,data_science,Programming languages,tool,0.01935483870967742,310,0.01935483870967742,tool (demand only)
+MS Computational Data Science,LLM frameworks,0.0,,data_science,Generative AI and LLMs,tool,0.01935483870967742,310,0.01935483870967742,tool (demand only)
+MS Computational Data Science,ClickHouse,0.0,,data_science,Databases,tool,0.01935483870967742,310,0.01935483870967742,tool (demand only)
+MS Computational Data Science,Agile practices,0.0,,data_science,Software engineering,practice,0.01935483870967742,310,0.01935483870967742,practice (demand only)
+MS Computational Data Science,Motion planning,0.0,,data_science,Robotics and autonomy,concept,0.01935483870967742,310,0.01935483870967742,low priority
+MS Computational Data Science,Diffusion models,0.0,,data_science,Generative AI and LLMs,concept,0.016129032258064516,310,0.016129032258064516,low priority
+MS Computational Data Science,Hugging Face,0.0,,data_science,ML frameworks and MLOps,tool,0.016129032258064516,310,0.016129032258064516,tool (demand only)
+MS Computational Data Science,Hardware interfaces,0.0,,data_science,Robotics and autonomy,tool,0.016129032258064516,310,0.016129032258064516,tool (demand only)
+MS Computational Data Science,C#,0.0,,data_science,Programming languages,tool,0.012903225806451613,310,0.012903225806451613,tool (demand only)
+MS Computational Data Science,Linear algebra,0.0,,data_science,Machine learning and statistics,concept,0.012903225806451613,310,0.012903225806451613,low priority
+MS Computational Data Science,Gradient boosting libraries,0.0,,data_science,ML frameworks and MLOps,tool,0.012903225806451613,310,0.012903225806451613,tool (demand only)
+MS Computational Data Science,Distributed query engines,0.0,,data_science,Data engineering,tool,0.012903225806451613,310,0.012903225806451613,tool (demand only)
+MS Computational Data Science,Software testing,0.0,,data_science,Software engineering,practice,0.012903225806451613,310,0.012903225806451613,practice (demand only)
+MS Computational Data Science,FPGA and hardware design,0.0,,data_science,Robotics and autonomy,tool,0.012903225806451613,310,0.012903225806451613,tool (demand only)
+MS Computational Data Science,Hardware testing and validation,0.0,,data_science,Robotics and autonomy,concept,0.012903225806451613,310,0.012903225806451613,low priority
+MS Computational Data Science,NoSQL databases,0.0,,data_science,Databases,tool,0.00967741935483871,310,0.00967741935483871,tool (demand only)
+MS Computational Data Science,Redis,0.0,,data_science,Databases,tool,0.00967741935483871,310,0.00967741935483871,tool (demand only)
+MS Computational Data Science,3D vision and point clouds,0.0,,data_science,Robotics and autonomy,concept,0.00967741935483871,310,0.00967741935483871,low priority
+MS Computational Data Science,"Robot sensors (LiDAR, radar, IMU)",0.0,,data_science,Robotics and autonomy,concept,0.00967741935483871,310,0.00967741935483871,low priority
+MS Computational Data Science,Kotlin,0.0,,data_science,Programming languages,tool,0.0064516129032258064,310,0.0064516129032258064,tool (demand only)
+MS Computational Data Science,MySQL,0.0,,data_science,Databases,tool,0.0064516129032258064,310,0.0064516129032258064,tool (demand only)
+MS Computational Data Science,Elasticsearch,0.0,,data_science,Databases,tool,0.0064516129032258064,310,0.0064516129032258064,tool (demand only)
+MS Computational Data Science,Microservices,0.0,,data_science,Software engineering,concept,0.0064516129032258064,310,0.0064516129032258064,low priority
+MS Computational Data Science,Mobile development,0.0,,data_science,Software engineering,concept,0.0064516129032258064,310,0.0064516129032258064,low priority
+MS Computational Data Science,ROS,0.0,,data_science,Robotics and autonomy,tool,0.0064516129032258064,310,0.0064516129032258064,tool (demand only)
+MS Computational Data Science,Robotic manipulation,0.0,,data_science,Robotics and autonomy,concept,0.0064516129032258064,310,0.0064516129032258064,low priority
+MS Computational Data Science,Real-time systems,0.0,,data_science,Robotics and autonomy,concept,0.0064516129032258064,310,0.0064516129032258064,low priority
+MS Computational Data Science,Mechatronics and actuators,0.0,,data_science,Robotics and autonomy,concept,0.0064516129032258064,310,0.0064516129032258064,low priority
+MS Computational Data Science,"Guidance, navigation and control",0.0,,data_science,Robotics and autonomy,concept,0.0064516129032258064,310,0.0064516129032258064,low priority
+MS Computational Data Science,Sensor fusion,0.0,,data_science,Robotics and autonomy,concept,0.0032258064516129032,310,0.0032258064516129032,low priority
+MS Computational Data Science,Kinematics and dynamics,0.0,,data_science,Robotics and autonomy,concept,0.0032258064516129032,310,0.0032258064516129032,low priority
+MS Computational Data Science,Swift,0.0,,data_science,Programming languages,tool,0.0,310,0.0,tool (demand only)
+MS Computational Data Science,Graph databases,0.0,,data_science,Databases,concept,0.0,310,0.0,low priority
+MS Computational Data Science,SLAM and localization,0.0,,data_science,Robotics and autonomy,concept,0.0,310,0.0,low priority
+MS Computational Data Science,Fine-tuning and post-training,0.26086956521739135,EE 269,data_science,Generative AI and LLMs,concept,0.16129032258064516,310,-0.0995792426367462,partially covered
+MS Computational Data Science,Robotics simulation,0.26086956521739135,EE 267,data_science,Robotics and autonomy,concept,0.12580645161290321,310,-0.13506311360448814,partially covered
+MS Computational Data Science,Performance optimization,0.26086956521739135,CS 211,data_science,Software engineering,concept,0.1064516129032258,310,-0.15441795231416555,partially covered
+MS Computational Data Science,Operating systems,0.26086956521739135,CS 229,data_science,Software engineering,concept,0.08064516129032258,310,-0.1802244039270688,low priority
+MS Computational Data Science,Data modeling,0.26086956521739135,CS 225,data_science,Data engineering,concept,0.06451612903225806,310,-0.1963534361851333,low priority
+MS Computational Data Science,Multimodal models,0.26086956521739135,EE 269,data_science,Generative AI and LLMs,concept,0.06129032258064516,310,-0.1995792426367462,low priority
+MS Computational Data Science,Distributed training,0.26086956521739135,CS 217,data_science,ML frameworks and MLOps,concept,0.06129032258064516,310,-0.1995792426367462,low priority
+MS Computational Data Science,Inference optimization,0.26086956521739135,EE 241,data_science,Generative AI and LLMs,concept,0.054838709677419356,310,-0.206030855539972,low priority
+MS Computational Data Science,GPU programming (CUDA),0.26086956521739135,CS 217,data_science,ML frameworks and MLOps,tool,0.02903225806451613,310,-0.23183730715287523,tool (demand only)
+MS Computational Data Science,Search and ranking,0.26086956521739135,CS 242,data_science,Machine learning and statistics,concept,0.025806451612903226,310,-0.23506311360448812,low priority
+MS Computational Data Science,Robot learning,0.26086956521739135,CS 258,data_science,Robotics and autonomy,concept,0.025806451612903226,310,-0.23506311360448812,low priority
+MS Computational Data Science,State estimation,0.26086956521739135,EE 236,data_science,Robotics and autonomy,concept,0.0,310,-0.26086956521739135,low priority
+MS Computational Data Science,Autonomous vehicles,0.45368620037807195,"EE 268, EE 267",data_science,Robotics and autonomy,practice,0.08387096774193549,310,-0.36981523263613647,practice (demand only)
+MS Computational Data Science,Transformers,0.45368620037807195,"CS 222, EE 269",data_science,Generative AI and LLMs,concept,0.04516129032258064,310,-0.4085249100554913,low priority
+MS Computational Data Science,Mathematical optimization,0.45368620037807195,"CS 248, EE 231",data_science,Machine learning and statistics,concept,0.025806451612903226,310,-0.4278797487651687,low priority
+MS Computational Data Science,NLP,0.45368620037807195,"CS 205, CS 222",data_science,Generative AI and LLMs,concept,0.025806451612903226,310,-0.4278797487651687,low priority
+MS Computational Data Science,High-performance computing,0.45368620037807195,"CS 211, CS 217",data_science,Cloud and infrastructure,concept,0.01935483870967742,310,-0.43433136166839453,low priority
+MS Computational Data Science,Machine learning,1.0,"CS 212, CS 224, CS 228, CS 229, CS 248, EE 236, EE 268",data_science,Machine learning and statistics,concept,0.5516129032258065,310,-0.4483870967741935,well covered
+MS Computational Data Science,Reinforcement learning,0.5962028437577054,"CS 258, EE 244, EE 269",data_science,Machine learning and statistics,concept,0.13870967741935483,310,-0.4574931663383506,well covered
+MS Computational Data Science,Hadoop ecosystem,0.5,CS 226,data_science,Data engineering,tool,0.02903225806451613,310,-0.47096774193548385,tool (demand only)
+MS Computational Data Science,Deep learning,0.5962028437577054,"CS 222, CS 228, CS 229",data_science,Machine learning and statistics,concept,0.12258064516129032,310,-0.4736221985964151,well covered
+MS Computational Data Science,Perception,0.5962028437577054,"CS 205, CS 228, EE 267",data_science,Robotics and autonomy,concept,0.035483870967741936,310,-0.5607189727899634,"taught, low demand"
+MS Computational Data Science,Computer vision,0.5962028437577054,"CS 228, EE 241, EE 243",data_science,Robotics and autonomy,concept,0.02903225806451613,310,-0.5671705856931892,"taught, low demand"
+MS Computational Data Science,Relational databases,0.6304347826086957,"CS 236, CS 225",data_science,Databases,concept,0.016129032258064516,310,-0.6143057503506312,"taught, low demand"
+MS Computational Data Science,Data analysis,1.0,"CS 252A, CS 252B, CS 225",data_science,Data analysis and visualization,concept,0.25483870967741934,310,-0.7451612903225806,well covered
+MS Computational Data Science,Probability and Bayesian methods,0.8507706161713259,"CS 224, CS 227, CS 228, CS 258, CS 234",data_science,Machine learning and statistics,concept,0.035483870967741936,310,-0.8152867452035839,"taught, low demand"
+MS Computational Data Science,Statistics,1.0,"CS 252A, CS 212, CS 252B, CS 248, EE 236, EE 240, CS 234",data_science,Machine learning and statistics,concept,0.1774193548387097,310,-0.8225806451612903,well covered
+MS Computational Data Science,Classical ML methods,1.0,"CS 235, CS 222, CS 229, EE 240, CS 234",data_science,Machine learning and statistics,concept,0.08064516129032258,310,-0.9193548387096774,"taught, low demand"
+MS Computational Data Science,Big data,1.0,"CS 226, CS 279",data_science,Data engineering,concept,0.07741935483870968,310,-0.9225806451612903,"taught, low demand"
+MS Computational Data Science,Data visualization,1.0,CS 252A,data_science,Data analysis and visualization,concept,0.06774193548387097,310,-0.932258064516129,"taught, low demand"
+MS Computational Data Science,Causal inference,1.0,CS 212,data_science,Machine learning and statistics,concept,0.06451612903225806,310,-0.935483870967742,"taught, low demand"
+MS Computational Data Science,Time series and forecasting,1.0,CS 235,data_science,Machine learning and statistics,concept,0.05806451612903226,310,-0.9419354838709677,"taught, low demand"
+MS Computational Data Science,Data mining,1.0,"CS 252A, CS 235",data_science,Machine learning and statistics,concept,0.0032258064516129032,310,-0.9967741935483871,"taught, low demand"
+MS Computer Science,Python,0.20144861928474433,"MATH 135A, MATH 135B",software,Programming languages,tool,0.5858895705521472,652,0.38444095126740285,tool (demand only)
+MS Computer Science,Backend development,0.1063829787234043,CS 110,software,Software engineering,concept,0.40644171779141103,652,0.30005873906800673,critical gap
+MS Computer Science,Kubernetes,0.0,,software,Cloud and infrastructure,tool,0.299079754601227,652,0.299079754601227,tool (demand only)
+MS Computer Science,Go,0.0,,software,Programming languages,tool,0.28067484662576686,652,0.28067484662576686,tool (demand only)
+MS Computer Science,Observability,0.0,,software,Cloud and infrastructure,tool,0.26533742331288346,652,0.26533742331288346,tool (demand only)
+MS Computer Science,C++,0.1063829787234043,CS 177,software,Programming languages,tool,0.36503067484662577,652,0.25864769612322147,tool (demand only)
+MS Computer Science,Java,0.0,,software,Programming languages,tool,0.25153374233128833,652,0.25153374233128833,tool (demand only)
+MS Computer Science,Frontend development,0.1063829787234043,CS 110,software,Software engineering,concept,0.34202453987730064,652,0.23564156115389634,critical gap
+MS Computer Science,CI/CD,0.0,,software,Cloud and infrastructure,tool,0.23466257668711657,652,0.23466257668711657,tool (demand only)
+MS Computer Science,TypeScript,0.0,,software,Programming languages,tool,0.21779141104294478,652,0.21779141104294478,tool (demand only)
+MS Computer Science,JavaScript,0.0,,software,Programming languages,tool,0.21779141104294478,652,0.21779141104294478,tool (demand only)
+MS Computer Science,Docker and containers,0.0,,software,Cloud and infrastructure,tool,0.2116564417177914,652,0.2116564417177914,tool (demand only)
+MS Computer Science,APIs,0.1063829787234043,CS 167,software,Software engineering,concept,0.3174846625766871,652,0.21110168385328282,critical gap
+MS Computer Science,Site reliability engineering,0.0,,software,Software engineering,concept,0.20705521472392638,652,0.20705521472392638,critical gap
+MS Computer Science,Version control (Git),0.0,,software,Software engineering,tool,0.19631901840490798,652,0.19631901840490798,tool (demand only)
+MS Computer Science,Rust,0.0,,software,Programming languages,tool,0.18865030674846625,652,0.18865030674846625,tool (demand only)
+MS Computer Science,Safety-critical systems,0.0,,software,Robotics and autonomy,concept,0.18404907975460122,652,0.18404907975460122,critical gap
+MS Computer Science,Code review,0.0,,software,Software engineering,practice,0.18098159509202455,652,0.18098159509202455,practice (demand only)
+MS Computer Science,AWS,0.0,,software,Cloud and infrastructure,tool,0.17484662576687116,652,0.17484662576687116,tool (demand only)
+MS Computer Science,Infrastructure as code,0.0,,software,Cloud and infrastructure,tool,0.17331288343558282,652,0.17331288343558282,tool (demand only)
+MS Computer Science,PostgreSQL,0.0,,software,Databases,tool,0.1549079754601227,652,0.1549079754601227,tool (demand only)
+MS Computer Science,Performance optimization,0.1063829787234043,CS 211,software,Software engineering,concept,0.21012269938650308,652,0.10373972066309878,critical gap
+MS Computer Science,Kafka and streaming,0.0,,software,Data engineering,tool,0.10122699386503067,652,0.10122699386503067,tool (demand only)
+MS Computer Science,Software testing,0.0,,software,Software engineering,practice,0.09355828220858896,652,0.09355828220858896,practice (demand only)
+MS Computer Science,Azure,0.0,,software,Cloud and infrastructure,tool,0.08588957055214724,652,0.08588957055214724,tool (demand only)
+MS Computer Science,C,0.0,,software,Programming languages,tool,0.0843558282208589,652,0.0843558282208589,tool (demand only)
+MS Computer Science,ETL / data pipelines,0.0,,software,Data engineering,concept,0.08282208588957055,652,0.08282208588957055,low priority
+MS Computer Science,GCP,0.0,,software,Cloud and infrastructure,tool,0.0705521472392638,652,0.0705521472392638,tool (demand only)
+MS Computer Science,Cloud computing,0.1063829787234043,CS 208,software,Cloud and infrastructure,concept,0.17638036809815952,652,0.06999738937475522,critical gap
+MS Computer Science,Scala,0.0,,software,Programming languages,tool,0.06901840490797546,652,0.06901840490797546,tool (demand only)
+MS Computer Science,Electrical engineering,0.0,,software,Robotics and autonomy,concept,0.06901840490797546,652,0.06901840490797546,low priority
+MS Computer Science,Debugging,0.28640089382892053,"CS 206, CS 122A, CS 180",software,Software engineering,practice,0.35276073619631904,652,0.0663598423673985,practice (demand only)
+MS Computer Science,Experimentation and A/B testing,0.0,,software,Machine learning and statistics,concept,0.06441717791411043,652,0.06441717791411043,low priority
+MS Computer Science,Spark,0.0,,software,Data engineering,tool,0.06134969325153374,652,0.06134969325153374,tool (demand only)
+MS Computer Science,Ruby,0.0,,software,Programming languages,tool,0.0598159509202454,652,0.0598159509202454,tool (demand only)
+MS Computer Science,Hardware testing and validation,0.0,,software,Robotics and autonomy,concept,0.0598159509202454,652,0.0598159509202454,low priority
+MS Computer Science,Microservices,0.0,,software,Software engineering,concept,0.05674846625766871,652,0.05674846625766871,low priority
+MS Computer Science,Data science ethics and privacy,0.0,,software,Data analysis and visualization,concept,0.05674846625766871,652,0.05674846625766871,low priority
+MS Computer Science,C#,0.0,,software,Programming languages,tool,0.05368098159509203,652,0.05368098159509203,tool (demand only)
+MS Computer Science,Bash / shell,0.0,,software,Programming languages,tool,0.05214723926380368,652,0.05214723926380368,tool (demand only)
+MS Computer Science,Dashboards,0.0,,software,Data analysis and visualization,concept,0.05214723926380368,652,0.05214723926380368,low priority
+MS Computer Science,Agile practices,0.0,,software,Software engineering,practice,0.04754601226993865,652,0.04754601226993865,practice (demand only)
+MS Computer Science,Sensor fusion,0.0,,software,Robotics and autonomy,concept,0.04141104294478527,652,0.04141104294478527,low priority
+MS Computer Science,"Guidance, navigation and control",0.0,,software,Robotics and autonomy,concept,0.03987730061349693,652,0.03987730061349693,low priority
+MS Computer Science,Mobile development,0.0,,software,Software engineering,concept,0.03834355828220859,652,0.03834355828220859,low priority
+MS Computer Science,Kotlin,0.0,,software,Programming languages,tool,0.03374233128834356,652,0.03374233128834356,tool (demand only)
+MS Computer Science,Data warehousing,0.0,,software,Data engineering,tool,0.03374233128834356,652,0.03374233128834356,tool (demand only)
+MS Computer Science,SQL,0.1063829787234043,CS 166,software,Programming languages,tool,0.13957055214723926,652,0.033187573423834965,tool (demand only)
+MS Computer Science,Elasticsearch,0.0,,software,Databases,tool,0.032208588957055216,652,0.032208588957055216,tool (demand only)
+MS Computer Science,Hardware interfaces,0.0,,software,Robotics and autonomy,tool,0.032208588957055216,652,0.032208588957055216,tool (demand only)
+MS Computer Science,"Robot sensors (LiDAR, radar, IMU)",0.0,,software,Robotics and autonomy,concept,0.03067484662576687,652,0.03067484662576687,low priority
+MS Computer Science,MySQL,0.0,,software,Databases,tool,0.027607361963190184,652,0.027607361963190184,tool (demand only)
+MS Computer Science,Redis,0.0,,software,Databases,tool,0.024539877300613498,652,0.024539877300613498,tool (demand only)
+MS Computer Science,Databricks and lakehouse,0.0,,software,Data engineering,tool,0.023006134969325152,652,0.023006134969325152,tool (demand only)
+MS Computer Science,Workflow orchestration,0.0,,software,Data engineering,tool,0.02147239263803681,652,0.02147239263803681,tool (demand only)
+MS Computer Science,Linux,0.20144861928474433,"CS 164, CS 183",software,Cloud and infrastructure,tool,0.2223926380368098,652,0.020944018752065474,tool (demand only)
+MS Computer Science,Generative AI,0.0,,software,Generative AI and LLMs,concept,0.019938650306748466,652,0.019938650306748466,low priority
+MS Computer Science,Fine-tuning and post-training,0.0,,software,Generative AI and LLMs,concept,0.019938650306748466,652,0.019938650306748466,low priority
+MS Computer Science,ClickHouse,0.0,,software,Databases,tool,0.018404907975460124,652,0.018404907975460124,tool (demand only)
+MS Computer Science,MLOps,0.0,,software,ML frameworks and MLOps,tool,0.01687116564417178,652,0.01687116564417178,tool (demand only)
+MS Computer Science,Model evaluation,0.0,,software,Generative AI and LLMs,concept,0.015337423312883436,652,0.015337423312883436,low priority
+MS Computer Science,Anomaly detection,0.0,,software,Machine learning and statistics,concept,0.012269938650306749,652,0.012269938650306749,low priority
+MS Computer Science,BI tools,0.0,,software,Data analysis and visualization,tool,0.012269938650306749,652,0.012269938650306749,tool (demand only)
+MS Computer Science,Mechatronics and actuators,0.0,,software,Robotics and autonomy,concept,0.012269938650306749,652,0.012269938650306749,low priority
+MS Computer Science,Embeddings and vector search,0.0,,software,Generative AI and LLMs,concept,0.010736196319018405,652,0.010736196319018405,low priority
+MS Computer Science,Multimodal models,0.0,,software,Generative AI and LLMs,concept,0.010736196319018405,652,0.010736196319018405,low priority
+MS Computer Science,PyTorch,0.0,,software,ML frameworks and MLOps,tool,0.010736196319018405,652,0.010736196319018405,tool (demand only)
+MS Computer Science,Model serving,0.0,,software,ML frameworks and MLOps,tool,0.010736196319018405,652,0.010736196319018405,tool (demand only)
+MS Computer Science,dbt,0.0,,software,Data engineering,tool,0.010736196319018405,652,0.010736196319018405,tool (demand only)
+MS Computer Science,FPGA and hardware design,0.0,,software,Robotics and autonomy,tool,0.010736196319018405,652,0.010736196319018405,tool (demand only)
+MS Computer Science,Excel / spreadsheets,0.0,,software,Data analysis and visualization,tool,0.009202453987730062,652,0.009202453987730062,tool (demand only)
+MS Computer Science,Pandas / NumPy,0.0,,software,Data analysis and visualization,tool,0.009202453987730062,652,0.009202453987730062,tool (demand only)
+MS Computer Science,Swift,0.0,,software,Programming languages,tool,0.007668711656441718,652,0.007668711656441718,tool (demand only)
+MS Computer Science,Retrieval-augmented generation,0.0,,software,Generative AI and LLMs,concept,0.007668711656441718,652,0.007668711656441718,low priority
+MS Computer Science,Inference optimization,0.0,,software,Generative AI and LLMs,concept,0.007668711656441718,652,0.007668711656441718,low priority
+MS Computer Science,Feature engineering,0.0,,software,Machine learning and statistics,concept,0.006134969325153374,652,0.006134969325153374,low priority
+MS Computer Science,Distributed query engines,0.0,,software,Data engineering,tool,0.006134969325153374,652,0.006134969325153374,tool (demand only)
+MS Computer Science,AI agents,0.1063829787234043,CS 258,software,Generative AI and LLMs,concept,0.11196319018404909,652,0.005580211460644788,critical gap
+MS Computer Science,Prompt engineering,0.0,,software,Generative AI and LLMs,concept,0.004601226993865031,652,0.004601226993865031,low priority
+MS Computer Science,LLM frameworks,0.0,,software,Generative AI and LLMs,tool,0.003067484662576687,652,0.003067484662576687,tool (demand only)
+MS Computer Science,TensorFlow,0.0,,software,ML frameworks and MLOps,tool,0.003067484662576687,652,0.003067484662576687,tool (demand only)
+MS Computer Science,scikit-learn,0.0,,software,ML frameworks and MLOps,tool,0.003067484662576687,652,0.003067484662576687,tool (demand only)
+MS Computer Science,Graph databases,0.0,,software,Databases,concept,0.003067484662576687,652,0.003067484662576687,low priority
+MS Computer Science,Recommender systems,0.0,,software,Machine learning and statistics,concept,0.0015337423312883436,652,0.0015337423312883436,low priority
+MS Computer Science,R,0.0,,software,Programming languages,tool,0.0,652,0.0,tool (demand only)
+MS Computer Science,Diffusion models,0.0,,software,Generative AI and LLMs,concept,0.0,652,0.0,low priority
+MS Computer Science,JAX,0.0,,software,ML frameworks and MLOps,tool,0.0,652,0.0,tool (demand only)
+MS Computer Science,Hugging Face,0.0,,software,ML frameworks and MLOps,tool,0.0,652,0.0,tool (demand only)
+MS Computer Science,Gradient boosting libraries,0.0,,software,ML frameworks and MLOps,tool,0.0,652,0.0,tool (demand only)
+MS Computer Science,3D vision and point clouds,0.0,,software,Robotics and autonomy,concept,0.0,652,0.0,low priority
+MS Computer Science,Robotic manipulation,0.0,,software,Robotics and autonomy,concept,0.0,652,0.0,low priority
+MS Computer Science,Large language models,0.1063829787234043,CS 256,software,Generative AI and LLMs,concept,0.09662576687116564,652,-0.009757211852238656,low priority
+MS Computer Science,NoSQL databases,0.1063829787234043,CS 167,software,Databases,tool,0.09049079754601227,652,-0.015892181177392023,tool (demand only)
+MS Computer Science,System design,0.20144861928474433,"CS 255, CS 180",software,Software engineering,concept,0.17331288343558282,652,-0.028135735849161514,partially covered
+MS Computer Science,Data modeling,0.1063829787234043,CS 225,software,Data engineering,concept,0.04754601226993865,652,-0.058836966453465644,low priority
+MS Computer Science,Time series and forecasting,0.1063829787234043,CS 235,software,Machine learning and statistics,concept,0.02607361963190184,652,-0.08030935909150246,low priority
+MS Computer Science,Hadoop ecosystem,0.1063829787234043,CS 226,software,Data engineering,tool,0.024539877300613498,652,-0.0818431014227908,tool (demand only)
+MS Computer Science,State estimation,0.1063829787234043,CS 265A,software,Robotics and autonomy,concept,0.018404907975460124,652,-0.08797807074794417,low priority
+MS Computer Science,Motion planning,0.1063829787234043,CS 265A,software,Robotics and autonomy,concept,0.018404907975460124,652,-0.08797807074794417,low priority
+MS Computer Science,GPU programming (CUDA),0.1063829787234043,CS 217,software,ML frameworks and MLOps,tool,0.01687116564417178,652,-0.08951181307923252,tool (demand only)
+MS Computer Science,Reinforcement learning,0.1063829787234043,CS 258,software,Machine learning and statistics,concept,0.012269938650306749,652,-0.09411304007309755,low priority
+MS Computer Science,ROS,0.1063829787234043,CS 265A,software,Robotics and autonomy,tool,0.006134969325153374,652,-0.10024800939825092,tool (demand only)
+MS Computer Science,Control systems,0.1063829787234043,CS 122A,software,Robotics and autonomy,concept,0.006134969325153374,652,-0.10024800939825092,low priority
+MS Computer Science,Embedded systems,0.20144861928474433,"CS 120B, CS 122A",software,Robotics and autonomy,concept,0.09969325153374232,652,-0.10175536775100201,low priority
+MS Computer Science,Transformers,0.1063829787234043,CS 222,software,Generative AI and LLMs,concept,0.0,652,-0.1063829787234043,low priority
+MS Computer Science,SLAM and localization,0.1063829787234043,CS 265B,software,Robotics and autonomy,concept,0.0,652,-0.1063829787234043,low priority
+MS Computer Science,Robot learning,0.1063829787234043,CS 258,software,Robotics and autonomy,concept,0.0,652,-0.1063829787234043,low priority
+MS Computer Science,Distributed systems,0.49077631567183644,"CS 253, CS 204, CS 247, CS 256, CS 110, CS 167",software,Software engineering,concept,0.35429447852760737,652,-0.13648183714422907,partially covered
+MS Computer Science,Big data,0.20144861928474433,"CS 226, CS 167",software,Data engineering,concept,0.0598159509202454,652,-0.14163266836449895,low priority
+MS Computer Science,MATLAB,0.20144861928474433,"MATH 135A, MATH 135B",software,Programming languages,tool,0.023006134969325152,652,-0.17844248431541918,tool (demand only)
+MS Computer Science,Computer vision,0.20144861928474433,"CS 228, EE 243",software,Robotics and autonomy,concept,0.015337423312883436,652,-0.1861111959718609,low priority
+MS Computer Science,Distributed training,0.20144861928474433,"CS 217, CS 147",software,ML frameworks and MLOps,concept,0.010736196319018405,652,-0.19071242296572594,low priority
+MS Computer Science,Search and ranking,0.20144861928474433,"CS 242, CS 172",software,Machine learning and statistics,concept,0.009202453987730062,652,-0.19224616529701427,low priority
+MS Computer Science,Kinematics and dynamics,0.20144861928474433,"CS 231, CS 265A",software,Robotics and autonomy,concept,0.004601226993865031,652,-0.1968473922908793,low priority
+MS Computer Science,Causal inference,0.20144861928474433,"CS 212, CS 108",software,Machine learning and statistics,concept,0.0,652,-0.20144861928474433,low priority
+MS Computer Science,Networking,0.28640089382892053,"CS 254, CS 160, CS 169",software,Software engineering,concept,0.07975460122699386,652,-0.20664629260192668,low priority
+MS Computer Science,Concurrency,0.28640089382892053,"CS 214, CS 207, CS 160",software,Software engineering,concept,0.0736196319018405,652,-0.21278126192708002,low priority
+MS Computer Science,Autonomous vehicles,0.28640089382892053,"EE 267, EE 268, CS 256",software,Robotics and autonomy,practice,0.06595092024539877,652,-0.22044997358352175,practice (demand only)
+MS Computer Science,Data visualization,0.28640089382892053,"CS 252A, CS 206, CS 105",software,Data analysis and visualization,concept,0.05368098159509203,652,-0.2327199122338285,low priority
+MS Computer Science,Data analysis,0.36231569235775885,"CS 225, CS 252A, CS 252B, CS 105",software,Data analysis and visualization,concept,0.11196319018404909,652,-0.25035250217370975,partially covered
+MS Computer Science,Real-time systems,0.28640089382892053,"CS 251, CS 122A, CS 122B",software,Robotics and autonomy,concept,0.032208588957055216,652,-0.25419230487186534,low priority
+MS Computer Science,Deep learning,0.28640089382892053,"CS 222, CS 229, CS 228",software,Machine learning and statistics,concept,0.003067484662576687,652,-0.28333340916634386,low priority
+MS Computer Science,Data mining,0.28640089382892053,"CS 235, CS 252A, CS 171",software,Machine learning and statistics,concept,0.0015337423312883436,652,-0.2848671514976322,low priority
+MS Computer Science,NLP,0.28640089382892053,"CS 205, CS 222, CS 173",software,Generative AI and LLMs,concept,0.0015337423312883436,652,-0.2848671514976322,low priority
+MS Computer Science,Relational databases,0.36231569235775885,"CS 225, CS 236, CS 166, CS 167",software,Databases,concept,0.06441717791411043,652,-0.2978985144436484,low priority
+MS Computer Science,Security engineering,0.43015444848991213,"CS 255, CS 254, CS 216, CS 250, CS 165",software,Software engineering,concept,0.0843558282208589,652,-0.3457986202690532,low priority
+MS Computer Science,Probability and Bayesian methods,0.43015444848991213,"CS 234, CS 224, CS 227, CS 228, CS 258",software,Machine learning and statistics,concept,0.024539877300613498,652,-0.4056145711892986,low priority
+MS Computer Science,Perception,0.43015444848991213,"CS 205, CS 228, EE 267, CS 265B, CS 135",software,Robotics and autonomy,concept,0.013803680981595092,652,-0.41635076750831707,low priority
+MS Computer Science,Classical ML methods,0.49077631567183644,"CS 234, CS 222, CS 229, CS 235, CS 206, CS 171",software,Machine learning and statistics,concept,0.06288343558282208,652,-0.4278928800890144,low priority
+MS Computer Science,Machine learning,0.5933587237868355,"CS 224, CS 229, CS 228, CS 248, EE 268, CS 212, CS 108, CS 171",software,Machine learning and statistics,concept,0.15030674846625766,652,-0.44305197532057783,well covered
+MS Computer Science,Linear algebra,0.5,CS 218,software,Machine learning and statistics,concept,0.018404907975460124,652,-0.4815950920245399,"taught, low demand"
+MS Computer Science,Statistics,0.544949048047173,"CS 234, CS 248, CS 252A, CS 241, CS 212, CS 252B, CS 108",software,Machine learning and statistics,concept,0.046012269938650305,652,-0.4989367781085227,"taught, low demand"
+MS Computer Science,Operating systems,0.7150772242449561,"CS 202, CS 251, CS 229, CS 208, CS 122A, CS 160",software,Software engineering,concept,0.17791411042944785,652,-0.5371631138155083,well covered
+MS Computer Science,High-performance computing,0.6811578461788794,"CS 202, CS 223, CS 217, CS 211, CS 147",software,Cloud and infrastructure,concept,0.06441717791411043,652,-0.616740668264769,"taught, low demand"
+MS Computer Science,Compilers and programming languages,0.6432004469144603,"CS 201, CS 223, CS 207, CS 249",software,Software engineering,concept,0.010736196319018405,652,-0.6324642505954419,"taught, low demand"
+MS Computer Science,Robotics simulation,0.8183092170111392,"CS 220, EE 213, EE 267, CS 237, CS 231, ME 230, CS 265A, CS 122A, CS 168, CS 177",software,Robotics and autonomy,concept,0.12883435582822086,652,-0.6894748611829183,well covered
+MS Computer Science,Mathematical optimization,0.7150772242449561,"CS 218, CS 219, CS 248, CS 142, CS 145, MATH 120",software,Machine learning and statistics,concept,0.015337423312883436,652,-0.6997398009320727,"taught, low demand"
+MS Robotics,Debugging,0.0,,robotics,Software engineering,practice,0.6114649681528662,157,0.6114649681528662,practice (demand only)
+MS Robotics,C++,0.0,,robotics,Programming languages,tool,0.49044585987261147,157,0.49044585987261147,tool (demand only)
+MS Robotics,Python,0.0,,robotics,Programming languages,tool,0.47770700636942676,157,0.47770700636942676,tool (demand only)
+MS Robotics,Embedded systems,0.0815972222222221,"EE 128, ME 133",robotics,Robotics and autonomy,concept,0.3630573248407643,157,0.2814601026185422,critical gap
+MS Robotics,Hardware interfaces,0.0,,robotics,Robotics and autonomy,tool,0.2611464968152866,157,0.2611464968152866,tool (demand only)
+MS Robotics,Safety-critical systems,0.0,,robotics,Robotics and autonomy,concept,0.2229299363057325,157,0.2229299363057325,critical gap
+MS Robotics,C,0.0,,robotics,Programming languages,tool,0.21019108280254778,157,0.21019108280254778,tool (demand only)
+MS Robotics,Hardware testing and validation,0.0,,robotics,Robotics and autonomy,concept,0.17834394904458598,157,0.17834394904458598,critical gap
+MS Robotics,Electrical engineering,0.22536062965340709,"ME 133, EE 230, EE 286C, EE 221, EE 118, EE 135",robotics,Robotics and autonomy,concept,0.3885350318471338,157,0.1631744021937267,critical gap
+MS Robotics,Autonomous vehicles,0.11986400462962943,"EE 267, EE 268, CS 256",robotics,Robotics and autonomy,practice,0.27388535031847133,157,0.1540213456888419,practice (demand only)
+MS Robotics,Linux,0.0,,robotics,Cloud and infrastructure,tool,0.15286624203821655,157,0.15286624203821655,tool (demand only)
+MS Robotics,Software testing,0.0,,robotics,Software engineering,practice,0.15286624203821655,157,0.15286624203821655,practice (demand only)
+MS Robotics,Rust,0.0,,robotics,Programming languages,tool,0.14012738853503184,157,0.14012738853503184,tool (demand only)
+MS Robotics,CI/CD,0.0,,robotics,Cloud and infrastructure,tool,0.14012738853503184,157,0.14012738853503184,tool (demand only)
+MS Robotics,"Robot sensors (LiDAR, radar, IMU)",0.0,,robotics,Robotics and autonomy,concept,0.12738853503184713,157,0.12738853503184713,critical gap
+MS Robotics,"Guidance, navigation and control",0.0,,robotics,Robotics and autonomy,concept,0.12738853503184713,157,0.12738853503184713,critical gap
+MS Robotics,Version control (Git),0.0,,robotics,Software engineering,tool,0.08917197452229299,157,0.08917197452229299,tool (demand only)
+MS Robotics,Bash / shell,0.0,,robotics,Programming languages,tool,0.07643312101910828,157,0.07643312101910828,tool (demand only)
+MS Robotics,SQL,0.0,,robotics,Programming languages,tool,0.07006369426751592,157,0.07006369426751592,tool (demand only)
+MS Robotics,Backend development,0.0,,robotics,Software engineering,concept,0.07006369426751592,157,0.07006369426751592,low priority
+MS Robotics,Real-time systems,0.0815972222222221,"EE 128, CS 251",robotics,Robotics and autonomy,concept,0.1464968152866242,157,0.0648995930644021,critical gap
+MS Robotics,Model evaluation,0.0,,robotics,Generative AI and LLMs,concept,0.05732484076433121,157,0.05732484076433121,low priority
+MS Robotics,Frontend development,0.0,,robotics,Software engineering,concept,0.05732484076433121,157,0.05732484076433121,low priority
+MS Robotics,PyTorch,0.0,,robotics,ML frameworks and MLOps,tool,0.050955414012738856,157,0.050955414012738856,tool (demand only)
+MS Robotics,ETL / data pipelines,0.0,,robotics,Data engineering,concept,0.050955414012738856,157,0.050955414012738856,low priority
+MS Robotics,Code review,0.0,,robotics,Software engineering,practice,0.050955414012738856,157,0.050955414012738856,practice (demand only)
+MS Robotics,Dashboards,0.0,,robotics,Data analysis and visualization,concept,0.050955414012738856,157,0.050955414012738856,low priority
+MS Robotics,Networking,0.04166666666666663,CS 254,robotics,Software engineering,concept,0.08917197452229299,157,0.04750530785562636,low priority
+MS Robotics,C#,0.0,,robotics,Programming languages,tool,0.044585987261146494,157,0.044585987261146494,tool (demand only)
+MS Robotics,Experimentation and A/B testing,0.0,,robotics,Machine learning and statistics,concept,0.044585987261146494,157,0.044585987261146494,low priority
+MS Robotics,APIs,0.0,,robotics,Software engineering,concept,0.044585987261146494,157,0.044585987261146494,low priority
+MS Robotics,Concurrency,0.0,,robotics,Software engineering,concept,0.044585987261146494,157,0.044585987261146494,low priority
+MS Robotics,Sensor fusion,0.04166666666666663,EE 247,robotics,Robotics and autonomy,concept,0.08280254777070063,157,0.041135881104034,low priority
+MS Robotics,System design,0.0815972222222221,"EE 128, CS 255",robotics,Software engineering,concept,0.12101910828025478,157,0.03942188605803268,critical gap
+MS Robotics,Site reliability engineering,0.0,,robotics,Software engineering,concept,0.03821656050955414,157,0.03821656050955414,low priority
+MS Robotics,Go,0.0,,robotics,Programming languages,tool,0.03184713375796178,157,0.03184713375796178,tool (demand only)
+MS Robotics,Docker and containers,0.0,,robotics,Cloud and infrastructure,tool,0.03184713375796178,157,0.03184713375796178,tool (demand only)
+MS Robotics,Performance optimization,0.04166666666666663,CS 211,robotics,Software engineering,concept,0.07006369426751592,157,0.028397027600849292,low priority
+MS Robotics,FPGA and hardware design,0.0,,robotics,Robotics and autonomy,tool,0.025477707006369428,157,0.025477707006369428,tool (demand only)
+MS Robotics,Model serving,0.0,,robotics,ML frameworks and MLOps,tool,0.01910828025477707,157,0.01910828025477707,tool (demand only)
+MS Robotics,AWS,0.0,,robotics,Cloud and infrastructure,tool,0.01910828025477707,157,0.01910828025477707,tool (demand only)
+MS Robotics,Compilers and programming languages,0.0,,robotics,Software engineering,concept,0.01910828025477707,157,0.01910828025477707,low priority
+MS Robotics,3D vision and point clouds,0.04166666666666663,EE 247,robotics,Robotics and autonomy,concept,0.05732484076433121,157,0.01565817409766458,low priority
+MS Robotics,Robotic manipulation,0.04166666666666663,ME 221,robotics,Robotics and autonomy,concept,0.05732484076433121,157,0.01565817409766458,low priority
+MS Robotics,Java,0.0,,robotics,Programming languages,tool,0.012738853503184714,157,0.012738853503184714,tool (demand only)
+MS Robotics,JAX,0.0,,robotics,ML frameworks and MLOps,tool,0.012738853503184714,157,0.012738853503184714,tool (demand only)
+MS Robotics,Spark,0.0,,robotics,Data engineering,tool,0.012738853503184714,157,0.012738853503184714,tool (demand only)
+MS Robotics,PostgreSQL,0.0,,robotics,Databases,tool,0.012738853503184714,157,0.012738853503184714,tool (demand only)
+MS Robotics,Kubernetes,0.0,,robotics,Cloud and infrastructure,tool,0.012738853503184714,157,0.012738853503184714,tool (demand only)
+MS Robotics,Mobile development,0.0,,robotics,Software engineering,concept,0.012738853503184714,157,0.012738853503184714,low priority
+MS Robotics,TypeScript,0.0,,robotics,Programming languages,tool,0.006369426751592357,157,0.006369426751592357,tool (demand only)
+MS Robotics,Prompt engineering,0.0,,robotics,Generative AI and LLMs,concept,0.006369426751592357,157,0.006369426751592357,low priority
+MS Robotics,Diffusion models,0.0,,robotics,Generative AI and LLMs,concept,0.006369426751592357,157,0.006369426751592357,low priority
+MS Robotics,TensorFlow,0.0,,robotics,ML frameworks and MLOps,tool,0.006369426751592357,157,0.006369426751592357,tool (demand only)
+MS Robotics,MLOps,0.0,,robotics,ML frameworks and MLOps,tool,0.006369426751592357,157,0.006369426751592357,tool (demand only)
+MS Robotics,Databricks and lakehouse,0.0,,robotics,Data engineering,tool,0.006369426751592357,157,0.006369426751592357,tool (demand only)
+MS Robotics,MySQL,0.0,,robotics,Databases,tool,0.006369426751592357,157,0.006369426751592357,tool (demand only)
+MS Robotics,NoSQL databases,0.0,,robotics,Databases,tool,0.006369426751592357,157,0.006369426751592357,tool (demand only)
+MS Robotics,GCP,0.0,,robotics,Cloud and infrastructure,tool,0.006369426751592357,157,0.006369426751592357,tool (demand only)
+MS Robotics,Azure,0.0,,robotics,Cloud and infrastructure,tool,0.006369426751592357,157,0.006369426751592357,tool (demand only)
+MS Robotics,Agile practices,0.0,,robotics,Software engineering,practice,0.006369426751592357,157,0.006369426751592357,practice (demand only)
+MS Robotics,Data science ethics and privacy,0.0,,robotics,Data analysis and visualization,concept,0.006369426751592357,157,0.006369426751592357,low priority
+MS Robotics,Scala,0.0,,robotics,Programming languages,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Kotlin,0.0,,robotics,Programming languages,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,JavaScript,0.0,,robotics,Programming languages,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,R,0.0,,robotics,Programming languages,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Ruby,0.0,,robotics,Programming languages,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Swift,0.0,,robotics,Programming languages,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Causal inference,0.0,,robotics,Machine learning and statistics,concept,0.0,157,0.0,low priority
+MS Robotics,Recommender systems,0.0,,robotics,Machine learning and statistics,concept,0.0,157,0.0,low priority
+MS Robotics,Anomaly detection,0.0,,robotics,Machine learning and statistics,concept,0.0,157,0.0,low priority
+MS Robotics,Feature engineering,0.0,,robotics,Machine learning and statistics,concept,0.0,157,0.0,low priority
+MS Robotics,Generative AI,0.0,,robotics,Generative AI and LLMs,concept,0.0,157,0.0,low priority
+MS Robotics,Retrieval-augmented generation,0.0,,robotics,Generative AI and LLMs,concept,0.0,157,0.0,low priority
+MS Robotics,Embeddings and vector search,0.0,,robotics,Generative AI and LLMs,concept,0.0,157,0.0,low priority
+MS Robotics,LLM frameworks,0.0,,robotics,Generative AI and LLMs,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,scikit-learn,0.0,,robotics,ML frameworks and MLOps,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Hugging Face,0.0,,robotics,ML frameworks and MLOps,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Gradient boosting libraries,0.0,,robotics,ML frameworks and MLOps,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Kafka and streaming,0.0,,robotics,Data engineering,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Workflow orchestration,0.0,,robotics,Data engineering,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,dbt,0.0,,robotics,Data engineering,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Data warehousing,0.0,,robotics,Data engineering,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Distributed query engines,0.0,,robotics,Data engineering,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Redis,0.0,,robotics,Databases,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Elasticsearch,0.0,,robotics,Databases,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,ClickHouse,0.0,,robotics,Databases,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Graph databases,0.0,,robotics,Databases,concept,0.0,157,0.0,low priority
+MS Robotics,Infrastructure as code,0.0,,robotics,Cloud and infrastructure,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Microservices,0.0,,robotics,Software engineering,concept,0.0,157,0.0,low priority
+MS Robotics,BI tools,0.0,,robotics,Data analysis and visualization,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Excel / spreadsheets,0.0,,robotics,Data analysis and visualization,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Pandas / NumPy,0.0,,robotics,Data analysis and visualization,tool,0.0,157,0.0,tool (demand only)
+MS Robotics,Control systems,0.2576372700845151,"ME 121, EE 151, EE 239, ME 220, ME 223, ME 133, EE 106",robotics,Robotics and autonomy,concept,0.25477707006369427,157,-0.0028602000208208245,partially covered
+MS Robotics,Data visualization,0.0815972222222221,"ME 153, CS 252A",robotics,Data analysis and visualization,concept,0.07643312101910828,157,-0.005164101203113822,low priority
+MS Robotics,Fine-tuning and post-training,0.04166666666666663,EE 269,robotics,Generative AI and LLMs,concept,0.03184713375796178,157,-0.009819532908704846,low priority
+MS Robotics,GPU programming (CUDA),0.04166666666666663,CS 217,robotics,ML frameworks and MLOps,tool,0.03184713375796178,157,-0.009819532908704846,tool (demand only)
+MS Robotics,AI agents,0.04166666666666663,CS 258,robotics,Generative AI and LLMs,concept,0.025477707006369428,157,-0.0161889596602972,low priority
+MS Robotics,Cloud computing,0.04166666666666663,CS 208,robotics,Cloud and infrastructure,concept,0.025477707006369428,157,-0.0161889596602972,low priority
+MS Robotics,Big data,0.04166666666666663,CS 226,robotics,Data engineering,concept,0.01910828025477707,157,-0.02255838641188956,low priority
+MS Robotics,Robot learning,0.04166666666666663,CS 258,robotics,Robotics and autonomy,concept,0.01910828025477707,157,-0.02255838641188956,low priority
+MS Robotics,Operating systems,0.1916806570296422,"CS 229, EE 252, CS 251, CS 208, CS 202",robotics,Software engineering,concept,0.16560509554140126,157,-0.026075561488240945,partially covered
+MS Robotics,Time series and forecasting,0.04166666666666663,CS 235,robotics,Machine learning and statistics,concept,0.006369426751592357,157,-0.035297239915074274,low priority
+MS Robotics,Large language models,0.0815972222222221,"EE 269, CS 256",robotics,Generative AI and LLMs,concept,0.044585987261146494,157,-0.037011234961075605,low priority
+MS Robotics,Multimodal models,0.0815972222222221,"EE 247, EE 269",robotics,Generative AI and LLMs,concept,0.044585987261146494,157,-0.037011234961075605,low priority
+MS Robotics,Data modeling,0.04166666666666663,CS 225,robotics,Data engineering,concept,0.0,157,-0.04166666666666663,low priority
+MS Robotics,Hadoop ecosystem,0.04166666666666663,CS 226,robotics,Data engineering,tool,0.0,157,-0.04166666666666663,tool (demand only)
+MS Robotics,Observability,0.11986400462962943,"EE 132, EE 151, EE 235",robotics,Cloud and infrastructure,tool,0.07643312101910828,157,-0.04343088361052115,tool (demand only)
+MS Robotics,Inference optimization,0.0815972222222221,"EE 241, EE 141",robotics,Generative AI and LLMs,concept,0.03184713375796178,157,-0.049750088464260316,low priority
+MS Robotics,MATLAB,0.11986400462962943,"ME 118, ME 133, ENGR 160",robotics,Programming languages,tool,0.07006369426751592,157,-0.049800310362113506,tool (demand only)
+MS Robotics,Distributed training,0.0815972222222221,"CS 217, CS 147",robotics,ML frameworks and MLOps,concept,0.025477707006369428,157,-0.05611951521585267,low priority
+MS Robotics,Distributed systems,0.15653633777006148,"ME 223, CS 256, CS 253, CS 204",robotics,Software engineering,concept,0.09554140127388536,157,-0.06099493649617613,low priority
+MS Robotics,Deep learning,0.11986400462962943,"CS 222, CS 228, CS 229",robotics,Machine learning and statistics,concept,0.05732484076433121,157,-0.06253916386529822,low priority
+MS Robotics,Relational databases,0.0815972222222221,"CS 236, CS 225",robotics,Databases,concept,0.012738853503184714,157,-0.06885836871903739,low priority
+MS Robotics,Search and ranking,0.0815972222222221,"CS 242, CS 172",robotics,Machine learning and statistics,concept,0.0,157,-0.0815972222222221,low priority
+MS Robotics,Reinforcement learning,0.11986400462962943,"CS 258, EE 244, EE 269",robotics,Machine learning and statistics,concept,0.03821656050955414,157,-0.0816474441200753,low priority
+MS Robotics,Security engineering,0.15653633777006148,"CS 255, CS 254, EE 201, EE 214",robotics,Software engineering,concept,0.06369426751592357,157,-0.09284207025413792,low priority
+MS Robotics,Transformers,0.11986400462962943,"CS 222, EE 269, EE 253",robotics,Generative AI and LLMs,concept,0.012738853503184714,157,-0.10712515112644472,low priority
+MS Robotics,Data analysis,0.1916806570296422,"ME 202, ME 118, ME 203, CS 252A, CS 225",robotics,Data analysis and visualization,concept,0.08280254777070063,157,-0.10887810925894158,low priority
+MS Robotics,Data mining,0.11986400462962943,"CS 171, CS 235, CS 252A",robotics,Machine learning and statistics,concept,0.006369426751592357,157,-0.11349457787803707,low priority
+MS Robotics,NLP,0.11986400462962943,"CS 173, CS 205, CS 222",robotics,Generative AI and LLMs,concept,0.0,157,-0.11986400462962943,low priority
+MS Robotics,Computer vision,0.2576372700845151,"CS 228, EE 146, EE 241, EE 243, EE 247, EE 152, EE 106",robotics,Robotics and autonomy,concept,0.1337579617834395,157,-0.1238793083010756,partially covered
+MS Robotics,Linear algebra,0.15653633777006148,"EE 235, EE 238, ME 200, CS 218",robotics,Machine learning and statistics,concept,0.03184713375796178,157,-0.12468920401209971,low priority
+MS Robotics,High-performance computing,0.15653633777006148,"CS 217, CS 211, CS 202, CS 147",robotics,Cloud and infrastructure,concept,0.012738853503184714,157,-0.14379748426687677,low priority
+MS Robotics,Classical ML methods,0.2576372700845151,"CS 171, CS 222, CS 229, CS 235, EE 247, ME 114, EE 240",robotics,Machine learning and statistics,concept,0.09554140127388536,157,-0.16209586881062973,low priority
+MS Robotics,Mathematical optimization,0.22536062965340709,"CS 248, EE 231, ME 232, EE 230, ENGR 160, CS 218",robotics,Machine learning and statistics,concept,0.006369426751592357,157,-0.21899120290181473,low priority
+MS Robotics,Statistics,0.3182120067269244,"CS 248, EE 236, ME 223, ME 118, ME 201, ME 203, CS 252A, CS 241, EE 240",robotics,Machine learning and statistics,concept,0.03184713375796178,157,-0.2863648729689626,low priority
+MS Robotics,Mechatronics and actuators,1.0,"ME 225, ME 120, ME 133, ME 270, EE 105, EE 106",robotics,Robotics and autonomy,concept,0.3248407643312102,157,-0.6751592356687899,well covered
+MS Robotics,Robotics simulation,1.0,"CS 265A, ME 224, EE 267, EE 132, EE 144, EE 151, ME 230, CS 237, EE 249, EE 213, CS 220, CS 168, EE 105, EE 106",robotics,Robotics and autonomy,concept,0.28662420382165604,157,-0.713375796178344,well covered
+MS Robotics,Machine learning,1.0,"CS 224, CS 171, CS 228, CS 229, CS 248, EE 236, EE 247, EE 268, ME 233, ME 203",robotics,Machine learning and statistics,concept,0.18471337579617833,157,-0.8152866242038217,well covered
+MS Robotics,Perception,1.0,"CS 265B, CS 205, CS 228, EE 267, CS 135",robotics,Robotics and autonomy,concept,0.1337579617834395,157,-0.8662420382165605,well covered
+MS Robotics,State estimation,1.0,"CS 265A, EE 236, ME 220",robotics,Robotics and autonomy,concept,0.10828025477707007,157,-0.89171974522293,well covered
+MS Robotics,Motion planning,1.0,"CS 265A, EE 144, ME 145",robotics,Robotics and autonomy,concept,0.08917197452229299,157,-0.910828025477707,"taught, low demand"
+MS Robotics,Kinematics and dynamics,1.0,"CS 265A, ME 224, EE 144, ME 145, ME 221, ME 130",robotics,Robotics and autonomy,concept,0.08280254777070063,157,-0.9171974522292994,"taught, low demand"
+MS Robotics,SLAM and localization,1.0,"CS 265B, EE 144",robotics,Robotics and autonomy,concept,0.06369426751592357,157,-0.9363057324840764,"taught, low demand"
+MS Robotics,ROS,1.0,"CS 265A, EE 106",robotics,Robotics and autonomy,tool,0.03821656050955414,157,-0.9617834394904459,tool (demand only)
+MS Robotics,Probability and Bayesian methods,1.0,"CS 224, CS 228, CS 258, CS 227, EE 215, EE 150",robotics,Machine learning and statistics,concept,0.03184713375796178,157,-0.9681528662420382,"taught, low demand"

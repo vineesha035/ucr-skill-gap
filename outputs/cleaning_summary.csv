@@ -1,0 +1,15 @@
+role_family,excluded,postings
+data_science,analyzed,789
+data_science,non_engineering,99
+data_science,company_cap,23
+data_science,student_or_contract,6
+robotics,analyzed,315
+robotics,company_cap,148
+robotics,non_engineering,41
+robotics,student_or_contract,5
+software,analyzed,1633
+software,company_cap,176
+software,student_or_contract,2
+software,non_us,1
+software,non_engineering,1
+software,too_short,1
