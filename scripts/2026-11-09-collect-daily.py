@@ -2,7 +2,10 @@
 
 Runs both collectors into temporary files, then updates data/history/:
 
-  new/<date>-<source>.jsonl.gz   postings first seen on <date> (full record, stored once)
+  new/<date>-<source>.jsonl.gz   postings first seen on <date> (full record, stored once).
+                                 Full posting text belongs to the employers, so these shards
+                                 live in a PRIVATE data repo: set SKILLGAP_RAW_DIR to its
+                                 folder (default data/history/new for local use).
   seen.csv.gz                    one row per posting: id, source, role_family, company,
                                  first_seen, last_seen
   daily_counts.csv               one row per run and source: fetched, new, still_open
@@ -40,6 +43,7 @@ ROOT = Path(__file__).resolve().parents[1]
 HIST = ROOT / "data/history"
 SEEN = HIST / "seen.csv.gz"
 COUNTS = HIST / "daily_counts.csv"
+RAW_DIR = Path(os.environ.get("SKILLGAP_RAW_DIR", HIST / "new"))
 SEEN_FIELDS = ["id", "source", "role_family", "company", "first_seen", "last_seen"]
 
 FETCHERS = {
@@ -108,7 +112,7 @@ def update(source: str, records: list[dict], date: str, seen: dict[str, dict]) -
                          "company": r.get("company", ""), "first_seen": date, "last_seen": date}
             new_rows.append({**r, "history_id": key, "first_seen": date})
     if new_rows:
-        shard = HIST / "new" / f"{date}-{source}.jsonl.gz"
+        shard = RAW_DIR / f"{date}-{source}.jsonl.gz"
         existing = gzip.open(shard, "rt", encoding="utf-8").read() if shard.exists() else ""
         # a same-day rerun appends to the day's shard instead of replacing it
         write_gz(shard, existing + "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in new_rows))
@@ -122,7 +126,7 @@ VIEW_FIELDS = ["first_seen", "source", "role_family", "company", "title", "locat
 
 def _shard_rows(pattern: str) -> list[dict]:
     rows = []
-    for shard in sorted((HIST / "new").glob(pattern)):
+    for shard in sorted(RAW_DIR.glob(pattern)):
         with gzip.open(shard, "rt", encoding="utf-8") as f:
             rows += [json.loads(line) for line in f if line.strip()]
     return rows
