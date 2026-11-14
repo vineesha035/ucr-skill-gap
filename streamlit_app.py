@@ -146,6 +146,8 @@ Sentences repeated across one employer's postings (intros, policies) are removed
 
 **Skills.** A 137-skill taxonomy with about 730 aliases, matched with word-boundary-aware,
 longest-match-first rules and case-sensitive aliases for ambiguous words (Excel, Go, R, C).
+Validated on 141 extracted mentions from 12 postings: **91.5% precision, 94.2% recall**
+(model-drafted labels, disputed calls reviewed by hand).
 
 **Curriculum.** 176 courses from the 2025-26 UCR catalog for the three programs.
 *Exposure* is the chance a graduate took at least one course whose catalog description covers a skill:

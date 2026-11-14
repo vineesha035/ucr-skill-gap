@@ -12,8 +12,13 @@ matches the market and where it falls short.
 | M.S. Computer Science | software, backend, platform, distributed systems roles |
 | M.S. Robotics | robotics, autonomy, perception, controls, embedded roles |
 
-> **Status:** pipeline complete and tested (51 tests). Extraction accuracy measurement and a live
-> dashboard are next. Full results: [`outputs/report.md`](outputs/report.md).
+> **Status:** pipeline complete, tested (51 tests), and refreshed daily by GitHub Actions.
+> Full results: [`outputs/report.md`](outputs/report.md).
+
+**Extraction accuracy:** 91.5% precision, 94.2% recall (F1 92.8%) on a stratified sample of 141
+extracted skill mentions from 12 postings (4 per role family). Labels were model-drafted and every
+disputed call (12 false positives, 8 misses) was reviewed by hand.
+Workbook: [`data/labels/2026-11-13-label-sheet.xlsx`](data/labels/2026-11-13-label-sheet.xlsx).
 
 ## Findings (snapshot of Nov 13 2026: 2,737 postings from 54 employers)
 
@@ -59,7 +64,8 @@ matches the market and where it falls short.
 3. **Extraction** ([`skillgap/extract.py`](skillgap/extract.py)). Boundary-aware, longest-match-first
    matching with case-sensitive aliases for ambiguous words. Naive substring matching would report Rust in
    53% of postings (it matches "trust") and Scala in 42% ("scalable"). TF-IDF n-gram discovery lists
-   frequent terms the taxonomy misses, for review.
+   frequent terms the taxonomy misses, for review. Most remaining errors are skill words that name a
+   team or coworkers ("work with firmware engineers") rather than a requirement.
 4. **Gap scoring** ([`skillgap/gap.py`](skillgap/gap.py)). *Demand* is the share of a role family's postings
    that mention a skill. *Exposure* is the probability a graduate took at least one course whose catalog
    description covers it: core courses count 1.0, "pick one" courses 1/n, electives (slots / pool size).
