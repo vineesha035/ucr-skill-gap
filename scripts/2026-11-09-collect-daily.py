@@ -108,8 +108,10 @@ def update(source: str, records: list[dict], date: str, seen: dict[str, dict]) -
                          "company": r.get("company", ""), "first_seen": date, "last_seen": date}
             new_rows.append({**r, "history_id": key, "first_seen": date})
     if new_rows:
-        write_gz(HIST / "new" / f"{date}-{source}.jsonl.gz",
-                 "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in new_rows))
+        shard = HIST / "new" / f"{date}-{source}.jsonl.gz"
+        existing = gzip.open(shard, "rt", encoding="utf-8").read() if shard.exists() else ""
+        # a same-day rerun appends to the day's shard instead of replacing it
+        write_gz(shard, existing + "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in new_rows))
     still_open = sum(1 for s in seen.values() if s["source"] == source and s["last_seen"] == date)
     return {"date": date, "source": source, "fetched": len(fetched_ids), "new": len(new_rows),
             "still_open": still_open}
@@ -153,13 +155,20 @@ def write_views(seen: dict[str, dict]) -> None:
 
 
 def append_counts(rows: list[dict]) -> None:
-    exists = COUNTS.exists()
+    """Add today's rows. A same-day rerun replaces that day's row and adds the new count."""
+    fields = ["date", "source", "fetched", "new", "still_open"]
+    old = list(csv.DictReader(COUNTS.open(encoding="utf-8"))) if COUNTS.exists() else []
+    index = {(r["date"], r["source"]): r for r in old}
+    for r in rows:
+        prev = index.get((r["date"], r["source"]))
+        if prev:
+            r = {**r, "new": int(prev["new"]) + int(r["new"])}
+        index[(r["date"], r["source"])] = r
     COUNTS.parent.mkdir(parents=True, exist_ok=True)
-    with COUNTS.open("a", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["date", "source", "fetched", "new", "still_open"], lineterminator="\n")
-        if not exists:
-            w.writeheader()
-        w.writerows(rows)
+    with COUNTS.open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=fields, lineterminator="\n")
+        w.writeheader()
+        w.writerows(sorted(index.values(), key=lambda r: (r["date"], r["source"])))
 
 
 def main() -> None:
