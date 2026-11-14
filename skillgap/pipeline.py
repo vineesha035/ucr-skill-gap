@@ -32,6 +32,11 @@ def run(out_dir: Path = OUTPUTS, cfg: gap.GapConfig = gap.GapConfig(), max_share
     scores_early.to_csv(out_dir / "gap_scores_entry_mid.csv", index=False)
     ready_all.merge(ready_early, on="program", suffixes=("_all", "_entry_mid")).to_csv(
         out_dir / "readiness.csv", index=False)
+    cols = ["first_seen", "role_family", "level", "company", "title", "location", "url"]
+    export = analyzed[cols].copy()
+    export["skills"] = analyzed.skills.map(lambda x: "; ".join(sorted(x)))
+    export.sort_values(["first_seen", "company"], ascending=[False, True]).to_csv(
+        out_dir / "analyzed_postings.csv", index=False)
     (postings.excluded.replace("", "analyzed").groupby(postings.role_family).value_counts()
      .rename("postings").reset_index().to_csv(out_dir / "cleaning_summary.csv", index=False))
 
