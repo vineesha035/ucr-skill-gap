@@ -1,4 +1,8 @@
 first_seen,source,role_family,company,title,location,url
+2026-11-15,boards,software,spacex,Full Stack Software Engineer (Starlink),"Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8943586002?gh_jid=8943586002
+2026-11-15,boards,software,spacex,Sr. Full Stack Software Engineer (Starlink),"Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8943684002?gh_jid=8943684002
+2026-11-15,boards,robotics,physicalintelligence,Robot Service Technician Shift Lead,San Francisco,https://jobs.ashbyhq.com/physicalintelligence/b0de3fd2-fb06-48d4-adf9-c7964e1cbc55
+2026-11-15,boards,data_science,perplexity,"Member of Technical Staff (AI Software Engineer, Agent Engine)",San Francisco,https://jobs.ashbyhq.com/Perplexity/10a51134-6741-40ec-8cca-a8ac1534673b
 2026-11-14,boards,data_science,stripe,Data Analyst,US,https://stripe.com/jobs/search?gh_jid=5601881
 2026-11-14,boards,data_science,samsara,"Senior Manager, Software Engineering - AI Developer Productivity (Dev Agents and SRE AI)",Remote - US,https://www.samsara.com/company/careers/roles/8374911?gh_jid=8374911
 2026-11-14,boards,data_science,samsara,"Sr Software Engineer I/II, Operational AI",Remote - US,https://www.samsara.com/company/careers/roles/8223641?gh_jid=8223641
@@ -979,7 +983,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,data_science,samsara,"Digital Customer Success Manager, AI & Automation",Remote - Austin; Remote - CA; Remote - Chicago; Remote - Dallas; Remote - Houston; Remote - Seattle,https://www.samsara.com/company/careers/roles/8306612?gh_jid=8306612
 2026-11-07,boards,data_science,samsara,"Director, GTM AI Engineering",Remote - US,https://www.samsara.com/company/careers/roles/8261007?gh_jid=8261007
 2026-11-07,boards,robotics,samsara,Firmware Engineer ,"Remote - Austin; Remote - Seattle; San Francisco, CA, United States",https://www.samsara.com/company/careers/roles/8359978?gh_jid=8359978
-2026-11-07,boards,robotics,samsara,Firmware Engineer Co-Op,San Francisco - SF9,https://www.samsara.com/company/careers/roles/8226602?gh_jid=8226602
 2026-11-07,boards,robotics,samsara,"Manager, Firmware Engineering",Remote - US,https://www.samsara.com/company/careers/roles/8359947?gh_jid=8359947
 2026-11-07,boards,software,samsara,"Manager II, Software Engineering, Infrastructure",Remote - US,https://www.samsara.com/company/careers/roles/8148638?gh_jid=8148638
 2026-11-07,boards,data_science,samsara,People Analytics AI Engineer,Remote - Seattle,https://www.samsara.com/company/careers/roles/7858719?gh_jid=7858719
@@ -1391,7 +1394,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,data_science,perplexity,Member of Data Staff (Analytics Engineer),San Francisco,https://jobs.ashbyhq.com/Perplexity/71abd198-5a69-4837-aa59-df8eeb9e02eb
 2026-11-07,boards,software,perplexity,"Member of Technical Staff (Software Engineer, Enterprise Trust & Governance)",San Francisco,https://jobs.ashbyhq.com/Perplexity/63785f62-07ac-4dc5-8f68-57779dddb1f3
 2026-11-07,boards,software,perplexity,"Member of Technical Staff, (Software Engineer, Experience)",San Francisco,https://jobs.ashbyhq.com/Perplexity/06dcd116-2b07-4f40-869e-06ed540f7614
-2026-11-07,boards,data_science,perplexity,"Member of Technical Staff (AI Software Engineer, Agent Engine)",San Francisco,https://jobs.ashbyhq.com/Perplexity/d865c821-9a27-416c-9c6a-14132a86f760
 2026-11-07,boards,software,perplexity,"Member of Technical Staff (Site Reliability Engineer, Cloud Infrastructure)",San Francisco,https://jobs.ashbyhq.com/Perplexity/5fe2b80d-9d59-42bb-90e6-9a0b78d7d403
 2026-11-07,boards,data_science,perplexity,"Member of Technical Staff (Software Engineer, AI Policy and Strategic Initiatives)",San Francisco,https://jobs.ashbyhq.com/Perplexity/1056951e-8a42-4330-b72c-90162b3cd1c9
 2026-11-07,boards,software,palantir,Backend Software Engineer - Application Development,"New York, NY",https://jobs.lever.co/palantir/ab7e3425-81d5-4705-a7b5-cd60c8a45cdb
@@ -1747,7 +1749,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,data_science,okta,"Principal Software Engineer, Applied AI","San Francisco, California",https://www.okta.com/company/careers/opportunity/8282012?gh_jid=8282012
 2026-11-07,boards,data_science,okta,Senior Data Analyst (Auth0),"Chicago, Illinois; New York, New York; Seattle, Washington; Washington, DC",https://www.okta.com/company/careers/opportunity/8304288?gh_jid=8304288
 2026-11-07,boards,data_science,okta,"Senior Product Manager, AI Products (Auth0)","Chicago, Illinois; New York, New York; San Francisco, California; Seattle, Washington; Washington, DC",https://www.okta.com/company/careers/opportunity/8351434?gh_jid=8351434
-2026-11-07,boards,data_science,okta,"Senior Product Manager, Okta for AI Agents","Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Washington, DC",https://www.okta.com/company/careers/opportunity/8249918?gh_jid=8249918
 2026-11-07,boards,software,okta,Senior Site Reliability Engineer  - EPG,"Bellevue, Washington; San Francisco, California",https://www.okta.com/company/careers/opportunity/8268917?gh_jid=8268917
 2026-11-07,boards,data_science,okta,"Senior Software Engineer, Applied AI ","San Francisco, California",https://www.okta.com/company/careers/opportunity/8281947?gh_jid=8281947
 2026-11-07,boards,software,okta,Senior Software Engineer - Core Infrastructure,"San Francisco, California",https://www.okta.com/company/careers/opportunity/8212358?gh_jid=8212358
@@ -1847,7 +1848,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,software,notion,"Software Engineer, Infrastructure Security","San Francisco, California",https://jobs.ashbyhq.com/notion/e3d8dc06-da05-4e9d-a143-2e9c51fa3d51
 2026-11-07,boards,software,notion,"Software Engineer, Product Infrastructure","San Francisco, California",https://jobs.ashbyhq.com/notion/ca74504a-9b91-4ce3-b0df-97919b46e749
 2026-11-07,boards,software,notion,"Software Engineer, New Grad (Dec 2026)","San Francisco, California",https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816
-2026-11-07,boards,data_science,notion,"Strategic Finance, AI & Business Partnership","San Francisco, California",https://jobs.ashbyhq.com/notion/4e7b3471-20b7-4a37-8455-8b2735bfaf26
 2026-11-07,boards,software,notion,"Software Engineer, User Database Infrastructure","San Francisco, California",https://jobs.ashbyhq.com/notion/ead663e3-3eb2-4e0e-97e5-86820062dd68
 2026-11-07,boards,software,notion,"Software Engineer, Mobile Platform (iOS)","San Francisco, California",https://jobs.ashbyhq.com/notion/95800771-37a4-4226-b03f-d4fc6ea88f65
 2026-11-07,boards,software,notion,"Software Engineer, Mobile Core (Android)","San Francisco, California",https://jobs.ashbyhq.com/notion/d82a0b31-59b8-4699-ae8d-6fb3fe47518c
