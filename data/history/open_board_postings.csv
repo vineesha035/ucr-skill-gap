@@ -1,4 +1,12 @@
 first_seen,source,role_family,company,title,location,url
+2026-11-22,boards,robotics,spacex,GNC Engineer (Starship),"Starbase, TX",https://boards.greenhouse.io/spacex/jobs/8947625002?gh_jid=8947625002
+2026-11-22,boards,data_science,openai,"Research Engineer / Research Scientist, Post-Training — Collective Alignment (User Signals)",San Francisco,https://jobs.ashbyhq.com/openai/ce15d226-65db-43f1-98ec-078e96a3a281
+2026-11-22,boards,data_science,openai,"Research Engineer/Research Scientist-Post Training, Proactivity",San Francisco,https://jobs.ashbyhq.com/openai/d1906ab2-b829-4a13-b1f2-f4af97d699fa
+2026-11-22,boards,data_science,openai,"Research Engineer/Research Scientist- Post Training, Model Experience",San Francisco,https://jobs.ashbyhq.com/openai/bc85c1a9-0f75-4c3a-807b-6d2bb26c8445
+2026-11-22,boards,data_science,openai,"Research Engineer / Research Scientist - Post Training, Memory",San Francisco,https://jobs.ashbyhq.com/openai/ecfe655c-1369-4bcd-aae0-4a3b75fdf61b
+2026-11-22,boards,data_science,openai,"Research Engineer / Research Scientist, Human Flourishing",San Francisco,https://jobs.ashbyhq.com/openai/740b5d1b-f63d-49bb-962d-8e2778e925ef
+2026-11-22,boards,data_science,openai,"Research Engineer / Research Scientist, Health",San Francisco,https://jobs.ashbyhq.com/openai/6785d983-8831-46d0-9c81-443f83664948
+2026-11-22,boards,data_science,airbnb,Senior Staff Data Scientist - Reputation (Inference),Remote - USA,https://careers.airbnb.com/positions/8407159?gh_jid=8407159
 2026-11-21,boards,robotics,verkada,Senior Embedded Engineer - Intercom,"San Mateo, CA United States",https://job-boards.greenhouse.io/verkada/jobs/5304458007
 2026-11-21,boards,robotics,verkada,Staff Embedded Engineer - Intercom,"San Mateo, CA United States",https://job-boards.greenhouse.io/verkada/jobs/4548335007
 2026-11-21,boards,data_science,nuro,"Senior/Staff Software Engineer, AI Agent Infrastructure","Mountain View, California (HQ)",https://nuro.ai/careersitem?gh_jid=8097555
@@ -1233,7 +1241,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,software,roblox,"Senior Software Engineer, Realtime Analytics Platform","San Mateo, CA, United States",https://careers.roblox.com/jobs/8287853?gh_jid=8287853
 2026-11-07,boards,software,roblox,Senior Software Engineer - Replication,"San Mateo, CA, United States",https://careers.roblox.com/jobs/7561743?gh_jid=7561743
 2026-11-07,boards,software,roblox,Senior Software Engineer - Roblox Database,"San Mateo, CA, United States",https://careers.roblox.com/jobs/8129408?gh_jid=8129408
-2026-11-07,boards,software,roblox,Senior Software Engineer - Safety Experience,"San Mateo, CA, United States",https://careers.roblox.com/jobs/7985997?gh_jid=7985997
 2026-11-07,boards,software,roblox,"Senior Software Engineer, Safety Foundation","San Mateo, CA, United States",https://careers.roblox.com/jobs/8036690?gh_jid=8036690
 2026-11-07,boards,software,roblox,"Senior Software Engineer, Service Mesh","San Mateo, CA, United States",https://careers.roblox.com/jobs/8148698?gh_jid=8148698
 2026-11-07,boards,software,roblox,"Senior Software Engineer, Test Frameworks & Tools","San Mateo, CA, United States",https://careers.roblox.com/jobs/8244812?gh_jid=8244812
@@ -1665,7 +1672,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,software,openai,"Software Engineer, Infrastructure - Core Experimentation ",Seattle,https://jobs.ashbyhq.com/openai/823a05bf-33fb-4d94-9dd8-571723d27b1a
 2026-11-07,boards,software,openai,"Software Engineer, Codex Core Agents",San Francisco,https://jobs.ashbyhq.com/openai/7ade7a12-845c-4e3a-af23-c028420bd181
 2026-11-07,boards,data_science,openai,"Applied AI Engineer, Codex Core Agent",San Francisco,https://jobs.ashbyhq.com/openai/577e6673-0a4a-491b-9a0d-facbdd3bdf3c
-2026-11-07,boards,data_science,openai,"Research Engineer / Research Scientist - Post Training, Memory",San Francisco,https://jobs.ashbyhq.com/openai/29074a51-9cb3-47c9-a8a7-f283cd14fa6c
 2026-11-07,boards,data_science,openai,"Manager, Applied AI Architect",San Francisco,https://jobs.ashbyhq.com/openai/ab463045-cd9b-4100-a037-f1135ace1464
 2026-11-07,boards,software,openai,"Principal Software Engineer, Infrastructure Security",US - Remote,https://jobs.ashbyhq.com/openai/ace42c6d-8663-4b30-9337-ec70cf071d73
 2026-11-07,boards,software,openai,"Software Engineer, Infrastructure - Analytics Platform",San Francisco,https://jobs.ashbyhq.com/openai/e44bfa94-0b82-4d0c-b224-02155b76eea9
@@ -1701,14 +1707,12 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,software,openai,"Full Stack Software Engineer, Cybersecurity Products",San Francisco,https://jobs.ashbyhq.com/openai/88654e7f-4e23-4e75-8e54-18c10d09b093
 2026-11-07,boards,software,openai,"Software Engineer, Cloud Agents",San Francisco,https://jobs.ashbyhq.com/openai/f6278b60-dd42-4aa8-a3cd-c105f75ae8ae
 2026-11-07,boards,software,openai,"Software Engineer, API Multicloud",San Francisco,https://jobs.ashbyhq.com/openai/4070d52e-0263-4cd5-9107-052b4ecc1209
-2026-11-07,boards,data_science,openai,"Research Engineer / Research Scientist - Post Training, Personalization ",San Francisco,https://jobs.ashbyhq.com/openai/1bf678c5-1058-45ca-b9bd-b0029fccd60e
 2026-11-07,boards,software,openai,"Systems Software Engineer, Security, First Party Hardware",San Francisco,https://jobs.ashbyhq.com/openai/1c48f39f-60ea-4636-87ed-8b4b4f5243e5
 2026-11-07,boards,software,openai,"Full Stack Software Engineer, ChatGPT ImageGen",San Francisco,https://jobs.ashbyhq.com/openai/6b47238e-025a-4350-b270-2f3564002fcc
 2026-11-07,boards,software,openai,"Full Stack Software Engineer, Codex",San Francisco,https://jobs.ashbyhq.com/openai/5ebd5f66-75db-4a96-8d39-babc14f1c582
 2026-11-07,boards,software,openai,"Software Engineer, Private Computing",San Francisco,https://jobs.ashbyhq.com/openai/0f887fe6-39f4-44f6-8ee5-230c3002f0d7
 2026-11-07,boards,software,openai,"Full Stack Software Engineer, Consumer Verticals",San Francisco,https://jobs.ashbyhq.com/openai/39e06ef9-5e62-425d-81e2-e8690188011f
 2026-11-07,boards,data_science,openai,"Applied AI Architect, Cyber",San Francisco,https://jobs.ashbyhq.com/openai/b46ffd99-f9f2-440c-ac13-448eb7911ad6
-2026-11-07,boards,data_science,openai,"Research Engineer/Research Scientist - Post Training, North Stars",San Francisco,https://jobs.ashbyhq.com/openai/171ebca6-de53-4d6e-a312-30332f353957
 2026-11-07,boards,data_science,openai,"Manager, Applied AI Engineering  (Enterprise)",New York City,https://jobs.ashbyhq.com/openai/0a24703f-6108-4422-807e-78831dd98ed1
 2026-11-07,boards,data_science,openai,"Network Operations Engineer, AI Networking",San Francisco,https://jobs.ashbyhq.com/openai/bbad4315-1f13-4b2f-b595-cf1287274f2f
 2026-11-07,boards,software,openai,"Software Engineer, ChatGPT Shopping",San Francisco,https://jobs.ashbyhq.com/openai/ca54cd23-2bcc-4327-bcb6-46d81ed414a8
@@ -1720,7 +1724,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,software,openai,"Software Engineer, Ads Integrity",San Francisco,https://jobs.ashbyhq.com/openai/596e543a-0ab9-471e-a1ff-40fd55c74fce
 2026-11-07,boards,data_science,openai,"Applied AI Engineer, Sign in with ChatGPT",San Francisco,https://jobs.ashbyhq.com/openai/c1a28411-266b-487b-8ef3-03efb254fc36
 2026-11-07,boards,data_science,openai,"Software Engineer, AI accelerator Runtime",San Francisco,https://jobs.ashbyhq.com/openai/9248eab6-74e0-4940-98eb-ca09b17da532
-2026-11-07,boards,data_science,openai,"Research Engineer/Research Scientist- Post Training, Model Experience",San Francisco,https://jobs.ashbyhq.com/openai/872ca3d0-c8c0-4585-9a34-7f9ed6b4dbf9
 2026-11-07,boards,software,openai,"Software Engineer, Privacy Engineering (Lawful Access)",San Francisco,https://jobs.ashbyhq.com/openai/e99105f1-0a15-4f25-9538-60312568f835
 2026-11-07,boards,software,openai,Software Engineer - Data Aquisition (systems),San Francisco,https://jobs.ashbyhq.com/openai/70aaaafa-fe2f-4409-9a72-c0faf50d7d01
 2026-11-07,boards,software,openai,"Software Engineer, Enterprise Verticals",San Francisco,https://jobs.ashbyhq.com/openai/3229b152-015f-49ad-9921-9c9de95570c8
@@ -1743,7 +1746,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,data_science,openai,"Technical Program Manager, AI Safety & Safeguards",San Francisco,https://jobs.ashbyhq.com/openai/3a05c5d7-fdd9-4e0e-823a-2ae08b59958b
 2026-11-07,boards,data_science,openai,"Data Scientist, Real Estate & Workplace ",San Francisco,https://jobs.ashbyhq.com/openai/3ac187b2-dd75-4acd-b285-51ae6e603dbd
 2026-11-07,boards,software,openai,"Software Engineer, Plugin Developer Platform",San Francisco,https://jobs.ashbyhq.com/openai/71838fdf-4476-490c-81b6-4bf0746f6774
-2026-11-07,boards,data_science,openai,"Research Engineer / Research Scientist, Health",San Francisco,https://jobs.ashbyhq.com/openai/719cc0f6-ed38-41db-8870-299b4d336f37
 2026-11-07,boards,software,openai,"Full Stack Software Engineer, Monetization Platform",San Francisco,https://jobs.ashbyhq.com/openai/191e42f8-cd62-4082-8f72-505c26505e67
 2026-11-07,boards,software,openai,"Software Engineer, Model Runtime",San Francisco,https://jobs.ashbyhq.com/openai/ec317080-e2d2-4a73-93e6-e0a9ae6fdf96
 2026-11-07,boards,robotics,openai,"Controls Engineer, BMS & EPMS",San Francisco,https://jobs.ashbyhq.com/openai/a46ffc60-39c6-4b1e-bd0f-9c33a8b06703
@@ -1807,7 +1809,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,data_science,openai,Product Cost Management Lead - AI Infrastructure,San Francisco,https://jobs.ashbyhq.com/openai/ed9255f0-981f-49e9-8b01-9fd203141929
 2026-11-07,boards,software,openai,"Software Engineer, Infranomics",San Francisco,https://jobs.ashbyhq.com/openai/b6e0d9c6-a5ad-4d27-ad67-fde760e277b6
 2026-11-07,boards,software,openai,"Software Engineer, Traffic Infrastructure",San Francisco,https://jobs.ashbyhq.com/openai/1d386acc-5fe0-44ed-b288-a6b1b891c9a8
-2026-11-07,boards,data_science,openai,"Research Engineer / Research Scientist, Human Flourishing",San Francisco,https://jobs.ashbyhq.com/openai/0f600ed1-d70a-4648-820f-a1d1da3f7617
 2026-11-07,boards,data_science,openai,"Data Scientist, Cloud Distribution & Growth",San Francisco,https://jobs.ashbyhq.com/openai/b82699a2-5819-4276-a402-fd88f56f9246
 2026-11-07,boards,software,openai,EDA Cloud & Developer Infrastructure Engineer,San Francisco,https://jobs.ashbyhq.com/openai/4f2d9849-ad00-48d5-a22f-0cb943723999
 2026-11-07,boards,data_science,openai,Cyber AI Partner Director,New York City,https://jobs.ashbyhq.com/openai/b6736e0a-db0b-428f-ad14-448353a92243
@@ -1980,7 +1981,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,software,modal,Member of Technical Staff - Product (Backend),San Francisco,https://jobs.ashbyhq.com/modal/a4b8b2b6-5d0c-4ba6-9256-b84be84fb79e
 2026-11-07,boards,software,modal,Member of Technical Staff - Platform Engineering,New York,https://jobs.ashbyhq.com/modal/84467a68-6876-4730-9d80-6c6f3d0c2d71
 2026-11-07,boards,data_science,modal,Analytics Engineer,New York,https://jobs.ashbyhq.com/modal/a518f2cd-e0c7-4105-9004-d7971f7b1daf
-2026-11-07,boards,data_science,lyft,Data Scientist ,"Seattle, WA",https://app.careerpuck.com/job-board/lyft/job/8772592002?gh_jid=8772592002
 2026-11-07,boards,data_science,lyft,"Data Scientist, Algorithms - Dynamic Pricing","San Francisco, CA",https://app.careerpuck.com/job-board/lyft/job/8856443002?gh_jid=8856443002
 2026-11-07,boards,data_science,lyft,"Data Scientist, Algorithms - Pricing - Rider Engagement","San Francisco, CA",https://app.careerpuck.com/job-board/lyft/job/8908005002?gh_jid=8908005002
 2026-11-07,boards,data_science,lyft,"Senior AI Software Engineer, Risk - Insurance Claims Management","Seattle, WA",https://app.careerpuck.com/job-board/lyft/job/8806969002?gh_jid=8806969002
@@ -1992,7 +1992,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,software,lyft,"Senior Software Engineer, Forecasting & Real-Time Optimization","San Francisco, CA",https://app.careerpuck.com/job-board/lyft/job/8927263002?gh_jid=8927263002
 2026-11-07,boards,software,lyft,Senior Software Engineer - iOS,"San Francisco, CA",https://app.careerpuck.com/job-board/lyft/job/8780012002?gh_jid=8780012002
 2026-11-07,boards,software,lyft,"Senior Software Engineer, Lyft Business","San Francisco, CA",https://app.careerpuck.com/job-board/lyft/job/8445493002?gh_jid=8445493002
-2026-11-07,boards,software,lyft,Software Engineer,"Seattle, WA",https://app.careerpuck.com/job-board/lyft/job/8772594002?gh_jid=8772594002
 2026-11-07,boards,software,lyft,"Staff Software Engineer, Lyft Business","San Francisco, CA",https://app.careerpuck.com/job-board/lyft/job/8688631002?gh_jid=8688631002
 2026-11-07,boards,data_science,instacart,"Director, AI Solutions Strategy & Planning",United States - Remote,https://instacart.careers/job/?gh_jid=8265981
 2026-11-07,boards,data_science,instacart,"Senior Applied Scientist II, Ads Optimization",United States - Remote,https://instacart.careers/job/?gh_jid=7793391
@@ -2582,7 +2581,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,data_science,anthropic,"ML/Research Engineer, Safeguards","San Francisco, CA | New York City, NY",https://job-boards.greenhouse.io/anthropic/jobs/4949336008
 2026-11-07,boards,software,anthropic,"Model Performance Software Engineer, Claude Code","San Francisco, CA | New York City, NY",https://job-boards.greenhouse.io/anthropic/jobs/5098025008
 2026-11-07,boards,data_science,anthropic,"People Research Scientist, Recruiting","San Francisco, CA | New York City, NY | Seattle, WA",https://job-boards.greenhouse.io/anthropic/jobs/5362838008
-2026-11-07,boards,data_science,anthropic,"Policy Development, Technical AI Governance","San Francisco, CA | New York City, NY | Washington, DC",https://job-boards.greenhouse.io/anthropic/jobs/5451081008
 2026-11-07,boards,software,anthropic,Pre-training Data Infrastructure Engineer,"San Francisco, CA",https://job-boards.greenhouse.io/anthropic/jobs/4973067008
 2026-11-07,boards,data_science,anthropic,Recruiting Analytics Data Engineer ,"San Francisco, CA | New York City, NY | Seattle, WA",https://job-boards.greenhouse.io/anthropic/jobs/5424111008
 2026-11-07,boards,data_science,anthropic,"Research Engineer, Machine Learning (Reinforcement Learning) ","San Francisco, CA | New York City, NY",https://job-boards.greenhouse.io/anthropic/jobs/4613568008
