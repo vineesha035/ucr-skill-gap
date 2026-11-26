@@ -1,4 +1,31 @@
 first_seen,source,role_family,company,title,location,url
+2026-11-26,boards,robotics,waymo,"Autonomous Vehicles (AVs), Ride-Hail Market Operations Manager - San Francisco ","San Francisco, CA USA",https://careers.withwaymo.com/jobs?gh_jid=7851972
+2026-11-26,boards,software,spacex,Principal Security Software Engineer (Starlink)   ,"Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8962601002?gh_jid=8962601002
+2026-11-26,boards,software,spacex,Principal Security Software Engineer (Starlink)   ,"Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8962594002?gh_jid=8962594002
+2026-11-26,boards,software,spacex,Principal Security Software Engineer (Starlink)   ,"Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8962524002?gh_jid=8962524002
+2026-11-26,boards,software,spacex,Principal Security Software Engineer (Starlink)   ,"Bastrop, TX",https://boards.greenhouse.io/spacex/jobs/8962585002?gh_jid=8962585002
+2026-11-26,boards,software,spacex,"Software Engineer, Beam Planning (Starlink)   ","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8962728002?gh_jid=8962728002
+2026-11-26,boards,software,spacex,"Software Engineer, Beam Planning (Starlink)   ","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8962750002?gh_jid=8962750002
+2026-11-26,boards,software,spacex,"Software Engineer, C++ (Starlink)","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8938571002?gh_jid=8938571002
+2026-11-26,boards,software,spacex,"Software Engineer, C++ (Starlink)","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8938572002?gh_jid=8938572002
+2026-11-26,boards,software,spacex,"Software Engineer, High Performance Computing (Starlink)   ","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8962752002?gh_jid=8962752002
+2026-11-26,boards,software,spacex,"Software Engineer, High Performance Computing (Starlink)   ","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8962753002?gh_jid=8962753002
+2026-11-26,boards,software,spacex,"Software Engineer, Low Latency Computing (Starlink)   ","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8962756002?gh_jid=8962756002
+2026-11-26,boards,software,spacex,"Software Engineer, Low Latency Computing (Starlink)   ","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8962757002?gh_jid=8962757002
+2026-11-26,boards,software,spacex,"Software Engineer, Starlink Network","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8938556002?gh_jid=8938556002
+2026-11-26,boards,software,spacex,"Software Engineer, Starlink Network","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8938574002?gh_jid=8938574002
+2026-11-26,boards,robotics,spacex,Sr. Embedded Security Engineer (Starlink),"Bastrop, TX",https://boards.greenhouse.io/spacex/jobs/8962762002?gh_jid=8962762002
+2026-11-26,boards,software,spacex,Sr. Security Software Engineer (Starlink),"Bastrop, TX",https://boards.greenhouse.io/spacex/jobs/8962761002?gh_jid=8962761002
+2026-11-26,boards,software,spacex,"Sr. Software Engineer, Beam Planning (Starlink)   ","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8962773002?gh_jid=8962773002
+2026-11-26,boards,software,spacex,"Sr. Software Engineer, Beam Planning (Starlink)   ","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8962790002?gh_jid=8962790002
+2026-11-26,boards,software,spacex," Sr. Software Engineer, High Performance Computing (Starlink)","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8962788002?gh_jid=8962788002
+2026-11-26,boards,software,spacex,"Sr. Software Engineer, High Performance Computing (Starlink)","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8962786002?gh_jid=8962786002
+2026-11-26,boards,software,spacex,"Sr. Software Engineer, Low Latency Computing (Starlink)","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8962800002?gh_jid=8962800002
+2026-11-26,boards,software,spacex,"Sr. Software Engineer, Low Latency Computing (Starlink)","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8962799002?gh_jid=8962799002
+2026-11-26,boards,software,roblox,Principal Security Software Engineer - Identity Access Management (IAM),"San Mateo, CA, United States",https://careers.roblox.com/jobs/8283619?gh_jid=8283619
+2026-11-26,boards,data_science,discord,Data Engineer,San Francisco Bay Area,https://job-boards.greenhouse.io/discord/jobs/8942144002
+2026-11-26,boards,software,discord,"Senior Software Engineer, Enterprise Platform",San Francisco Bay Area or Remote (West Coast),https://job-boards.greenhouse.io/discord/jobs/8958889002
+2026-11-26,boards,software,coinbase,"Senior Software Engineer, Native Mobile",Remote - USA,https://www.coinbase.com/careers/positions/8417630?gh_jid=8417630
 2026-11-25,boards,software,stripe,"Staff Software Engineer, Batch Compute",Seattle,https://stripe.com/jobs/search?gh_jid=8417797
 2026-11-25,boards,robotics,spacex,Automation & Controls Engineer (Starship) ,"Starbase, TX",https://boards.greenhouse.io/spacex/jobs/8955154002?gh_jid=8955154002
 2026-11-25,boards,data_science,spacex,"Data Engineer, Application Software","Bastrop, TX",https://boards.greenhouse.io/spacex/jobs/8957969002?gh_jid=8957969002
@@ -18,7 +45,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-25,boards,software,openai,"Software Engineer, Space Foundations — Real-Time Systems",Seattle,https://jobs.ashbyhq.com/openai/e1823ba3-a94c-410f-b064-217a1d71c866
 2026-11-25,boards,software,openai,"Software Engineer, Space Foundations — Search & Databases",Seattle,https://jobs.ashbyhq.com/openai/f3f3ba4c-cc37-44fe-a8b1-5aa4553c3092
 2026-11-25,boards,software,okta,"Senior Software Engineer, Actions  (Auth0)","Bellevue, WA, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States",https://www.okta.com/company/careers/opportunity/8415766?gh_jid=8415766
-2026-11-25,boards,robotics,nuro,Virtual Hiring Event: Autonomous Vehicle Operator (South SF),California - SF,https://nuro.ai/careersitem?gh_jid=7665848
 2026-11-25,boards,data_science,notion,"Staff Software Engineer, AI Agents","San Francisco, California",https://jobs.ashbyhq.com/notion/c777ed1e-e23f-4b76-bc21-039aaf06c1de
 2026-11-25,boards,software,mongodb,Senior Software Engineer,New York City,https://www.mongodb.com/careers/job/?gh_jid=7870848
 2026-11-25,boards,data_science,instacart,"Senior Staff Software Engineer, AI Productivity",United States - Remote,https://instacart.careers/job/?gh_jid=8415777
@@ -478,6 +504,7 @@ first_seen,source,role_family,company,title,location,url
 2026-11-12,boards,data_science,affirm,"Senior Software Engineer, Backend (ML Feature Platform)",Remote US,https://job-boards.greenhouse.io/affirm/jobs/8199419003
 2026-11-12,boards,data_science,affirm,"Senior Software Engineer, Backend (ML Training and Serving) ",Remote US,https://job-boards.greenhouse.io/affirm/jobs/8201463003
 2026-11-12,boards,software,affirm,"Senior Software Engineer, Backend (Trust & Safety)",Remote US,https://job-boards.greenhouse.io/affirm/jobs/8197334003
+2026-11-12,boards,software,affirm,"Senior Software Engineer, Fullstack (International) ",Remote Spain,https://job-boards.greenhouse.io/affirm/jobs/8200178003
 2026-11-07,boards,robotics,zoox,"Chassis Controls Engineer, Brakes & Steering","Foster City, CA",https://jobs.lever.co/zoox/341859c7-6449-482b-a6ef-1717bd97ea78
 2026-11-07,boards,robotics,zoox,Contract Student Worker  – Firmware Engineer (FW Thermal/Body),"Foster City, CA",https://jobs.lever.co/zoox/07f0834f-06ec-44c7-a24b-3efa08589d38
 2026-11-07,boards,data_science,zoox,Data Scientist - Behavior Evaluation,"Foster City, CA",https://jobs.lever.co/zoox/acaafc9a-486d-4045-80d7-12b09e39330e
@@ -866,10 +893,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,data_science,spacex,"Principal Electrical Engineer, AI Satellites (Starmind)","Bastrop, TX",https://boards.greenhouse.io/spacex/jobs/8816454002?gh_jid=8816454002
 2026-11-07,boards,data_science,spacex,"Principal Engineer, AI Satellites (Starmind)","Bastrop, TX",https://boards.greenhouse.io/spacex/jobs/8690980002?gh_jid=8690980002
 2026-11-07,boards,software,spacex,Principal RF Software Engineer (Starshield),"Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8650021002?gh_jid=8650021002
-2026-11-07,boards,software,spacex,Principal Security Software Engineer (Starlink),"Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8573214002?gh_jid=8573214002
-2026-11-07,boards,software,spacex,Principal Security Software Engineer (Starlink),"Austin, TX",https://boards.greenhouse.io/spacex/jobs/8777584002?gh_jid=8777584002
-2026-11-07,boards,software,spacex,Principal Security Software Engineer (Starlink),"Bastrop, TX",https://boards.greenhouse.io/spacex/jobs/8777043002?gh_jid=8777043002
-2026-11-07,boards,software,spacex,Principal Security Software Engineer (Starlink),"Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8777042002?gh_jid=8777042002
 2026-11-07,boards,software,spacex,"Principal Software Engineer, Continuous Integration (Starship)","Starbase, TX",https://boards.greenhouse.io/spacex/jobs/8533847002?gh_jid=8533847002
 2026-11-07,boards,software,spacex,"Principal Software Engineer, Continuous Integration (Starship)","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8533843002?gh_jid=8533843002
 2026-11-07,boards,software,spacex,"Principal Software Engineer, Power Optimization (Starlink)","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8832619002?gh_jid=8832619002
@@ -922,8 +945,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,data_science,spacex,"Software Engineer, Applied AI (Starlink) ","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8637712002?gh_jid=8637712002
 2026-11-07,boards,software,spacex,"Software Engineer, Backend (C/C++)","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8672397002?gh_jid=8672397002
 2026-11-07,boards,software,spacex,"Software Engineer, Backend (Python/C++)","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8845089002?gh_jid=8845089002
-2026-11-07,boards,software,spacex,"Software Engineer, Beam Planning (Starlink)   ","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8578907002?gh_jid=8578907002
-2026-11-07,boards,software,spacex,"Software Engineer, Beam Planning (Starlink)   ","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8578929002?gh_jid=8578929002
 2026-11-07,boards,software,spacex,"Software Engineer, CDN (Starlink)","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8632172002?gh_jid=8632172002
 2026-11-07,boards,software,spacex,"Software Engineer, CDN (Starlink)","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8756159002?gh_jid=8756159002
 2026-11-07,boards,software,spacex,"Software Engineer, CDN (Starlink)","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8656579002?gh_jid=8656579002
@@ -947,16 +968,12 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,software,spacex,"Software Engineer, Hardware Test & Automation (Starlink)","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8565155002?gh_jid=8565155002
 2026-11-07,boards,software,spacex,"Software Engineer, Hardware Test & Automation (Starshield)","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8574243002?gh_jid=8574243002
 2026-11-07,boards,software,spacex,"Software Engineer, High Performance Computing","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8621463002?gh_jid=8621463002
-2026-11-07,boards,software,spacex,"Software Engineer, High Performance Computing (Starlink)","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8578909002?gh_jid=8578909002
-2026-11-07,boards,software,spacex,"Software Engineer, High Performance Computing (Starlink)","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8578931002?gh_jid=8578931002
 2026-11-07,boards,software,spacex,"Software Engineer, HITL - Top Secret Clearance","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8749210002?gh_jid=8749210002
 2026-11-07,boards,data_science,spacex,"Software Engineer, Inference (AI Data Engineering)","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8717350002?gh_jid=8717350002
 2026-11-07,boards,software,spacex,"Software Engineer, Internal Applications","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8812137002?gh_jid=8812137002
 2026-11-07,boards,software,spacex,"Software Engineer, Linux Kernel (Starlink)","Bellevue, WA",https://boards.greenhouse.io/spacex/jobs/8852121002?gh_jid=8852121002
 2026-11-07,boards,software,spacex,"Software Engineer, Linux Kernel (Starlink)","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8852114002?gh_jid=8852114002
 2026-11-07,boards,software,spacex,"Software Engineer, Linux Kernel (Starlink)","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8852119002?gh_jid=8852119002
-2026-11-07,boards,software,spacex,"Software Engineer, Low Latency Computing (Starlink)   ","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8578910002?gh_jid=8578910002
-2026-11-07,boards,software,spacex,"Software Engineer, Low Latency Computing (Starlink)   ","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8578923002?gh_jid=8578923002
 2026-11-07,boards,software,spacex,"Software Engineer, Manufacturing","Bastrop, TX",https://boards.greenhouse.io/spacex/jobs/8928919002?gh_jid=8928919002
 2026-11-07,boards,software,spacex,"Software Engineer, Manufacturing Infrastructure","Starbase, TX",https://boards.greenhouse.io/spacex/jobs/8848613002?gh_jid=8848613002
 2026-11-07,boards,software,spacex,"Software Engineer, Mobile Apps (Starlink) ","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8637756002?gh_jid=8637756002
@@ -1017,8 +1034,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,robotics,spacex,Sr. Embedded Security Engineer (Starlink),"Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8815810002?gh_jid=8815810002
 2026-11-07,boards,robotics,spacex,Sr. Embedded Security Engineer (Starlink),"Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8815806002?gh_jid=8815806002
 2026-11-07,boards,robotics,spacex,Sr. Embedded Security Engineer (Starlink),"Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8815809002?gh_jid=8815809002
-2026-11-07,boards,robotics,spacex,"Sr. Embedded Software Engineer, Laser Mesh Routing (Starlink)   ","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8579132002?gh_jid=8579132002
-2026-11-07,boards,robotics,spacex,"Sr. Embedded Software Engineer, Laser Mesh Routing (Starlink)   ","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8579133002?gh_jid=8579133002
 2026-11-07,boards,robotics,spacex,"Sr. Embedded Software Engineer, OS/Platform (Starlink)","Bastrop, TX",https://boards.greenhouse.io/spacex/jobs/8567575002?gh_jid=8567575002
 2026-11-07,boards,robotics,spacex,Sr. Embedded Software Engineer (Starlink)   ,"Bastrop, TX",https://boards.greenhouse.io/spacex/jobs/8716175002?gh_jid=8716175002
 2026-11-07,boards,data_science,spacex,Sr. Environmental Engineer (AI Supercomputer) ,"Memphis, TN",https://boards.greenhouse.io/spacex/jobs/8771139002?gh_jid=8771139002
@@ -1079,8 +1094,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,data_science,spacex,"Sr. Software Engineer, AI Infrastructure (Starshield)","Washington, DC",https://boards.greenhouse.io/spacex/jobs/8861767002?gh_jid=8861767002
 2026-11-07,boards,data_science,spacex,"Sr. Software Engineer, AI Infrastructure (Starshield)","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8861764002?gh_jid=8861764002
 2026-11-07,boards,data_science,spacex,"Sr. Software Engineer, AI Infrastructure (Starshield)","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8861751002?gh_jid=8861751002
-2026-11-07,boards,software,spacex,"Sr. Software Engineer, Beam Planning (Starlink)   ","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8579130002?gh_jid=8579130002
-2026-11-07,boards,software,spacex,"Sr. Software Engineer, Beam Planning (Starlink)   ","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8579125002?gh_jid=8579125002
 2026-11-07,boards,software,spacex,"Sr. Software Engineer, C++ (Dragon)","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8602061002?gh_jid=8602061002
 2026-11-07,boards,software,spacex,Sr. Software Engineer (Components) ,"Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8842950002?gh_jid=8842950002
 2026-11-07,boards,software,spacex,"Sr. Software Engineer, Components Test (Starshield)","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8568934002?gh_jid=8568934002
@@ -1089,11 +1102,7 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,software,spacex,"Sr. Software Engineer, Data (Starlink)","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8750868002?gh_jid=8750868002
 2026-11-07,boards,software,spacex,"Sr. Software Engineer, DevOps (Starlink)   ","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8576894002?gh_jid=8576894002
 2026-11-07,boards,software,spacex,"Sr. Software Engineer, Full Stack (Data & Video Analysis)","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8927923002?gh_jid=8927923002
-2026-11-07,boards,software,spacex,"Sr. Software Engineer, High Performance Computing (Starlink)","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8579126002?gh_jid=8579126002
-2026-11-07,boards,software,spacex,"Sr. Software Engineer, High Performance Computing (Starlink)   ","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8579131002?gh_jid=8579131002
 2026-11-07,boards,software,spacex,"Sr. Software Engineer, HITL - Top Secret Clearance","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8749217002?gh_jid=8749217002
-2026-11-07,boards,software,spacex,"Sr. Software Engineer, Low Latency Computing (Starlink)   ","Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8579127002?gh_jid=8579127002
-2026-11-07,boards,software,spacex,"Sr. Software Engineer, Low Latency Computing (Starlink)   ","Redmond, WA",https://boards.greenhouse.io/spacex/jobs/8579128002?gh_jid=8579128002
 2026-11-07,boards,software,spacex,"Sr. Software Engineer, Network Observability (Starlink)","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8871849002?gh_jid=8871849002
 2026-11-07,boards,software,spacex,"Sr. Software Engineer, Platform","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8860711002?gh_jid=8860711002
 2026-11-07,boards,data_science,spacex,"Sr. Software Engineer, Propulsion Simulation & Data Analysis (Raptor)","Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8581310002?gh_jid=8581310002
@@ -1314,7 +1323,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,data_science,robinhood,"Senior Data Scientist, Product","Menlo Park, CA",https://boards.greenhouse.io/robinhood/jobs/8080893?t=gh_src=&gh_jid=8080893
 2026-11-07,boards,data_science,robinhood,"Senior Manager,  Finance & Strategy Data Science","Menlo Park, CA",https://boards.greenhouse.io/robinhood/jobs/8180757?t=gh_src=&gh_jid=8180757
 2026-11-07,boards,data_science,robinhood,"Senior Software Engineer, AI Infra","Menlo Park, CA",https://boards.greenhouse.io/robinhood/jobs/8189874?t=gh_src=&gh_jid=8189874
-2026-11-07,boards,data_science,robinhood,"Senior Software Engineer, AI Security","Bellevue, WA; Menlo Park, CA",https://boards.greenhouse.io/robinhood/jobs/8334429?t=gh_src=&gh_jid=8334429
 2026-11-07,boards,software,robinhood,"Senior Software Engineer, Backend","Menlo Park, CA; New York, NY",https://boards.greenhouse.io/robinhood/jobs/7264931?t=gh_src=&gh_jid=7264931
 2026-11-07,boards,software,robinhood,"Senior Software Engineer, Capacity & Efficiency","Bellevue, WA",https://boards.greenhouse.io/robinhood/jobs/8331571?t=gh_src=&gh_jid=8331571
 2026-11-07,boards,software,robinhood,"Senior Software Engineer, Observability","Menlo Park, CA",https://boards.greenhouse.io/robinhood/jobs/8265786?t=gh_src=&gh_jid=8265786
@@ -1991,7 +1999,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,robotics,motional,"Staff Software Engineer, Autonomous Vehicle Performance Metrics","Boston, Massachusetts, United States; Las Vegas, Nevada, United States; Pittsburgh, Pennsylvania, United States; Remote U.S.",https://motional.com/open-positions/?gh_jid=8046277003#/8046277003
 2026-11-07,boards,software,mongodb,"Manager, Client Platform Engineering",Palo Alto; San Francisco,https://www.mongodb.com/careers/job/?gh_jid=8300746
 2026-11-07,boards,software,mongodb,"Manager, Site Reliability Engineering - Storage Layer Service",New York City,https://www.mongodb.com/careers/job/?gh_jid=7743304
-2026-11-07,boards,data_science,mongodb,"Senior Manager, AI and People Transformation",New York City; United States,https://www.mongodb.com/careers/job/?gh_jid=8227250
 2026-11-07,boards,data_science,mongodb,Senior Research Scientist,Palo Alto,https://www.mongodb.com/careers/job/?gh_jid=7891161
 2026-11-07,boards,software,mongodb,"Senior Site Reliability Engineer, Infrastructure Security",Austin; Boston; Chicago; Dallas; Denver; New York City; San Francisco; Seattle; United States; Washington DC,https://www.mongodb.com/careers/job/?gh_jid=7668289
 2026-11-07,boards,software,mongodb,Senior Software Engineer,New York City,https://www.mongodb.com/careers/job/?gh_jid=8300359
@@ -2107,10 +2114,8 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,software,gitlab,"Backend Engineer (Ruby), Plan: Spec-Driven Development","Remote, United Kingdom",https://job-boards.greenhouse.io/gitlab/jobs/8682860002
 2026-11-07,boards,software,gitlab,"Backend Engineer, Source Code: Repository Services (Ruby)","Remote, United Kingdom",https://job-boards.greenhouse.io/gitlab/jobs/8912709002
 2026-11-07,boards,software,gitlab,Cloud Platform Engineer,"Remote, Canada; Remote, United States",https://job-boards.greenhouse.io/gitlab/jobs/8889193002
-2026-11-07,boards,data_science,gitlab,"Data Scientist, Enterprise Analytics","Remote, Canada; Remote, United States",https://job-boards.greenhouse.io/gitlab/jobs/8922013002
 2026-11-07,boards,data_science,gitlab,"Director, Analytics Engineering ","Remote, Canada; Remote, United States",https://job-boards.greenhouse.io/gitlab/jobs/8883003002
 2026-11-07,boards,software,gitlab,"Intermediate Fullstack Engineer, Subscription Lifecycle ","Remote, Canada; Remote, United States",https://job-boards.greenhouse.io/gitlab/jobs/8922249002
-2026-11-07,boards,data_science,gitlab,"Senior Backend Engineer, AI Engineering: Chat   ","Remote, United Kingdom",https://job-boards.greenhouse.io/gitlab/jobs/8621733002
 2026-11-07,boards,software,gitlab,"Senior Backend Engineer, Core DevOps","Remote, United Kingdom",https://job-boards.greenhouse.io/gitlab/jobs/8689243002
 2026-11-07,boards,software,gitlab,"Senior Backend Engineer, Platform Enablement","Remote, United States",https://job-boards.greenhouse.io/gitlab/jobs/8750842002
 2026-11-07,boards,software,gitlab,Senior CX Platform Engineer,"Remote, Canada; Remote, United States",https://job-boards.greenhouse.io/gitlab/jobs/8871406002
@@ -2288,7 +2293,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,data_science,discord,Senior Machine Learning Engineer (Growth),San Francisco Bay Area,https://job-boards.greenhouse.io/discord/jobs/8910013002
 2026-11-07,boards,data_science,discord,Staff Data Engineer,San Francisco Bay Area,https://job-boards.greenhouse.io/discord/jobs/8691572002
 2026-11-07,boards,data_science,discord,"Staff Data Scientist, Causal Inference & Experimentation",San Francisco Bay Area,https://job-boards.greenhouse.io/discord/jobs/8652853002
-2026-11-07,boards,software,discord,"Staff Software Engineer, Enterprise Platform",San Francisco Bay Area or Remote (West Coast),https://job-boards.greenhouse.io/discord/jobs/8675185002
 2026-11-07,boards,data_science,discord,"Staff Software Engineer, Machine Learning (Consumer Revenue)",San Francisco Bay Area,https://job-boards.greenhouse.io/discord/jobs/8802354002
 2026-11-07,boards,robotics,dexterity,"Customer Product Solutions Manager, Aviation Robotics","Redwood City, CA",https://jobs.lever.co/dexterity/f955e34a-5b7e-41ac-8ca9-117e554c4635
 2026-11-07,boards,data_science,dexterity,"Principal Product Manager, Physical AI Applications (Retail & 3PL)","Redwood City, CA",https://jobs.lever.co/dexterity/9c4bd592-9047-4bea-81d5-1e760af2d4b6
@@ -2516,9 +2520,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,software,brex,"Software Engineer II, Data Enablement Platform","San Francisco, California, United States",https://www.brex.com/careers/8605070002?gh_jid=8605070002
 2026-11-07,boards,software,brex,"Software Engineer II, Data Enablement Platform","New York, New York, United States",https://www.brex.com/careers/8605062002?gh_jid=8605062002
 2026-11-07,boards,software,brex,"Software Engineer II, Data Enablement Platform","Seattle, Washington, United States",https://www.brex.com/careers/8605074002?gh_jid=8605074002
-2026-11-07,boards,robotics,brex,"Staff Product Manager, Embedded","San Francisco, California, United States",https://www.brex.com/careers/8659204002?gh_jid=8659204002
-2026-11-07,boards,robotics,brex,"Staff Product Manager, Embedded","Seattle, Washington, United States",https://www.brex.com/careers/8659210002?gh_jid=8659210002
-2026-11-07,boards,robotics,brex,"Staff Product Manager,  Embedded","New York, New York, United States",https://www.brex.com/careers/8659211002?gh_jid=8659211002
 2026-11-07,boards,software,brex,"Staff Software Engineer, Acquisition","San Francisco, California, United States",https://www.brex.com/careers/8829325002?gh_jid=8829325002
 2026-11-07,boards,software,brex,"Staff Software Engineer, Acquisition","Seattle, Washington, United States",https://www.brex.com/careers/8854165002?gh_jid=8854165002
 2026-11-07,boards,software,brex,"Staff Software Engineer, Acquisition","New York, New York, United States",https://www.brex.com/careers/8854182002?gh_jid=8854182002
@@ -3199,7 +3200,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,software,affirm,"Staff Software Engineer, Backend (Observability)",Remote US,https://job-boards.greenhouse.io/affirm/jobs/8040396003
 2026-11-07,boards,software,affirm,"Staff Software Engineer, Backend (Order Platform)   ",Remote US,https://job-boards.greenhouse.io/affirm/jobs/7819704003
 2026-11-07,boards,software,affirm,"Staff Software Engineer, Backend (Recoveries)",Remote Spain,https://job-boards.greenhouse.io/affirm/jobs/8034645003
-2026-11-07,boards,software,affirm,Staff Software Engineer (Continuous Integration),Remote US,https://job-boards.greenhouse.io/affirm/jobs/7749580003
 2026-11-07,boards,software,affirm,"Staff Software Engineer, Frontend (Decisions Orchestration) ",Remote US,https://job-boards.greenhouse.io/affirm/jobs/8034825003
 2026-11-07,boards,software,affirm,"Staff Software Engineer, Fullstack (Account Management)",Remote US,https://job-boards.greenhouse.io/affirm/jobs/8162556003
 2026-11-07,boards,software,affirm,"Staff Software Engineer, Fullstack (Card Experiences)",Remote US,https://job-boards.greenhouse.io/affirm/jobs/8040271003
