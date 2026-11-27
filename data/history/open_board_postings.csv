@@ -1,4 +1,12 @@
 first_seen,source,role_family,company,title,location,url
+2026-11-27,boards,software,stripe,Software Engineer,"South San Francisco, CA",https://stripe.com/jobs/search?gh_jid=8421434
+2026-11-27,boards,software,stripe,Software Engineer,"South San Francisco, CA ",https://stripe.com/jobs/search?gh_jid=8421452
+2026-11-27,boards,software,stripe,"Software Engineer, Backend","Seattle, WA",https://stripe.com/jobs/search?gh_jid=8421091
+2026-11-27,boards,software,stripe,"Software Engineer, Backend ","South San Francisco, CA",https://stripe.com/jobs/search?gh_jid=8421387
+2026-11-27,boards,software,stripe,"Software Engineer, Full Stack Atlas","South San Francisco, CA",https://stripe.com/jobs/search?gh_jid=8421000
+2026-11-27,boards,software,stripe,"Software Engineer, Reporting Platform","New York, NY",https://stripe.com/jobs/search?gh_jid=8421367
+2026-11-27,boards,data_science,cohere,Senior Staff Data Engineer,United States,https://jobs.ashbyhq.com/cohere/4ef5101e-b083-49cd-808a-54c754d159e5
+2026-11-27,boards,software,affirm,"Senior Software Engineer, Backend (Trust Infra)",Remote US,https://job-boards.greenhouse.io/affirm/jobs/8199161003
 2026-11-26,boards,robotics,waymo,"Autonomous Vehicles (AVs), Ride-Hail Market Operations Manager - San Francisco ","San Francisco, CA USA",https://careers.withwaymo.com/jobs?gh_jid=7851972
 2026-11-26,boards,software,spacex,Principal Security Software Engineer (Starlink)   ,"Hawthorne, CA",https://boards.greenhouse.io/spacex/jobs/8962601002?gh_jid=8962601002
 2026-11-26,boards,software,spacex,Principal Security Software Engineer (Starlink)   ,"Palo Alto, CA",https://boards.greenhouse.io/spacex/jobs/8962594002?gh_jid=8962594002
@@ -45,6 +53,7 @@ first_seen,source,role_family,company,title,location,url
 2026-11-25,boards,software,openai,"Software Engineer, Space Foundations — Real-Time Systems",Seattle,https://jobs.ashbyhq.com/openai/e1823ba3-a94c-410f-b064-217a1d71c866
 2026-11-25,boards,software,openai,"Software Engineer, Space Foundations — Search & Databases",Seattle,https://jobs.ashbyhq.com/openai/f3f3ba4c-cc37-44fe-a8b1-5aa4553c3092
 2026-11-25,boards,software,okta,"Senior Software Engineer, Actions  (Auth0)","Bellevue, WA, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States",https://www.okta.com/company/careers/opportunity/8415766?gh_jid=8415766
+2026-11-25,boards,robotics,nuro,Virtual Hiring Event: Autonomous Vehicle Operator (South SF),California - SF,https://nuro.ai/careersitem?gh_jid=7665848
 2026-11-25,boards,data_science,notion,"Staff Software Engineer, AI Agents","San Francisco, California",https://jobs.ashbyhq.com/notion/c777ed1e-e23f-4b76-bc21-039aaf06c1de
 2026-11-25,boards,software,mongodb,Senior Software Engineer,New York City,https://www.mongodb.com/careers/job/?gh_jid=7870848
 2026-11-25,boards,data_science,instacart,"Senior Staff Software Engineer, AI Productivity",United States - Remote,https://instacart.careers/job/?gh_jid=8415777
@@ -61,8 +70,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-24,boards,software,waymo,"Senior Staff Software Engineer, In-Car Experience","Mountain View, CA, USA",https://careers.withwaymo.com/jobs?gh_jid=7932205
 2026-11-24,boards,software,waymo,"Staff Software Engineer, Trip Platform ","Mountain view, CA; San Francisco, CA",https://careers.withwaymo.com/jobs?gh_jid=8399242
 2026-11-24,boards,software,twilio,"Senior Software Engineer, Identity",Remote - US,https://job-boards.greenhouse.io/twilio/jobs/8056276
-2026-11-24,boards,software,stripe,"Software Engineer, Core Technology","South San Francisco, CA",https://stripe.com/jobs/search?gh_jid=8411988
-2026-11-24,boards,software,stripe,"Software Engineer, Data Warehouse Analytics","Seattle, WA",https://stripe.com/jobs/search?gh_jid=8411927
 2026-11-24,boards,data_science,stripe,Analytics Engineer,New York,https://stripe.com/jobs/search?gh_jid=8415333
 2026-11-24,boards,software,stripe,"Infrastructure Engineer, Workflow Engine","Seattle, WA ",https://stripe.com/jobs/search?gh_jid=8414532
 2026-11-24,boards,software,stripe,"Software Engineer, Experimental Projects",New York City ,https://stripe.com/jobs/search?gh_jid=8394936
@@ -1239,7 +1246,6 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,data_science,roblox,"Senior Data Scientist, Engine Infra","San Mateo, CA, United States",https://careers.roblox.com/jobs/8193712?gh_jid=8193712
 2026-11-07,boards,data_science,roblox,"Senior Data Scientist, Monetary Policy","San Mateo, CA, United States",https://careers.roblox.com/jobs/8240745?gh_jid=8240745
 2026-11-07,boards,software,roblox,"Senior Frontend/Fullstack Software Engineer, Sharing","San Mateo, CA, United States",https://careers.roblox.com/jobs/8164933?gh_jid=8164933
-2026-11-07,boards,software,roblox,"Senior Frontend/Fullstack Software Engineer, Social Graph","San Mateo, CA, United States",https://careers.roblox.com/jobs/7760129?gh_jid=7760129
 2026-11-07,boards,data_science,roblox,Senior Hardware Engineer - GPU & AI Infrastructure,"San Mateo, CA, United States",https://careers.roblox.com/jobs/7463674?gh_jid=7463674
 2026-11-07,boards,data_science,roblox,"Senior Machine Learning Engineer, 3D Data","San Mateo, CA, United States",https://careers.roblox.com/jobs/8084095?gh_jid=8084095
 2026-11-07,boards,data_science,roblox,"Senior Machine Learning Engineer, Ads","San Mateo, CA, United States",https://careers.roblox.com/jobs/7351220?gh_jid=7351220
@@ -2114,6 +2120,7 @@ first_seen,source,role_family,company,title,location,url
 2026-11-07,boards,software,gitlab,"Backend Engineer (Ruby), Plan: Spec-Driven Development","Remote, United Kingdom",https://job-boards.greenhouse.io/gitlab/jobs/8682860002
 2026-11-07,boards,software,gitlab,"Backend Engineer, Source Code: Repository Services (Ruby)","Remote, United Kingdom",https://job-boards.greenhouse.io/gitlab/jobs/8912709002
 2026-11-07,boards,software,gitlab,Cloud Platform Engineer,"Remote, Canada; Remote, United States",https://job-boards.greenhouse.io/gitlab/jobs/8889193002
+2026-11-07,boards,data_science,gitlab,"Data Scientist, Enterprise Analytics","Remote, Canada; Remote, United States",https://job-boards.greenhouse.io/gitlab/jobs/8922013002
 2026-11-07,boards,data_science,gitlab,"Director, Analytics Engineering ","Remote, Canada; Remote, United States",https://job-boards.greenhouse.io/gitlab/jobs/8883003002
 2026-11-07,boards,software,gitlab,"Intermediate Fullstack Engineer, Subscription Lifecycle ","Remote, Canada; Remote, United States",https://job-boards.greenhouse.io/gitlab/jobs/8922249002
 2026-11-07,boards,software,gitlab,"Senior Backend Engineer, Core DevOps","Remote, United Kingdom",https://job-boards.greenhouse.io/gitlab/jobs/8689243002
